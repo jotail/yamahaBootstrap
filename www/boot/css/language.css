@@ -1,0 +1,359 @@
+﻿@charset "utf-8";
+/*
+    language.css
+*/
+/****** China : html[lang="zh"] ******/
+html[lang="en"] body {font-family:'Actual','Malgun Gothic','맑은 고딕';word-wrap:normal;word-break:normal;white-space:normal;}
+html[lang="tr"] body {font-family:'Actual','Malgun Gothic','맑은 고딕';word-wrap:normal;word-break:normal;white-space:normal;}
+html[lang="en-au"] body {font-family:'Actual','TradeGothic','Malgun Gothic','맑은 고딕';word-wrap:normal;word-break:normal;white-space:normal;}
+
+
+html[lang="zh"] body {font-family:'Actual', 'Microsoft YaHei', '微?雅黑', Arial, sans-serif;word-wrap:normal;word-break:normal;white-space:normal;}
+
+
+/****** Korean : html[lang="ko"] ******/
+html[lang="ko"] header h1 a {display:block;width:70px;height:22px;background:url(../images/layout/logo_w_kr.svg) center /70px 22px no-repeat;text-indent:-9999px;overflow:hidden;}
+html[lang="ko"] header.top h1 a, html[lang="ko"] header.ms h1 a {background:url(../images/layout/logo_kr.svg) center /70px 22px no-repeat;}
+
+/*** main ***/	
+html[lang="ko"] .mc_box_cont .list.s3 {background:url(../images/main/ico_mc_box_cont04.png) 30px 20px /35px 70px no-repeat;}
+html[lang="ko"] .mc_box_cont .list.s3:hover {background:#002e54 url(../images/main/ico_mc_box_cont04on.png) 30px 20px /35px 70px no-repeat;} 
+
+/*** SOLAR PROJECT ***/
+html[lang="ko"] .solar_cont05.cont_plant {padding-top:0;}
+html[lang="ko"] .solar_cont05.cont_plant .txt {text-align:left}
+html[lang="ko"] .solar_cont05.cont_plant .st {font-weight:600;padding-top:30px;}
+html[lang="ko"] .step_list_area02_box {margin:40px 0 0 0;}
+
+
+/** excellence **/
+html[lang="ko"] .excellence03 .txt dl{padding:0 10px;}	
+
+
+/** under_banner_cont **/
+html[lang="ko"] .under_banner_cont .txt:before{display:inline-block;position:relative;right:-2px;top:1px;width:54px;height:13px;background:url(../images/layout/txt_hanwha.svg) left top /100% 100% no-repeat;content:"";}
+html[lang="ko"] .under_banner_cont02 div.s1 .txt:before{display:inline-block;position:relative;right:-2px;top:1px;width:62px;height:15px;background:url(../images/layout/txt_hanwha.svg) left top /100% 100% no-repeat;content:"";}
+
+
+
+/****** Us : html[lang="en"] ******/
+/* movie */
+.na .mc_cont .movie .btn_movie_play em{border:2px solid #00adef;background:#00adef;}
+
+/* solar_panels_banner*/
+.na .solar_panels_banner{margin-top:50px;}
+
+/* under_banner02 */
+.na .under_banner_cont02.bg02{background:url(../images/template/under_banner_bg07.png) center /cover no-repeat;}
+
+/* excellence */
+.na .excellence02 .img_w {max-width:618px;}
+
+/* solar_panels */
+.na .spc03{margin:0 -20px;padding:50px 20px;background:#f4f4f4;transition:all 0.4s;}
+
+/* Products:info */
+.na .prod_cont .app dd li em {background:url(../images/products/ico_prod_app04.png) left center /20px 20px no-repeat;}
+.na .prod_cont .app dd li.s2 em {background:url(../images/products/ico_prod_app05.png) left center /20px 20px no-repeat;}
+.na .prod_cont .app dd li.s3 em {background:url(../images/products/ico_prod_app06.png) left center /20px 20px no-repeat;}
+
+/* chk_agree */
+.na .chk_agree .ez-checkbox {background:url(../images/template/bg_checkbox03.png) center /100% 100% no-repeat;}
+.na .chk_agree .ez-checked {background:url(../images/template/bg_checkbox03_on.png) center /100% 100% no-repeat;}
+
+/* player_box */
+.na .player_box .ico{border:2px solid #00adef;background:#00adef;}
+
+
+/* Korean WA */
+.btn_wa {display:block;position:absolute;right:142px;top:85px;width:35px;height:35px;background:#fff;content:"";opacity:0;}   
+
+/* Korean gnb */
+html[lang="ko"] #gnb .dep_m {font-weight:700;}
+
+
+/********** Mobile Old **********/
+@media all and (max-width:380px) {
+/**** footer ****/
+/** family_site **/
+html[lang="ko"] .footer_nav li a {padding:10px 0;font-size:12px;}
+
+}
+
+
+
+/********** Tablet & PC **********/
+@media (min-width:740px) {
+html[lang="ko"] header h1 a, html[lang="ko"] header.top h1 a, html[lang="ko"] header.ms h1 a {display:block;width:150px;height:47px;background:url(../images/layout/logo_kr.svg) center /100% 100% no-repeat;}	
+html[lang="ko"] .copyrigth {height:27px;background:url(../images/layout/footer_logo_kr.png) left top no-repeat;}
+/*html[lang="en-au"] #utill_nav .link_t .list.calculator {right:115px;}*/
+
+/*** main ***/	
+html[lang="ko"] .mc_box_cont .inner {padding:0 12%;}
+html[lang="ko"] .mc_box_cont .list {width:calc(100% /2 - 11px);min-height:270px;}
+html[lang="ko"] .mc_box_cont .list.s3 {background:url(../images/main/ico_mc_box_cont05.png) 13% 15% /108px 50px no-repeat;}
+html[lang="ko"] .mc_box_cont .list.s3:hover {background:#002e54 url(../images/main/ico_mc_box_cont05on.png)  13% 15% /108px 50px no-repeat;} 
+html[lang="ko"] .mc_box_cont .txt {min-height:inherit;padding-top:110px;}
+html[lang="ko"] .mc_box_cont .txt dd {min-height:51px;line-height:18px;}
+	
+/*** SOLAR PROJECT ***/
+/** power_plant **/
+html[lang="ko"] .solar_cont05.cont_plant {padding-bottom:0;}
+html[lang="ko"] .solar_cont05.cont_plant .txt {text-align:center;}
+html[lang="ko"] .solar_cont05.cont_plant .st {padding-top:60px;}
+
+
+/** excellence **/
+html[lang="ko"] .excellence03 .txt dl{padding:0 30px;}	
+
+
+/** under_banner_cont **/
+html[lang="ko"] .under_banner_cont .txt:before{top:2px;width:83px;height:20px;}
+html[lang="ko"] .under_banner_cont02 div.s1 .txt:before{top:2px;width:83px;height:20px;}
+
+
+
+/****** Us : html[lang="en"] ******/
+/* under_banner02*/
+.na .under_banner_cont02.bg02{background:url(../images/template/under_banner_bg08.png) center /cover no-repeat;}
+
+/* ico_how */
+.na .ico_how_area .btn{overflow:visible;font-size:12px;font-weight:600;top:calc(100% / 2 - 40px);}
+.na .ico_how_area .how_i_prev:before{content:"Back";position:absolute;top:30px;left:0;text-indent:0;letter-spacing:-0.09em;}
+.na .ico_how_area .how_i_next:before{content:"Forward";position:absolute;top:30px;right:0;text-indent:0;letter-spacing:-0.09em;}
+
+/*  solar_panels */
+.na .spc03{margin:0 -50px;padding:70px 50px;}
+
+/* Products:info */
+.na .prod_cont .app dd li em {background:url(../images/products/ico_prod_app04.png) left center /25px 25px no-repeat;}
+.na .prod_cont .app dd li.s2 em {background:url(../images/products/ico_prod_app05.png) left center /25px 25px no-repeat;}
+.na .prod_cont .app dd li.s3 em {background:url(../images/products/ico_prod_app06.png) left center /25px 25px no-repeat;}
+    
+    
+    
+/* Korean WA */
+.btn_wa {right:224px;top:95px;width:37px;height:37px;}
+}
+
+
+
+
+
+/********** PC **********/
+@media all and (min-width:1000px) {
+/*** main ***/
+html[lang="ko"] .mc_cont:before {display:none;}
+html[lang="ko"] .mc_box_cont .inner {padding:0 13%;}
+html[lang="ko"] .mc_box_cont .list {width:calc(100% /2 - 21px);min-height:300px;margin:0 0 0 20px;}
+html[lang="ko"] .mc_box_cont .list.s3{background-position:50px 40px;}
+html[lang="ko"] .mc_box_cont .list.s3:hover{background-position:50px 40px;}
+	
+html[lang="en-au"] .cont_wide_box {height:auto;margin-bottom:150px;overflow:inherit;}
+html[lang="en-au"] .best_box .inner_box {height:auto;}
+html[lang="en-au"] .prod_search .list.s1 li {width:230px;}
+
+
+
+/****** Us : html[lang="en"] ******/
+/* ico_how */
+.na .ico_how_area .btn{top:calc(100% / 2 - 25px);}
+.na .ico_how_area .how_i_prev:before{top:40px;}
+.na .ico_how_area .how_i_next:before{top:40px;}
+
+/*  solar_panels */
+.na .spc03{padding:100px 50px;}
+
+/* Products:info */
+.na .prod_cont .app dd li em {background:url(../images/products/ico_prod_app04.png) left center /40px 40px no-repeat;}
+.na .prod_cont .app dd li.s2 em {background:url(../images/products/ico_prod_app05.png) left center /40px 40px no-repeat;}
+.na .prod_cont .app dd li.s3 em {background:url(../images/products/ico_prod_app06.png) left center /40px 40px no-repeat;}
+
+}
+
+
+
+
+
+/********** PC **********/
+
+
+@media all and (min-width:1100px) {
+/****** Us : html[lang="en"] ******/
+html[lang="en"] #gnb .li_dep{min-width: 250px;}
+    
+/*** SOLAR PROJECT ***/
+html[lang="ko"] .cont_tb .table_ty th {padding:40px 8px;}
+html[lang="ko"] .cont_tb .table_ty td {padding:37px 15px;}
+	
+/*** under_banner_cont ***/
+html[lang="ko"] .under_banner_cont .txt {max-width:540px;font-size:20px;line-height:28px;}
+html[lang="ko"] .mc_box_cont .txt dd {min-height:55px;line-height:22px;}
+html[lang="ko"] .under_banner_cont02 div.s1 .txt:before{top:3px;width:108px;height:26px;}
+	
+/*html[lang="en-au"] #utill_nav .link_t .list.calculator {right:120px;}*/
+html[lang="en-au"] #gnb .gnb03 .li_dep {min-width:260px;}
+
+
+/*공통 ko gnb*/
+
+html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 9vw;}
+html[lang="ko"] #gnb .dep {/*margin-left: 2em;*/}/*margin-left: 1px;*/	
+/*공통 en-au gnb*/
+html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 9vw;}
+html[lang="en-au"] #gnb .dep {margin-left: 1px;}
+}
+
+
+
+
+
+/********** PC Max **********/
+@media (min-width:1311px) {
+/*** main ***/
+html[lang="ko"] .main_area .info_inner{margin-top:-70px;}
+html[lang="ko"] .mc_box_cont .list {width:calc(100% /2 - 30px);min-height:400px;margin:0 0 0 29px;}
+html[lang="ko"] .mc_box_cont .list.s3{background-size:130px 60px;background-position:68px 50px;}
+html[lang="ko"] .mc_box_cont .list.s3:hover{background-position:68px 50px;}
+html[lang="ko"] .mc_box_cont .txt {padding-top:135px;}
+html[lang="ko"] .mc_box_cont .txt dd {min-height:68px;}
+
+/** power_plant **/
+html[lang="ko"] .cont_tb .table_ty td {padding:36px 15px;}
+
+
+/****** Us : html[lang="en"] ******/
+/*  solar_panels */
+.na .spc03{margin:0;padding:120px 0;}	
+.na .spc03 .cont:last-child {margin-bottom:0;}
+    
+    
+    
+/* Korean WA */
+.btn_wa {right:174px;top:95px;}
+
+
+html[lang="ko"] #gnb .dep_m {font-size: 19px;}
+}
+
+
+@media (max-width: 1151px) and (min-width: 1100px) {
+/**** header ****/
+html[lang="ko"] #gnb.gnb_t2 .dep {margin-left: 40px;}/*margin-left: 3px;*/
+
+/*공통 en-au gnb 20-01-31*/
+html[lang="en-au"] #gnb.gnb_t2 .dep {margin-left: 3px;}
+}
+
+@media all and (min-width:1100px) and (max-width:1151px) {
+/**** header ****/
+html[lang="en-au"] #gnb .gnb_nav {padding-left:15vw;}
+html[lang="en-au"] #gnb .dep {}/*10px*/
+}
+@media all and (min-width:1151px) and (max-width:1200px) {
+/**** header ****/
+html[lang="en-au"] #gnb .gnb_nav {padding-left:15vw;}
+html[lang="en-au"] #gnb .dep {margin-left:5px;}
+}
+
+@media all and (min-width:1201px) and (max-width:1300px) {
+/**** header ****/
+html[lang="en-au"] #gnb .gnb_nav {padding-left:15vw;}
+html[lang="en-au"] #gnb .dep {/*margin-left:25px;*/}
+html[lang="ko"] #gnb.gnb_t2 .dep {margin-left:40px;}/*margin-left:13px;*/
+}
+@media (max-width: 1200px) and (min-width: 1151px){
+	html[lang="ko"] #gnb.gnb_t2 .dep{margin-left:40px;}
+}
+@media all and (min-width:1301px) and (max-width:1450px) {
+/**** header ****/
+html[lang="en-au"] #gnb .gnb_nav {padding-left:16vw;}
+}
+
+
+@media all and (min-width:1451px) {
+/**** header ****/
+html[lang="en-au"] #gnb .gnb_nav {padding-left:17vw;}
+}
+
+
+/*메뉴 추가 로 인한 수정*/
+@media all and (min-width:1900px) {
+	/*공통 gnb*/
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 250px;}
+	html[lang="ko"] #gnb .dep {margin-left: 55px;}
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 250px;}
+	html[lang="en-au"] #gnb .dep {margin-left: 55px;}
+}	
+
+@media all and (min-width: 1300px) {
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 13vw;} 
+	html[lang="en-au"] #gnb .dep {margin-left: 25px;}
+}
+@media all and (min-width: 1250px) {
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb .dep {margin-left: 22px;}
+}
+@media all and (min-width: 1451px) {
+	/*공통 ko gnb*/
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 13vw;}
+	html[lang="ko"] #gnb .dep {/*margin-left: 25px;*/}
+	html[lang="ko"] #gnb .dep_m {font-size: 18px;}
+	
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 17vw;} 
+	html[lang="en-au"] #gnb .dep {margin-left: 45px;} 
+	html[lang="en-au"] #gnb .dep_m {font-size: 18px;} 
+}	
+
+@media all and (min-width: 1200px) {
+	/*공통 ko gnb*/
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 16vw;}
+	
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 16vw;} 
+}
+
+@media all and (min-width: 1150px) {
+	/*공통 ko gnb*/
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 14vw;}
+	
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 14vw;} 
+	
+}
+
+/*
+@media all and (min-width: 1140px) {
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 12vw;}
+	
+}
+@media all and (min-width: 1130px) {
+	html[lang="ko"] #gnb .dep {margin-left: 5px;}	
+}
+*/
+@media all and (min-width: 1100px) {
+	/*공통 ko gnb*/
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 12vw;}
+	/*html[lang="ko"] #gnb .dep {margin-left: 3px;}*/
+	html[lang="ko"] #gnb .dep_m {font-size: 17px;}	
+	
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 12vw;} 
+	html[lang="en-au"] #gnb .dep_m {font-size: 17px;}	 
+}
+
+@media all and (min-width: 1050px) {
+	/*공통 ko gnb*/
+	html[lang="ko"] #gnb.gnb_t2 .gnb_nav {padding-left: 13vw;}
+	/*html[lang="ko"] #gnb .dep {margin-left: 3px;}*/
+	/*html[lang="ko"] #gnb .dep_m {font-size: 17px;}*/	
+	
+	/*공통 en-au gnb 20-01-31*/
+	html[lang="en-au"] #gnb.gnb_t2 .gnb_nav {padding-left: 13vw;} 
+}
+@media (min-width:1250px) {
+	html[lang="ko"] #gnb .dep_m {font-size: 19px;}	
+}

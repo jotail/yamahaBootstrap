@@ -1,0 +1,372 @@
+@charset "utf-8";
+/*
+    Contents.css
+*/
+
+
+/********** Default : Mobile **********/
+
+/* cont_t01 */
+.cont_t01 {margin:-60px -20px 60px -20px;padding:60px 20px;background:#f8f8f8;}
+.cont_t01 .img_box {position:relative;margin-bottom:40px;}
+.cont_t01 .img_box img {width:100%;}
+.cont_t01 .img_m {max-width:320px;margin:0 auto;}
+.cont_t01 .img_w {max-width:1200px;margin:0 auto;}
+
+/* txt_n_box */
+.txt_n_box dt {margin-top:-4px;color:#000;font-size:16px;font-weight:600;line-height:20px;}
+.txt_n_box dd {margin-top:8px;font-size:14px;line-height:20px;}
+
+
+/**** OUR LOCATIONS ****/
+/* txt_top_c */
+.txt_top_c .b_tit {margin-bottom:20px;font-size:23px;line-height:30px;transition:all 0.4s;}
+
+/** main_global **/
+.main_global {position:relative;margin:0 -20px;background:#f4f4f4;text-align:center;}
+
+/* map */
+.main_global .map {display:inline-block;position:relative;width:100%;max-width:1200px;}
+.main_global .mapBg {display:block;background-image:url("../images/contents/img_gn_00m.png");background-position:50%;background-size:auto 100%;background-repeat:no-repeat;text-align:center;transition:all 0.4s;}
+html[lang="zh"] .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_00m.png");}
+.main_global .mapBg img {width:100%}
+
+/* pin */
+.main_global .pin {position:absolute;left:0;top:0;width:100%;height:100%;}
+.main_global .pin a {display:block;position:absolute;left:0;top:-50%;width:15%;height:20%;background:#fff;opacity:0;text-indent:-9999px;outline:none;cursor:pointer;overflow:hidden;z-index:2;}
+.main_global .pin .map1 {left:11%;top:22%;width:28%;height:60%;}
+.main_global .pin .map2 {left:52%;top:22%;}
+.main_global .pin .map3 {left:67%;top:26%;}
+.main_global .pin .map4 {left:76%;top:60%;}
+
+/* Active */
+.view1 .main_global .mapBg {background-image:url("../images/contents/img_gn_01m.png");}
+.view2 .main_global .mapBg {background-image:url("../images/contents/img_gn_02m.png");}
+.view3 .main_global .mapBg {background-image:url("../images/contents/img_gn_03m.png");}
+.view4 .main_global .mapBg {background-image:url("../images/contents/img_gn_04m.png");}
+html[lang="zh"] .view1 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_01m.png");}
+html[lang="zh"] .view2 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_02m.png");}
+html[lang="zh"] .view3 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_03m.png");}
+html[lang="zh"] .view4 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_04m.png");}
+.view1 .main_global .pin .map1 a,
+.view2 .main_global .pin .map2 a,
+.view3 .main_global .pin .map3 a,
+.view4 .main_global .pin .map4 a {color:#fff;}
+
+
+/** network_all **/
+.network_all {padding-top:60px;}
+.network_all .tit_s {margin-bottom:30px;color:#000;font-size:23px;font-weight:100;line-height:30px;text-align:center;text-transform:uppercase;}
+.network_all .list_info_s .list {display:none;animation:fade both 0.4s;}
+.network_all .list_info_s .list.on {display:block;}
+
+/* list_info_s */
+.list_info_s {position:relative;margin-top:-40px;overflow:hidden;}
+.list_info_s .list {width:100%;margin-top:40px;}
+.list_info_s .tit {position:relative;margin:-7px 0 17px 0;padding-bottom:19px;}
+.list_info_s .tit dt {color:#000;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.list_info_s .tit dd {margin-top:7px;color:#000;font-size:14px;line-height:18px;}
+.list_info_s .tit:after {display:block;position:absolute;left:0;bottom:0;width:25px;height:2px;background:#009ee3;content:"";}
+.list_info_s .txt li {position:relative;margin-top:5px;padding-left:18px;font-size:14px;line-height:18px;transition:all 0.4s;}
+.list_info_s .txt li:first-child {margin-top:0;}
+.list_info_s .txt li:before {position:absolute;left:0;top:3px;width:13px;height:13px;content:"";}
+.list_info_s .txt li.s1:before {background:url("../images/contents/ico_location01.png") center /100% no-repeat;}
+.list_info_s .txt li.s2:before {background:url("../images/contents/ico_location02.png") center /100% no-repeat;}
+.list_info_s .txt li.s3:before {background:url("../images/contents/ico_location03.png") center /100% no-repeat;}
+.list_info_s .info {margin-top:8px;color:#999;font-size:14px;line-height:18px;}
+
+
+
+
+/**** RECRUITMENT ****/
+/* visu_cont02 */
+.visu_cont02 {position:relative;}
+.visu_cont02 .img {height:60vw;max-height:430px;margin:0 -20px;}
+.visu_cont02 .img img {width:100%;}
+.visu_cont02 .txt {margin-top:25px;}
+.visu_cont02 .txt dt {margin-bottom:6px;color:#000;font-size:22px;font-weight:100;line-height:26px;letter-spacing:-1px;transition:all 0.4s;}
+.visu_cont02 .txt dd {font-size:14px;line-height:20px;transition:all 0.4s;}
+
+/* spc_s1 */
+.spc_s1 .t_tit02 {margin-bottom:15px;}
+.spc_s1 .table_ty {margin:0px;background:#f4f4f4;}
+.spc_s1 .table_ty th, .spc_s1 .table_ty td {border:solid #ddd;border-width:1px 0 0 1px}
+.spc_s1 .table_ty thead th {height:40px;border:0;border-bottom:1px solid #ddd;color:#000;font-weight:600;}
+.spc_s1 .table_ty tbody td {background:#f4f4f4;}
+.spc_s1 .table_ty tbody td:first-child {border-left:0;}
+.spc_s1 .txt {margin-top:15px;text-align:left;}
+
+
+
+/**** SUSTAINABLE MANAGEMENT ****/
+.ecology_info .img{margin: 0 -20px;padding-top: 35px;transition:all 0.4s;}
+.ecology_info .img img{width:100%;}
+.ecology_info .txt dl{margin-top: 25px;}
+.ecology_info .txt dd{margin-top: 15px;}
+.ecology_info .catBox{padding:0 5px;margin-right:5px;border:1px solid #dddddd;}
+
+/* management_banner */
+.management_banner{margin: 0 -20px;padding: 50px 20px;color:#fff;background: url(../images/contents/img_sustainable_cont02_banner.jpg) center / cover no-repeat;}
+.management_banner .list_info_s .tit dt{color:#fff;}
+.management_banner .list_info_s .tit dd{color:#fff;}
+.management_banner .list_info_s .tit{padding-bottom: 0;}
+.management_banner .list_info_s .tit:after{display: none;}
+.management_banner .list_info_s .txt li{padding-left:0;}
+.management_banner .list_info_s .txt li.s1:before{background: none;}
+.management_banner .list_info_s .txt li .catBox{font-size:11px;padding:0 5px;margin-right:5px;border:1px solid #fff;}
+.management_banner .list_info_s .txt li .t_line{color:#fff;}
+.management_banner .list_info_s .txt li .t_line:before{background: #fff;}
+
+/* social_info */
+.social_info .img{margin: 0 -20px;padding:25px 0;transition:all 0.4s;}
+.social_info .img img{width:100%;}
+.social_info .txt dl{margin-top: 45px;}
+.social_info .txt dd{margin-top: 15px;}
+.social_info .catBox{font-size:12px;padding:0 5px;margin-right:5px;border:1px solid #666;}
+
+/* down_list_info */
+.down_list_info{padding: 35px 0 30px 0;border-bottom: 1px solid #dddddd;}
+.down_list_info li{position: relative;padding-bottom: 20px;}
+.down_list_info li .catBox{position: absolute;top:0;left:0;margin-right: 0;}
+.down_list_info li a{display: inline-block;padding-left: 85px; text-decoration: underline;transition:all 0.4s;}
+.down_list_info li a:hover{color:#00adef;}
+.down_list_info + .txt{padding-top: 25px;}
+
+/**** Power_plant ****/
+.txt.cont_line .center{text-align: center;}
+.txt.cont_line .img_m{max-width: 320px;}
+.txt.cont_line .img_w{max-width: 698px;}
+.txt.cont_line .img{margin: 0 auto;}
+.txt.cont_line .img img{width:100%;}
+.txt.cont_line .ex{padding: 35px 0;}
+.txt.cont_line .ex li{position: relative;padding-left: 10px;}
+.txt.cont_line .ex li:before{display:block;position:absolute;left:0;top:10px;width:2px;height:2px;background:#666;content:""}
+
+
+/********** Tablet & PC **********/
+@media all and (min-width:740px) {
+/* cont_t01 */
+.cont_t01 {margin:-70px -50px 60px -50px;padding:60px 50px;}
+.cont_t01 .img_box {margin-bottom:50px;line-height:24px;}
+
+/* txt_n_box */
+.txt_n_box dt {font-size:20px;line-height:26px;}
+    
+   
+    
+    
+/**** OUR LOCATIONS ****/
+/* txt_top_c */
+.txt_top_c {padding:0 20px;}
+.txt_top_c .b_tit {margin:-13px 0 28px 0;font-size:36px;line-height:46px;}
+.txt_top_c .text_info {padding:0;line-height:24px;}
+    
+    
+/** main_global **/
+.main_global {margin:0 -50px;}
+    
+/* map */
+.main_global .mapBg {background-image:url("../images/contents/img_gn_00.png");}
+html[lang="zh"] .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_00.png");}
+
+/* Active */
+.view1 .main_global .mapBg {background-image:url("../images/contents/img_gn_01.png");}
+.view2 .main_global .mapBg {background-image:url("../images/contents/img_gn_02.png");}
+.view3 .main_global .mapBg {background-image:url("../images/contents/img_gn_03.png");}
+.view4 .main_global .mapBg {background-image:url("../images/contents/img_gn_04.png");}
+html[lang="zh"] .view1 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_01.png");}
+html[lang="zh"] .view2 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_02.png");}
+html[lang="zh"] .view3 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_03.png");}
+html[lang="zh"] .view4 .main_global .mapBg {background-image:url("../images/contents/img_gn_cn_04.png");}
+
+    
+/** network_all **/
+.network_all {padding-top:70px;}
+.network_all .tit_s {margin:-13px 0 43px 0;font-size:36px;line-height:46px;}
+.network_all .list_info_s .list {display:none;animation:fade both 0.4s;}
+.network_all .list_info_s .list.on {display:block;}
+
+/* list_info_s */
+.list_info_s {margin:-50px -20px 0 -20px;}
+.list_info_s .list {float:left;width:calc(50% - 40px);margin:50px 20px 0 20px;}
+.list_info_s .list.on.cle {clear:left;}
+    
+    
+    
+    
+/**** RECRUITMENT ****/
+/* visu_cont02 */
+.visu_cont02 .img {margin:0;}
+.visu_cont02 .txt dt {font-size:36px;line-height:42px;}
+.visu_cont02 .txt dd {font-size:14px;line-height:20px;}
+    
+/* spc_s1 */
+.spc_s1 .t_tit02 {margin-bottom:22px;}
+
+    
+    
+/**** SUSTAINABLE MANAGEMENT ****/
+.ecology_info .img{margin: 0;padding-top: 50px;}
+.ecology_info .txt dl{margin-top: 40px;}
+.ecology_info .txt dd{margin-top: 20px;}
+
+    
+/* management_banner */
+.management_banner{margin: 0 -50px;padding: 70px 50px;}
+.management_banner .list_info_s .tit dt{position: relative;padding-bottom:10px;}
+.management_banner .list_info_s .tit dt:after{display:block;position:absolute;left:0;bottom:0;width:25px;height:2px;background:#009ee3;content:""}
+
+/* social_info */
+.social_info .img{margin: 0;}
+.social_info .txt dl{margin-top: 55px;}
+.social_info .txt dd{margin-top: 20px}
+
+/* down_list_info */
+.down_list_info{overflow:hidden;}
+.down_list_info li{float:left;width:calc(33% - 5px);padding-bottom: 30px;}
+.down_list_info li:nth-of-type(3n+1){clear: both}
+    
+    
+/**** Power_plant ****/
+.txt.cont_line{margin-left: 0;}
+
+}
+
+
+
+
+
+
+/********** PC **********/
+@media all and (min-width:1000px) {
+/* txt_top_c */
+.txt_top_c {padding:0;}
+.txt_top_c .b_tit {font-size:44px;line-height:48px;}
+.txt_top_c .text_info {max-width:none;padding:0 60px;line-height:26px;}
+    
+/* cont_t01 */
+.cont_t01 {margin:0 -50px 70px -50px;padding:70px 50px;}
+.cont_t01 .img_box {margin-bottom:65px;}
+
+/* txt_n_box */
+.txt_n_box {position: relative;max-width:1200px;margin:0 auto;}
+.txt_n_box dt {font-size:26px;line-height:32px;}
+.txt_n_box dd {margin-top:18px;font-size:16px;line-height:24px;}
+    
+   
+    
+    
+/**** OUR LOCATIONS ****/
+/** main_global **/
+/* pin */
+.main_global .pin dt a {height:200%;padding-bottom:25px;font-size:18px;}
+.main_global .pin dd {display:block;}
+   
+    
+/** network_all **/
+.network_all .tit_s {margin:-13px 0 60px 0;font-size:44px;line-height:48px;}
+
+/* list_info_s */
+.list_info_s {margin:-60px 0 0 0;}
+.list_info_s .list {float:left;width:calc(50% - 80px);margin:60px 40px 0 40px;}
+.list_info_s .tit dt {font-size:22px;line-height:26px;}
+.list_info_s .tit dd {font-size:18px;line-height:22px;}
+.list_info_s .tit:after {width:50px;}
+.list_info_s .txt li {margin-top:8px;padding-left:20px;font-size:16px;line-height:20px;}
+.list_info_s .txt li:before {top:3px;width:15px;height:15px;}
+.list_info_s .info {margin-top:12px;font-size:16px;line-height:20px;}
+
+html[lang="ko"] .list_info_s .tit dd {font-size:16px;}
+html[lang="zh"] .list_info_s .tit dd {font-size:16px;}
+    
+    
+/**** RECRUITMENT ****/
+/* visu_cont02 */
+.visu_cont02 {display:table;width:100%;height:430px;padding-bottom:45px;}
+.visu_cont02 .img {position:absolute;left:50%;top:0;width:50vw;  height:430px;}
+.visu_cont02 .txt {display:table-cell;vertical-align:middle;}
+.visu_cont02 .txt dt {width:calc(50% - 50px);margin-bottom:26px;font-size:44px;line-height:48px;letter-spacing:-1.5px;}
+.visu_cont02 .txt dd {width:calc(50% - 50px);font-size:16px;line-height:22px;}
+            
+/* spc_s1 */
+.spc_s1 .t_tit02 {margin-bottom:28px;}
+.spc_s1 .table_ty thead th {height:30px;}
+.spc_s1 .txt {margin-top:25px;line-height:24px;}
+
+    
+/**** SUSTAINABLE MANAGEMENT ****/
+.ecology_info .img{padding-top: 80px;}
+.ecology_info .img.pd{padding-top: 40px;}
+.ecology_info .txt dl{margin-top: 50px;}
+.ecology_info .txt dd{margin-top: 30px;}
+    
+/* management_banner */
+.management_banner .list_info_s .tit dt{padding-bottom: 20px}
+.management_banner .list_info_s .tit dd{margin-top: 17px}
+.management_banner .list_info_s .txt li .catBox{font-size: 12px;}
+
+/* social_info */
+.social_info .img{padding:30px 0;}
+.social_info .text_info{max-width: 850px;}
+.social_info .txt dl{margin-top: 75px;}
+.social_info .txt dd{margin-top: 30px}
+
+/* down_list_info */
+.down_list_info{padding:50px 0;}
+.down_list_info li{width:calc(33% - 16px);padding: 0 8px 30px 8px;}
+.down_list_info + .txt {padding-top:30px;} 
+
+    
+
+/**** Power_plant ****/
+.txt.cont_line .ex{padding: 40px 60px 60px 60px;}  
+
+}
+
+
+
+
+
+/********** PC Max **********/
+@media all and (min-width:1311px) {
+
+    
+/* cont_t01 */
+.cont_t01 {margin:0 0 100px 0;padding:100px 0;}
+
+
+
+    
+/**** OUR LOCATIONS****/
+/** main_global **/
+.main_global {margin:0;}
+
+    
+/** network_all **/
+.network_all {padding-top:100px;}
+    
+/* management_banner */
+.management_banner{padding: 100px 0;}
+.management_banner .inner{max-width:1300px;margin:0 auto;}
+
+/* down_list_info */
+.down_list_info li{width:calc(33% - 40px);padding: 0 20px 30px 20px;}
+.down_list_info li a{padding-left: 70px;} 
+    
+    
+    
+/**** Power_plant ****/
+.txt.cont_line .center{padding: 0 70px;}
+.txt.cont_line .ex{padding: 40px 155px 60px 155px;}  
+}
+
+
+
+
+
+
+
+
+
+
+

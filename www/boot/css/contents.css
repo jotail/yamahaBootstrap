@@ -1,0 +1,3488 @@
+@charset "utf-8";
+/*
+    Contents.css
+*/
+
+
+/********** Default : Mobile **********/
+/***** ABOUT *****/
+/**** WHY Q CELLS? ****/
+.why_ico {padding:40px 0 0 0;}
+.why_ico .b_tit {text-align:left;}
+.why_ico_list .list {width:180px;margin:0 auto;text-align:center;padding:10px 50px;position:relative;}
+.why_ico_list .list .box {display:table-cell;width:180px;height:170px;margin:0 auto;padding-bottom:10px;background:#f8f8f8;border-radius:100%;vertical-align:middle;}
+.why_ico_list .ico {display:block;width:60px;margin:0 auto;transition:all 0.4s;}
+.why_ico_list .ico img {width:100%;}
+.why_ico_list .list dt {margin-top:15px;color:#0c0c0c;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.why_ico_list .list dd {margin:5px 0 -2px 0;color:#666;font-size:14px;line-height:18px;transition:all 0.4s;}
+.why_ico_list .list .t {margin-top:20px;color:#0c0c0c;font-size:14px;font-weight:600;line-height:18px;transition:all 0.4s;}
+
+/* cont_list */
+.cont_list_box02 {margin:0 -20px;}
+.cont_list_box02 .cont_list {background:#fff;margin:0;}
+.cont_list_box02 .cont_list .img {height:300px;}
+.cont_list_box02 .cont_list .txt dt:after {width:50px;height:3px;background:#009ee3;display:block;content:"";margin-top:12px;}
+
+.txt_w {display:none;}
+.txt_m {display:block;}
+
+/* solar_box */
+.solar_box {width:100%;}
+.solar_box .cont_box {margin:0 -20px 60px 0;}
+.solar_box .cont_box .txt {display:table-footer-group;background:#f4f4f4;}
+.solar_box .cont_box dl {display:block;padding:25px 20px 50px;}
+.solar_box .cont_box dd {margin-top:5px;font-size:14px;}
+.solar_box .img {display:table-header-group;transition:all 0.4s;}
+.solar_box .img img {width:100%;}
+
+/* cont_wide_box */
+.cont_wide_box {width:100%;box-sizing:border-box;}
+.cont_wide_box .cont_box {margin:0 -20px 60px -20px;}
+.cont_wide_box .cont_box .txt {display:table-footer-group;background:#f4f4f4;}
+.cont_wide_box .cont_box .txt.ty02 {background:#fff;}
+.cont_wide_box .cont_box dl {display:block;padding:25px 20px 50px;}
+.cont_wide_box .cont_box dd {margin-top:5px;font-size:14px;}
+.cont_wide_box .img img {width:100%;}
+
+
+
+/* why_ico_list */
+.icon_why_list li {margin:15px 0 0 0;}
+.icon_why_list li:first-child {margin-top:0;}
+.icon_why_list .step4 {margin-bottom:0;}
+.icon_why_list .list .box {width:180px;height:180px;margin:0 auto;padding:25px 0;border-radius:100%;text-align:center;background:#f8f8f8;box-sizing:border-box;transition:all 0.4s;}
+.icon_why_list .list .ico {width:80px;}
+.icon_why_list .list .ico img {width:80px;}
+.icon_why_list .list  .txt {margin:10px 0 0;color:#0c0c0c;font-weight:600;line-height:20px;}
+
+/* best_box */
+.best_box .img {margin:0 -20px;max-height:400px;overflow:hidden;}
+.best_box .img img {width:100%;}
+.best_box .inner_box {position:relative;top:-40px;padding:17px 20px 0;/*margin:0 0 -40px;*/background:rgba(255,255,255,0.7);box-sizing:border-box;}
+.best_box .inner_box dd {margin:5px 0 30px 0;font-size:14px;line-height:20px;}
+.best_box .inner_box dd:last-child {margin-bottom:0;}
+
+
+
+/*** Technology ***/
+/* technology_cont */
+.technology_cont .b_tit {margin:0 0 34px 0;}
+.technology_info {padding-top:100px;}
+.technology_info .img {margin:0 -20px;transition:all 0.4s;}
+.technology_info .img img {width:100%;}
+.technology_cont .b_tit {margin-bottom:30px}
+.technology_cont .visu_cont {margin-top:0}
+.visu_cont.s4 {background:url(../images/contents/img_whyqcell02_cont.jpg) center /cover no-repeat;}
+.technology_cont .visu_cont .txt {height:395px;vertical-align:inherit;padding:55px 20px 0;}
+.technology_cont .text_cont .img {width:137px;margin:0 auto;display:block;padding:60px 0 22px 0;transition:all 0.4s;}
+.technology_cont .text_cont .img img {width:100%;}
+.technology_cont .text_cont .txt {font-size:14px;line-height:18px;transition:all 0.4s;}
+.technology_banner {position:relative;margin:0 -20px;padding:55px 30px 65px 30px;background:url(../images/contents/img_whyqcell02_cont_banner.jpg) center /cover no-repeat;transition:all 0.4s;}
+.technology_banner .info .inner {display:table-cell;height:394px;width:500px;vertical-align:bottom;}
+.technology_banner .info .t_tit02 {color:#fff;font-size:20px;}
+.technology_banner .info .b_tit {color:#fff;text-align:left;margin:16px 0 27px 0;font-size:38px;}
+.technology_banner .info p {margin-top:-10px;color:#fff;font-size:13px;line-height:18px;transition:all 0.4s;}
+.technology_info .txt.info1{padding-bottom:70px;}
+.technology_info .txt.info2{padding-top:40px;}
+
+/* technology_cont02 */
+.technology_cont02 .b_tit {margin:0 0 34px 0;}
+.technology_cont02 .t_tit02 {margin-bottom:30px;}
+.technology_cont02 .txt {font-size:14px;line-height:20px;color:#666;}
+.technology_cont02 .mt {margin-top:16px;}
+.technology_cont02 .txt span {border-bottom:2px solid #009ee3;}
+.tab_cont .tab_info {padding:0;}
+.tab_cont .tab_info .txt {margin:35px 0 75px 0;}
+.tab_cont .tab_info .txt dd.mt {margin-top:16px;}
+.tab_cont .tab_info .img_t {margin:-30px -20px 0 -20px;transition:all 0.4s;}
+.tab_cont .tab_info .img_t img {width:100%;}
+.tab_info .s1 dt {padding-bottom:15px;}
+
+
+/* history_info */
+.history_info {padding-top:64px;}
+.history_info .t_tit02 {text-align:center;}
+.history_info .b_tit {position:relative;margin:12px 0 17px 0;}
+.history_info .b_tit:after {display:block;content:"";width:25px;height:4px;background:#009ee3;position:absolute;top:32px;left:47%}
+.history_info .b_tit.no:after {display:none;}
+.history_info .img {height:300px;margin:0 -20px;overflow:hidden;}
+.history_info .img img {width:100%;margin-top:-20%;}
+.history_info .txt {font-size:14px;line-height:20px;margin:20px 0 25px 0;}
+
+/* .technology_info02 */
+.technology_info02 {background:#f7f8fa;margin:0 -20px;padding:50px 0;}
+.technology_info02 .t_tit02 {text-align:center;margin-bottom:14px;}
+.technology_info02 .img img {width:100%;}
+.technology_info02 .box {padding:0 20px;}
+.technology_info02 .box .img {max-width:604px;margin:0 auto;}
+
+/* player_cont */
+.player_cont {padding-top:100px;}
+.player_cont.s2 {padding-top:0px;}
+.player_cont .btn {margin-top:30px;text-align:center}
+
+.movie_area {position:relative;}
+.movie_area .hit img {width:100%;}
+.movie_area video {width:100%;}
+.movie_area iframe {position:absolute;left:0;top:0;width:100%;height:100%;}
+
+/* ico_step03 */
+.ico_step03 {display:block;}
+.ico_step03 li {margin-top:18px;padding:15px 10px;text-align:left;position:relative;}
+.ico_step03 .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;float:left;padding-right:5px;}
+.ico_step03 .ico img {width:100%;}
+.ico_step03 dl {overflow:hidden}
+.ico_step03 dt {margin-top:5px;color:#0c0c0c;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.ico_step03 dd {margin:5px 0 -2px 0;color:#666;font-size:13px;line-height:18px;transition:all 0.4s;}
+.ico_step03:after {display:block;content:"";clear:both}
+
+/* text_info */
+.text_info {font-size:14px;line-height:20px;text-align:center;}
+.text_info.mb{margin-bottom: 35px}
+.text_info_us {font-size:14px;line-height:20px;text-align:center;}
+.accordian_ty02 .list .view {display:none;animation:fade both 0.4s;}
+.accordian_ty02 .list.on .view {display:block;}
+
+/* tab_ty02 */
+.tab_ty02 {margin:0 -20px 30px;}
+.tab_ty02 div {display:table;width:200%;margin-left:-50%;}
+.tab_ty02 div a {display:table-cell;position:relative;width:26%;height:40px;padding:0 5px;border:solid #ddd;border-width:1px 0;color:#ddd;line-height:35px;font-size:12px;font-weight:600;text-align:center;vertical-align:middle;transition:all 0.4s;}
+.tab_ty02 div a:nth-child(1) {width:37%;padding-right:30px;text-align:right;}
+.tab_ty02 div a:nth-child(3) {width:37%;padding-left:30px;text-align:left;}
+.tab_ty02 div a:hover, .tab_ty02 div a:focus {color:#000;}
+.tab_ty02 a:nth-child(1):before {display:block;position:absolute;top:15px;right:0;width:8px;height:8px;border:solid #ddd;border-width:0 0 1px 1px;transform:rotate(44deg);content:"";}
+.tab_ty02 a:nth-child(3):before {display:block;position:absolute;top:15px;left:0;width:8px;height:8px;border:solid #ddd;border-width:1px 1px 0 0;transform:rotate(44deg);content:"";}
+.tab_ty02 a.on {color:#000;}
+.tab_ty02 a.on:after {display:block;position:absolute;bottom:-1px;left:50%;;width:110%;margin-left:-55%;border-bottom:2px solid #009ee3;content:"";z-index:1;}
+
+
+
+/*** Q ANTUM Technology ***/
+/* qantum_ty02 */
+.qantum_box {margin:30px -20px 0;}
+.qantum_box .inner {transition:all 0.4s;}
+.qantum_box .inner > li {position:relative;}
+.qantum_box .inner div {margin:20px 50px;animation:slide all 0.4s;}
+.qantum_box .inner a {position:relative;display:block;height:63px;line-height:63px;padding:0 20px;color:#000;font-size:16px;font-weight:600;}
+.qantum_box .inner a:after {display:block;position:absolute;left:50px;top:45px;width:15px;height:2px;background:#009ee3;content:"";}
+.qantum_box .inner a .num {display:inline-block;width:30px;font-size:13px;font-weight:normal;color:#666;}
+.qantum_box .inner div ul li {margin-bottom:15px;color:#000;font-size:14px;font-weight:600;}
+.qantum_box .inner div li em {position:relative;}
+.qantum_box .inner div li em:after {display:block;position:absolute;bottom:-2px;left:0;width:14px;height:1px;background:#009ee3;content:"";}
+.qantum_box .inner .step01 a {background-color:#f0f3f8;}
+.qantum_box .inner .step01:after {display:block;position:absolute;top:63px;right:20px;width:1px;border-style:solid;border-width:12px;border-color:#f0f3f8 transparent transparent transparent;content:"";z-index:1;}
+.qantum_box .inner .step02 a {background-color:#e6e9f0;}
+.qantum_box .inner .step02:after {display:block;position:absolute;top:63px;right:20px;width:1px;border-style:solid;border-width:12px;border-color:#e6e9f0 transparent transparent transparent;content:"";z-index:1;}
+.qantum_box .inner .step03 a {background-color:#dadfe9;}
+.qantum_box .inner .step03 .s_box p {margin-top:5px;font-size:14px;font-weight:normal;line-height:26px;}
+.qantum_box .inner .step03 .s_box ul {margin-top:5px;}
+.qantum_box .inner .step03 .s_box ul li {margin-bottom:0;font-weight:normal;line-height:26px;}
+.qantum_box .inner .step03 .s_box ul li:before {content:" - ";}
+
+/* qantum_banner */
+.qantum_banner {margin:0 -20px 60px;padding:50px 20px;text-align:center;}
+.qantum_banner.bg01 {background:url(../images/contents/img_whyqcell02_cont_banner.jpg) center / cover no-repeat;}
+.qantum_banner.bg02 {background:url(../images/contents/img_whyqcell03_cont_banner.jpg) center / cover no-repeat;}
+.qantum_banner.bg03 {background:url(../images/contents/img_whyqcell04_cont_banner.jpg) 75% center / cover no-repeat;}
+.qantum_banner .info {width:100%;}
+.qantum_banner .info .q_logo {margin-bottom:15px;}
+.qantum_banner .info .b_tit {color:#fff;}
+.qantum_banner .info dl {margin-top:-10px;color:#fff;}
+.qantum_banner .info dt {padding:0 50px;font-size:16px;font-weight:600;line-height:22px;}
+.qantum_banner .info dd {margin:15px 0;font-size:14px;line-height:20px;}
+.qantum_banner .br {display:block;}
+
+/* qantum_box02 */
+.qantum_box02 .b_tit {color:#009ee3;margin-bottom:15px;}
+.qantum_box02 .b_tit .br {display:block;margin:0;font-size:0;line-height:0;}
+.qantum_box02 .text {margin-bottom:30px;}
+.qantum_box02 .text li dl {margin-bottom:25px;}
+.qantum_box02 .text li dt {margin-bottom:10px;font-size:16px;font-weight:600;color:#333;}
+.qantum_box02 .text li dd {font-size:14px;line-height:20px;}
+.qantum_box02 .img_box {margin:0 -20px;}
+.qantum_box02 .img {transition:all 0.4s;}
+.qantum_box02 .img img {width:100%;}
+
+/* qantum_box03 */
+.qantum_box03 {margin:-60px -20px 60px;padding:50px 0;background-color:#f7f8fa;}
+.qantum_box03 .t_tit02 {text-align:center;text-transform:uppercase;}
+.qantum_box03 .t_tit02 em {display:block;color:#009ee3;text-transform:uppercase;}
+.qantum_box03 .img_box02 {margin:25px 20px 0;}
+.qantum_box03 .img_box02 .img {transition:all 0.4s;}
+.qantum_box03 .img_box02 .img img {width:100%;}
+
+/* history_box */
+.history_box .stairs {margin-bottom:25px;}
+.history_box .stairs li {position:relative;margin-bottom:10px;color:#000;font-size:16px;font-weight:600;}
+.history_box .stairs li:after {display:inline-block;position:absolute;bottom:0;left:0;width:15px;height:2px;background:#009ee3;content:"";}
+.history_box .stairs li:nth-child(2) {margin-left:20px;}
+.history_box .stairs li:nth-child(3) {margin-left:40px;}
+.history_box .list {position:relative;padding-top:25px;}
+.history_box .list:after {display:inline-block;position:absolute;left:45px;top:0;width:1px;height:100%;background:#b2e2f7;content:"";}
+.history_box .list dt {position:relative;float:left;width:45px;color:#000;font-size:14px;font-weight:600;}
+.history_box .list dt:after {display:inline-block;position:absolute;right:-2px;top:4px;width:2px;height:14px;background:#009ee3;content:"";z-index:8;}
+.history_box .list dd {position:relative;width:calc(100% - 45px);margin-left:45px;padding:0 0 15px 10px;border-left:solid 1px #b2e2f7;box-sizing:border-box;font-size:14px;color:#666;}
+.history_box .history_img {margin:0 -20px;overflow:hidden;transition:all 0.4s;}
+.history_img img {width:100%;}
+
+/* player_box */
+.player_box {position:relative;margin-bottom:25px;}
+.player_box .img {position:relative;height:295px;overflow:hidden;}
+.player_box .ico {display:block;position:absolute;left:50%;top:50%;width:50px;height:50px;margin:-23px 0 0 -23px;border:2px solid #fff;border-radius:100%;box-sizing:border-box;text-indent:-9999px;overflow:hidden;}
+.player_box .ico:after {position:absolute;left:0;top:0;width:100%;height:100%;background:url(../images/main/ico_movie_play.png) center /100% no-repeat;content:"";}
+.player_box:hover .ico:after  {animation:moviePlay both linear infinite 1.4s 0.2s;}
+.player_box .btn {position:absolute;right:0;bottom:-25px;font-size:14px;}
+.player_box .btn a {font-size:14px;}
+.player_box .txt {position:absolute;left:20px;top:20px;}
+.player_box .txt dt {width:72px;}
+.player_box .txt dt img {width:100%;}
+.player_box .txt dd {margin-top:10px;color:#fff;font-size:16px;font-weight:600;line-height:16px;}
+.player_box.ty02 {margin-bottom:-20px;}
+
+
+
+/*** Q ANTUM DUO TECHNOLOGY ***/
+/* qantum_box04 */
+.qantum_box04 .b_tit {color:#009ee3;}
+.qantum_box04 .text li {margin-bottom:40px;padding-bottom:40px;border-bottom:solid 1px #ccc;}
+.qantum_box04 .text li:last-child {margin-bottom:0;padding-bottom:0;border-bottom:none;}
+.qantum_box04 .text .dt_tit {margin-bottom:10px;color:#000;font-size:16px;font-weight:600;}
+.qantum_box04 .text dd {font-size:14px;line-height:20px;}
+.qantum_box04 .text div:after {display:block;clear:both;content:"";}
+.qantum_box04 .text div dt {margin-bottom:5px;color:#000;font-weight:600;}
+.qantum_box04 .text .s2 dl {float:left;width:calc(100% / 2 - 6%);}
+.qantum_box04 .text .s2 dl:last-child {float:right;}
+.qantum_box04 .text .t li{display:inline-block;width:calc(100% / 2 - 5%);border-bottom:0;margin-bottom:0;padding-bottom:0;}
+.qantum_box04 .text .t li:last-child {margin:0 0 0 22px;}
+.qantum_box04 .text .t:after {display:block;clear:both;content:"";}
+.qantum_box04 .img {margin:20px -20px;clear:both;transition:all 0.4s;}
+.qantum_box04 .img img {width:100%;}
+
+/* qantum_box05 */
+.qantum_box05 {margin:0 -20px 60px;padding:50px 20px;background:url(../images/contents/img_technology02_cont_banner02.jpg) left center /cover no-repeat;}
+.qantum_box05 .text {color:#fff;}
+.qantum_box05 .text li {position:relative;margin-bottom:2px;font-size:16px;font-weight:600;line-height:25px;}
+.qantum_box05 .text li:nth-child(2) {margin-left:15px;}
+.qantum_box05 .text li:nth-child(3) {margin-left:30px;}
+.qantum_box05 .text li:after {display:block;position:absolute;bottom:-1px;width:15px;height:2px;background-color:#009ee3;content:"";}
+.qantum_box05 .text .txt {margin-top:20px;font-size:14px;line-height:20px;}
+.qantum_box05 .img {margin:30px auto 0;text-align:center;transition:all 0.4s;}
+.qantum_box05 .img_m {max-width:220px;}
+.qantum_box05 .img img {width:100%;}
+.qantum_box05 .btn {padding-top:35px;text-align:center;}
+
+/* qantum_box06 */
+.qantum_box06 i {display:block;width:57px;margin:0 auto 15px;transition:all 0.4s;}
+.qantum_box06 i img {width:100%;}
+.qantum_box06 li {border:solid 1px #ddd;padding:30px 20px;margin-bottom:20px;}
+.qantum_box06 li:last-child {margin-bottom:0;}
+.qantum_box06 dt {color:#333;font-size:16px;font-weight:600;text-align:center;}
+.qantum_box06 dt:after {display:block;width:12px;height:2px;margin:15px auto 0;background-color:#333;content:"";}
+.qantum_box06 dd.img_m {max-width:280px;margin:25px auto;transition:all 0.4s;}
+.qantum_box06 dd.img img {width:100%;}
+.qantum_box06 dd.txt {max-width:260px;margin:0 auto;font-size:14px;line-height:20px;text-align:center;}
+
+
+/*** Q CELLS YIELD SECURITY ***/
+.qantum_banner .icon_list li {margin-top:30px;}
+.qantum_banner .icon_list i {display:block;width:80px;margin:0 auto;transition:all 0.4s;}
+.qantum_banner .icon_list i img {width:100%;}
+.qantum_banner .icon_list p {margin-top:15px;font-size:16px;font-weight:600;color:#fff;}
+
+
+
+/*** Quality ***/
+.step_list_text dt .num {color:#009ee3;display:block;}
+.quality_banner {position:relative;margin:0 -20px;padding:60px 30px;background:url(../images/contents/img_whyqcell02_cont_banner02.jpg) center /cover no-repeat;transition:all 0.4s;}
+.quality_banner .txt {margin-top:-10px;color:#fff;font-size:13px;line-height:18px;text-align:center;transition:all 0.4s;}
+.quality_info {padding-top:60px;}
+.quality_info .t_tit02 {padding-bottom:20px;}
+.quality_info .table_ty {overflow:scroll;overflow-y:hidden;}
+.quality_info .table_ty table {min-width:768px;}
+
+/* quality_img_box */
+.quality_img_box {}
+.quality_img_box .list {position:relative;margin-top:15px;overflow:hidden;}
+.quality_img_box .list:first-child {margin-top:0;}
+.quality_img_box .list i {display:block;float:left;width:50%;/*max-width:210px;*/}
+.quality_img_box .list i img {width:100%;}
+.quality_img_box .list .txt {position:absolute;left:25%;top:10px;width:75%;padding:15px;background:rgba(255,255,255,0.9);box-sizing:border-box;}
+.quality_img_box .list .txt dl {display:table-cell;height:calc(50vw - 70px);vertical-align:middle;}
+.quality_img_box .list .txt dt {position:relative;margin-bottom:10px;color:#000;font-size:16px;font-weight:600;line-height:16px;transition:all 0.4s;}
+.quality_img_box .list .txt dt:before {position:absolute;left:0;bottom:-6px;width:12px;height:1px;background:#01a6d6;content:"";transition:all 0.4s;}
+.quality_img_box .list .txt dd {font-size:13px;line-height:16px;}
+.quality_img_box .list:nth-child(even) i {float:right;}
+.quality_img_box .list:nth-child(even) .txt {left:inherit;right:25%;text-align:right;}
+.quality_img_box .list:nth-child(even) .txt dt:before {left:inherit;right:0;}
+
+/* technology_info02 */
+.technology_info02 .cont.inner {margin:0 20px;}
+.technology_info02 .board_ty .list {box-sizing:border-box;overflow:hidden;}
+.technology_info02 .board_ty .list dl {box-sizing:border-box;padding:38px 32px;width:100%;height:100%;background:#fff;border:1px solid #ddd;text-align:center;}
+.technology_info02 .board_ty .list dt {padding-bottom:20px;}
+.technology_info02 .board_ty .list .img img {width:auto;height:65px;}
+.technology_info02 .board_ty .list dd em {color:#000;font-weight:600;}
+.technology_info02 .board_ty .list dd {font-size:14px;line-height:20px;}
+.technology_info02 .board_ty .list dd.btn {margin-top:20px;}
+.technology_info02 .board_ty .list dd.btn a {padding:0 30px;}
+.technology_cont02 .text_box.s1 {text-align:left;}
+.technology_cont02 .text_box.s1 .img {max-width:320px;margin:25px auto 0 auto;}
+.technology_cont02 .text_box.s1 .img img {width:100%;}
+.technology_cont02 .text_box.s1 dd em {color:#009ee3;font-weight:600;border-bottom:2px solid #009ee3;}
+.technology_cont02 .text_box {display:table;width:100%;padding:35px 0;border-top:1px solid #ddd;text-align:center;}
+.technology_cont02 .text_box:first-child {border-top:0;}
+.technology_cont02 .text_box.s2 .txt {display:table-footer-group;}
+.technology_cont02 .text_box.s2 .txt em {display:block;padding:20px 0 5px;color:#000;font-weight:600;border-bottom:0;text-transform:uppercase;}
+.technology_cont02 .text_box.s2 .img {display:table-header-group;width:100%;text-align:center;}
+.technology_cont02 .text_box.s2 .img img {width:220px;}
+.technology_cont02 .text_box.dep {margin-top:-30px;padding-top:0;border-top:0;}
+.technology_cont02 .btn {text-align:center;}
+
+
+
+/*** Manufacturing Excellence ***/
+/* txt_info_line */
+.txt_info_line {font-size:14px;line-height:20px;text-align:left;transition:all 0.4s;}
+.txt_info_line li {position:relative;margin-top:7px;}
+.txt_info_line li:first-child {margin-top:0;}
+.txt_info_line li.s1 {padding-bottom:14px;}
+.txt_info_line li.s2 p {display:inline;position:relative;}
+.txt_info_line li.s2 p:before {position:absolute;left:0;top:18px;width:12px;height:1px;background:#009ee3;content:"";}
+
+/* img_info_dep */
+.img_info_dep {margin-top:50px;text-align:center;}
+.img_info_dep .img {margin:30px auto 0 auto;}
+.img_info_dep .img img {width:100%;}
+.img_info_dep .img_m {max-width:320px;}
+.img_info_dep .img_w {max-width:1200px;}
+
+/* excellence */
+.excellence01 {margin:0 -20px;padding:50px 20px;background:url(../images/contents/excellence01_bg.jpg) left center /cover no-repeat;color:#fff;text-align:center;}
+.excellence01 .t_tit02 {color:#fff;}
+.excellence01 .ico_box_c li {margin-top:25px;}
+.excellence01 .ico_box_c i {display:block;width:75px;margin:0 auto;transition:width 0.4s;}
+.excellence01 .ico_box_c i img {width:100%;}
+.excellence01 .ico_box_c li .t {margin-top:7px;font-size:14px;font-weight:600;line-height:18px;transition:all 0.4s;}
+.excellence01 .txt {display:inline-block;margin-top:20px;padding:5px 10px;border:1px solid rgba(255,255,255,0.5);color:#fff;font-size:18px;font-weight:600;line-height:22px;transition:all 0.4s;}
+.excellence02 {padding:50px 0;text-align:center;}
+.excellence02 .img {margin:30px auto 0 auto;}
+.excellence02 .img img {width:100%;}
+.excellence02 .img_m {max-width:320px;}
+.excellence02 .img_w {max-width:861px;}
+.excellence03 {margin:0 -20px;padding:50px 20px;background:#f4f4f4;}
+.excellence03 .img {max-width:900px;margin:20px auto 0 auto;}
+.excellence03 .img img {width:100%;}
+.excellence03 .img.img_m {max-width:320px;}
+.excellence03 .img.img_w {max-width:1200px;}
+.excellence03 .marker {width:210px;margin:15px auto 35px auto;}
+.excellence03 .marker li {position:relative;margin-top:5px;padding-left:10px;font-size:13px;font-weight:600;line-height:18px;transition:all 0.4s;}
+.excellence03 .marker li:first-child {margin-top:0;}
+.excellence03 .marker li:before {position:absolute;left:0;top:6px;width:5px;height:5px;background:#009ee3;border-radius:100%;content:"";}
+.excellence03 .marker li.c2:before {background:#ec7823;}
+.excellence03 .marker li.c3:before {background:#b3d465;}
+.excellence03 .marker br {display:inline;}
+.excellence03 .txt {margin:0 -15px;}
+.excellence03 .txt li {float:left;width:50%;text-align:center;}
+.excellence03 .txt dl {padding:0 15px;}
+.excellence03 .txt dt {display:inline-block;position:relative;padding-right:22px;color:#123065;font-size:30px;font-weight:600;line-height:30px;transition:all 0.4s;}
+.excellence03 .txt dt:before {position:absolute;right:0;top:13px;width:16px;height:2px;background:#123065;content:"";}
+.excellence03 .txt dt:after {position:absolute;right:7px;top:6px;width:2px;height:16px;background:#123065;content:"";}
+.excellence03 .txt dd {position:relative;padding-top:20px;font-size:13px;line-height:18px;transition:all 0.4s;}
+.excellence03 .txt dd:before {position:absolute;left:50%;top:8px;width:10px;height:2px;margin-left:-5px;background:#666;content:"";}
+.excellence03 .txt:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+.excellence03 .txt dt.t {display:table-cell;width:calc(50vw - 10px);height:50px;padding:0;color:#666;font-size:12px;font-weight:600;line-height:16px;vertical-align:middle;}
+.excellence03 .txt dt.t:before,
+.excellence03 .txt dt.t:after{display:none;}
+.excellence03 .txt dd.tit {position:relative;max-width:200px;margin:0 auto;padding:0;color:#123065;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.excellence03 .txt dd.tit:before,
+.excellence03 .txt dd.tit:after {display:none;}
+html[lang="ko"] .excellence03 .txt dd.tit {max-width:170px;}
+
+html[lang="zh"] .excellence03 .txt dt.t {display:inline-block;width:auto;height:auto;padding:0 22px 0 0;color:#123065;font-size:30px;font-weight:600;line-height:30px;}
+html[lang="zh"] .excellence03 .txt dt.t:before,
+html[lang="zh"] .excellence03 .txt dt.t:after {display:block;}
+html[lang="zh"] .excellence03 .txt dd:before {display:none;}
+html[lang="zh"] .excellence03 .txt dd.tit {position:relative;padding-top:20px;color:#666;font-size:13px;font-weight:100;line-height:18px;}
+html[lang="zh"] .excellence03 .txt dd.tit:before {display:block;position:absolute;left:50%;top:8px;width:10px;height:2px;margin-left:-5px;background:#666;content:"";}
+
+html[lang="tr"] .excellence03 .txt dt.t {display:inline-block;width:auto;height:auto;padding:0 22px 0 0;color:#123065;font-size:30px;font-weight:600;line-height:30px;}
+html[lang="tr"] .excellence03 .txt dt.t:before,
+html[lang="tr"] .excellence03 .txt dt.t:after {display:block;}
+html[lang="tr"] .excellence03 .txt dd:before {display:none;}
+html[lang="tr"] .excellence03 .txt dd.tit {position:relative;padding-top:20px;color:#666;font-size:13px;font-weight:100;line-height:18px;}
+html[lang="tr"] .excellence03 .txt dd.tit:before {display:block;position:absolute;left:50%;top:8px;width:10px;height:2px;margin-left:-5px;background:#666;content:"";}
+
+/* RECRUITMENT JOB */
+.rec_job{margin:25px 0 0;}
+.rec_job:after{content:"";display:block;clear:both}
+.rec_job .pcol {margin-bottom: 60px;}
+.rec_job .pcol:last-child {margin-bottom: 0;}
+.rec_job .mid{display:inline-block;vertical-align:middle;margin-bottom:-4px;}
+.rec_job dt{position:relative;width:125px;height:125px;margin:15px auto 58px;font-size:16px;color:#fff;font-weight:bold;text-align:center;background:#8b8b8b;border-radius:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.rec_job dt:after{content:'';position:absolute;left:-12px;top:-12px;right:-12px;bottom:-12px;border:1px dashed #8b8b8b;border-radius:100%;}
+.rec_job dt:before{content:'';display:inline-block;width:1px;height:100%;margin-left:-2px;vertical-align:middle}
+.rec_job dt .mid:after{content:'';position:absolute;left:50%;top:100%;width:10px;height:10px;margin:-6px 0 0 -6px;border:2px solid #fff;background-color:#8b8b8b;border-radius: 50%;}
+.rec_job dt .mid:before{content:'';position:absolute;z-index:2;left:50%;top:100%;width:1px;height:58px;background-color:#8b8b8b;}
+.rec_job .odd dt{background-color:#009ee3;}
+.rec_job .odd dt:after{border-color:#009ee3;}
+.rec_job .odd dt .mid:before,.rec_job .odd dt .mid:after{background-color:#009ee3;}
+.rec_job dd{position:relative;padding:20px 0 20px 22px;border:1px solid #dddddd;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.rec_job .odd dd.round{border-color:#009ee3;}
+.rec_job .gray dd{border-color:#8b8b8b;}
+.rec_job dd + dd{margin-top:10px;}
+.rec_job dd.round{height:125px;border-radius:127px;}
+.rec_job dd.round:before{content:'';display:inline-block;width:1px;height:100%;margin-left:-7px;vertical-align:middle}
+.rec_job dd .tit{display:inline-block;width:30%;font-size:14px;vertical-align:top;margin:0;text-align: left;}
+.rec_job dd ul{display:inline-block;width:65%;margin:0;padding:0;vertical-align:middle;}
+.rec_job dd ul li{list-style:none;margin:0;padding:0;font-size:14px;text-align:left;}
+.rec_job_video {overflow: hidden;}
+.rec_job_video .col {margin-bottom: 40px;}
+.rec_job_video .col:nth-child(6) {margin-bottom:0;}
+.rec_job_video .col .video_frame { position:relative;margin-bottom: 15px; }
+.rec_job_video .col .video_frame .video { width:100%; height:100%;}
+.rec_job_video .col .name {font-size: 14px; font-weight: 600;color: #666;text-align: center;line-height: 1;}
+
+/* RECRUITMENT BANNER */
+.rec_banner {height: 207px;background:url(../images/contents/img_recruitment_banner.jpg) center /cover no-repeat;margin: 0 -20px}
+.rec_banner .inner {display: table;width:100%;height: 100%;}
+.rec_banner .inner .s2 {display: table-cell;vertical-align: middle;text-align: center;}
+.rec_banner .txt {font-size: 16px;font-weight: 600;text-align: center;color: #fff;margin-bottom: 20px;text-shadow:1px 1px 20px rgba(0,0,0,0.7);transition:all 0.4s;}
+.rec_banner .txt .hw {display:inline;position:relative;vertical-align:top;top:3px;margin-right: -1px;}
+.rec_banner .txt .hw img {height:16px;}
+.rec_banner .btn {text-align: center;}
+
+
+/***** SOLAR PROJECT *****/
+/**** HOW IT WORKS ****/
+/* visu_cont */
+.visu_cont {position:relative;margin:-30px -20px 0 -20px;}
+.visu_cont.s1 {background:url(../images/contents/img_solar_project01_visu_cont01.jpg) center /cover no-repeat;}
+.visu_cont.s2 {background:url(../images/contents/img_solar_project01_visu_cont02.jpg) center /cover no-repeat;}
+.visu_cont.s3 {background:url(../images/contents/img_solar_project01_visu_cont03.jpg) center /cover no-repeat;}
+.visu_cont .txt {display:table-cell;height:360px;padding:0 20px;color:#fff;text-align:center;vertical-align:middle;}
+.visu_cont .txt dt {margin-bottom:-2px;font-size:22px;font-weight:600;line-height:28px;text-transform:uppercase;transition:all 0.4s;}
+.visu_cont .txt .c1 {margin-top:17px;font-size:13px;line-height:18px;transition:all 0.4s;}
+.visu_cont .txt .c2 {margin-top:23px;}
+
+/*** how works ***/
+.how_tab {padding:30px 0 0 0;}
+.solar_cont06 .img {margin:0 -20px;transition:all 0.4s;padding-bottom:15px;display:block}
+.solar_cont06 .img img {width:100%;}
+.solar_cont06 .txt {padding-bottom:10px;font-size:14px;line-height:20px;transition:all 0.4s;display:block}
+.works_cont {margin:0 -20px;}
+.works_cont .visual_area {height:368px;}
+.works_cont .visual_area .img {height:368px;}
+.works_cont .txt {position:absolute;top:50px;left:0;width:100%;text-align:center;transition:all 0.4s;z-index:8;}
+.works_cont .txt h4 {position:relative;color:#fff;font-size:24px;line-height:30px;font-weight:600;}
+.works_cont .txt p {position:relative;color:#fff;text-align:center;font-size:13px;line-height:17px;font-weight:300;margin:20px 10px 20px 20px;z-index:8;}
+.works_cont .more_btn a {position:relative;display:inline-block;padding-bottom:4px;color:#009ee3;font-weight:600;}
+.works_cont .more_btn a:after {display:block;position:absolute;left:0;bottom:0;width:100%;height:1px;background:#009ee3;content:"";animation:width50 both 0.6s 0.5s;}
+
+/* ico_step */
+.ico_step .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;}
+.ico_step .ico img {width:100%;}
+
+/* ico_how */
+.ico_how_area {position:relative;margin:30px -20px 0 -20px;background:#f8f8f8;}
+.ico_how_area .btn {display:block;position:absolute;top:calc(100% / 2 - 10px);width:20px;height:30px;text-indent:-9999px;overflow:hidden;}
+.ico_how_area .btn.disabled {display:none !important;}
+.ico_how_area .how_i_prev {left:15px;background:url(../images/template/btn_solar_c_prev.png) 0 0 /11px 21px no-repeat;}
+.ico_how_area .how_i_next {right:15px;background:url(../images/template/btn_solar_c_next.png) right 0 /11px 21px no-repeat;}
+.ico_how {padding:0;}
+.ico_how .t_tit {font-size:16px;line-height:20px;}
+.ico_how .list {position: relative;float:left;padding:50px 40px;box-sizing:border-box;text-align:center;}
+.ico_how .list ul {margin-bottom:20px;}
+.ico_how .list ul i {display:block;margin-bottom:15px;}
+.ico_how .list ul i img {max-width:70px;}
+.ico_how .list ul li {float:left;color:#000;font-weight:600;font-size:13px;}
+.ico_how .list ul li p {margin-bottom:10px;}
+.ico_how .list ul.s1 li {width:calc(100% / 3 - 1px);}
+.ico_how .list ul.s2 {padding:0;}
+.ico_how .list ul.s2 li {width:calc(100% / 2);}
+.ico_how .list ul.s3 {padding:0;}
+.ico_how .list ul.s3 li {width:calc(100% / 2);}
+.ico_how .list ul:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.ico_how .list .txt {padding:0 10px;font-size:14px;line-height:20px;}
+.ico_how .list .img {margin-bottom:40px;}
+.ico_how .list .img_m img {width:100%;max-width:320px;}
+.ico_how:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* how_tab */
+.how_tab .t_tit02 {padding:0 75px;line-height:20px;text-align:center;}
+.how_tab .t_tit {margin:10px 0 40px 0;}
+.ico_step04 li {position:relative;clear:both;margin-top:18px;}
+.ico_step04 i {display:block;position:absolute;left:0;top:50%;width:80px;height:80px;margin-top:-35px;}
+.ico_step04 i img {width:100%;}
+.ico_step04 .txt {display:table-cell;height:50px;padding-left:95px;color:#000;font-size:14px;font-weight:600;line-height:18px;vertical-align:middle;transition:all 0.4s;}
+.ico_step04 .txt dd {margin-top:5px;color:#666;font-size:13px;font-weight:normal;line-height:16px;}
+.ico_step04.arrow li {width:240px;margin:0 auto;padding:20px 0;}
+.ico_step04.arrow li:before {display:block;position:absolute;top:-5px;left:48%;width:22px;height:12px;background:url(../images/contents/ico_solar_projec_plant_step_arr.png) center /100% no-repeat;content:"";transition:all 0.4s;}
+.ico_step04.arrow li:first-child:before {display:none;}
+
+/* qcp_box:na */
+.qcp_box{margin:0 -20px 60px -20px;padding:50px 20px;background:#f8f8f8;}
+.qcells_plus{text-align:center;}
+.qcells_plus .img {display:table-header-group;width:100%;}
+.qcells_plus .img  img{height:90px;}
+.qcells_plus .txt{display:table-footer-group;font-size:14px;}
+.qcells_plus .txt p{padding-top:20px;}
+
+
+/**** Residential ****/
+/* solar_residential_visual */
+.solar_residential_visual .img {max-width:640px;margin:0 auto;}
+.solar_residential_visual .img img {width:100%;}
+.solar_residential_visual .tab_ty {display:table;width:100%;max-width:320px;table-layout:fixed;margin:25px auto 20px auto;}
+.solar_residential_visual .tab_ty a {display:table-cell;height:auto;padding:70px 0 0 0;border:0;color:#333;font-size:14px;line-height:18px;transition:all 0.4s;}
+.solar_residential_visual .tab_ty a:before {display:none;}
+.solar_residential_visual .tab_ty a.on {background:none;}
+.solar_residential_visual .tab_ty a.s1 {background:url(../images/contents/solar_residential_visual_btn01.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s2 {background:url(../images/contents/solar_residential_visual_btn02.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s3 {background:url(../images/contents/solar_residential_visual_btn03.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s4 {background:url(../images/contents/solar_residential_visual_btn04.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s1:hover {background:url(../images/contents/solar_residential_visual_btn01over.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s2:hover {background:url(../images/contents/solar_residential_visual_btn02over.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s3:hover {background:url(../images/contents/solar_residential_visual_btn03over.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s4:hover {background:url(../images/contents/solar_residential_visual_btn04over.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s1.on {background:url(../images/contents/solar_residential_visual_btn01on.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s2.on {background:url(../images/contents/solar_residential_visual_btn02on.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s3.on {background:url(../images/contents/solar_residential_visual_btn03on.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_ty a.s4.on {background:url(../images/contents/solar_residential_visual_btn04on.png) center top /64px 64px no-repeat;}
+.solar_residential_visual .tab_cont {font-size:14px;line-height:20px;text-align:center;}
+.solar_residential_visual .img {position:relative;}
+.solar_residential_visual .img_over_b li {display:none;position:absolute;left:0;top:0;width:100%;}
+.solar_residential_visual .img_over_b li.on {display:block;animation:solar_res both infinite 2.5s 0.5s;}
+@keyframes solar_res{
+0% {opacity:0;}
+30% {opacity:1;}
+50% {opacity:0.2;}
+70% {opacity:1;}
+100% {opacity:0;}
+}
+
+/* solar_con_ty */
+.solar_cont03 .solar_con_ty {position:relative;margin:0 -20px;}
+.solar_cont03 .solar_con_ty .img {height:45vw;overflow:hidden;}
+.solar_cont03 .solar_con_ty img {width:100%;}
+.solar_con_ty .txt {padding:65px 30px;box-sizing:border-box;background-color:#002e54;color:#fff}
+.solar_con_ty .txt dt>em {display:block;font-size:26px;line-height:30px;}
+.solar_con_ty .txt dt>span {display:block;font-size:14px;color:#009ee3;line-height:30px;}
+.solar_con_ty .txt dd {color:#999;font-size:14px;}
+.solar_con_ty .txt dl:after {content:"";display:block;clear:both}
+.solar_con_ty .txt dl:nth-child(2) {padding-top:35px;}
+.solar_con_ty .txt dl:nth-child(2):before {content:"";display:block;border-top:1px solid #1f4166;}
+.solar_con_ty .txt dl:nth-child(2) dt {height:40px;line-height:40px;font-size:14px;float:left;border-bottom:1px solid #1f4166;}
+.solar_con_ty .txt dl:nth-child(2) dd {height:40px;line-height:40px;color:#cccccc;border-bottom:1px solid #1f4166;text-align:right;}
+
+/* step_list_text */
+.step_list_text {margin-top:35px;border-top:1px solid #000;border-bottom:1px solid #000;}
+.step_list_text dt {font-size:16px;line-height:22px;font-weight:600;color:#000;padding:27px 0 13px 0;}
+.step_list_text dd {font-size:14px;line-height:20px;color:#666;border-bottom:1px solid #ddd;padding:0 0 30px 0}
+.step_list_text dd:last-child {border-bottom:none;}
+
+/* step_list_text us */
+.step_list_text.us dt {font-size:16px;}
+
+.step_list_text.na dl:nth-child(2){border-top:1px solid #ddd;}
+.step_list_text.na dl:nth-child(3){border-top:1px solid #ddd;}
+
+
+/**** POWER PLANT ****/
+.solar_info.line {padding-top:0;/*border-bottom:1px solid #ddd;*/}
+.txt.cont_line {margin-top:47px;margin-bottom:0;margin-left:0;padding-top:47px;border-top:1px solid #ddd;}
+.txt.cont_line dl {padding-left:0;margin-top:0;}
+.txt.cont_line dl.s2 {margin-top:-5px;}
+
+/* plan_img_box */
+.plan_img_box {position:relative;padding-bottom:50px;border-bottom:1px solid #ddd;font-size:14px;line-height:20px;transition:all 0.4s;}
+.plan_img_box .visual {min-height:295px;margin:0 -20px 20px -20px;background:url(../images/contents/img_plan_img_box.jpg) center /cover no-repeat;transition:all 0.4s;}
+.plan_img_box .img img {width:100%;}
+.plan_img_box .img.img_m {max-width:320px;margin:0 auto;}
+.plan_img_box .img.img_w {max-width:630px;margin:0 auto;}
+.plan_img_box .t_tit02 {margin-bottom:5px;}
+
+/* plan_img_box02 */
+.plan_img_box02 .txt {margin-top:-15px;text-align:center;}
+
+/* plan_img_txt */
+.plan_img_txt dt{text-align:center;padding:10px 0 20px 0;}
+.plan_img_txt .img img{width:auto;height:27px;}
+.plan_img_txt dd{font-size:14px;line-height:20px;color:#666666;padding-bottom:40px;}
+.plan_img_txt dd:last-child{padding-bottom:0;}
+
+/* ico_box_plan */
+.ico_box_plan {position:relative;margin-top:20px;font-size:14px;line-height:18px;transition:all 0.4s;}
+.ico_box_plan .li {position:relative;margin-top:22px;transition:all 0.4s;}
+.ico_box_plan .li:first-child {margin-top:0;}
+.ico_box_plan .li i {display:block;width:80px;margin:0 auto;transition:all 0.4s;}
+.ico_box_plan .li i img {width:100%;}
+.ico_box_plan .li dt {color:#000;font-weight:600;}
+.ico_box_plan .li dd {margin-top:8px;}
+.ico_box_plan .s1 {position:relative;padding:40px 20px;border:1px solid #009ee3;box-sizing:border-box;}
+.ico_box_plan .s1 i {position:absolute;left:0;top:50%;width:80px;margin-top:-35px;}
+.ico_box_plan .s1 dl {padding-left:100px;}
+.ico_box_plan .s2 {position:relative;margin-top:55px;padding:40px 20px;border:1px solid #009ee3;box-sizing:border-box;text-align:center;}
+.ico_box_plan .s2:before {position:absolute;left:50%;top:-56px;width:1px;height:40px;background:#01a6d6;content:"";}
+.ico_box_plan .s2 .t {position:absolute;left:0;top:-9px;width:100%;color:#000;font-size:16px;font-weight:600;line-height:16px;text-transform:uppercase;}
+.ico_box_plan .s2 .t span {display:inline-block;padding:0 10px;background:#fff;}
+.ico_box_plan .s2 .li dt {margin-top:5px;}
+
+/* cont_tb  */
+.cont_tb {padding-top:5px;}
+.cont_tb li {position:relative;}
+.cont_tb li.arr {margin:70px 0 10px 0;}
+.cont_tb li.arr:before {display:block;position:absolute;top:-55px;left:50%;width:57px;height:42px;margin-left:-28px;background:url(../images/contents/ico_solar_projec_plant_step_arr02m_kr.png) center /100% 100% no-repeat;content:"";}
+.cont_tb .table_ty {border:0;margin:0}
+.cont_tb .table_ty th {color:#666;background:#f8f8f8;padding:15px 20px;}
+.cont_tb .table_ty td {border-left:1px solid #ddd;border-top:1px solid #ddd;background:#f8f8f8;color:#666;padding:15px 20px;}
+.cont_tb .table_ty td.no_bor {border-left:0}
+.cont_tb .table_ty strong {color:#000;margin-bottom:10px;display:block;}
+.cont_tb .text_list {text-align:left;background:#f8f8f8;padding:27px 24px 13px 24px;}
+.cont_tb .text_list dt {padding-bottom:3px;color:#000;font-weight:600;}
+.solar_info .cont_tb dl {margin:0;}
+
+/* cont_tb02 */
+.cont_tb02 {margin:40px 0 60px 0;}
+.cont_tb02 li.img_gr {margin:0 auto;max-width:516px;}
+.cont_tb02 li .img {margin:0;}
+.cont_tb02 li .img img {width:100%;}
+.cont_tb02 .text_list02 {padding:23px 24px;box-sizing:border-box;background:#f8f8f8 url(../images/contents/ico_solar_project04_solar_cont08_kr.png) 20px 20px no-repeat;background-size:90px 112px;background-position:13% 45%}
+.cont_tb02 .text_list02.s2 {margin-top:32px;box-sizing:border-box;overflow:hidden;}
+.cont_tb02 .text_list02.s2 dl{float:right;width:calc(70% - 40px);margin-top:0;}
+.cont_tb02 .text_list02.s2 .txt_info02 {padding-bottom:0;}
+.cont_tb02 .text_list02 dt {color:#000;font-weight:600}
+
+/* cont_plant */
+.cont_plant {margin-bottom:50px;}
+.cont_plant .plant_info {margin-bottom:25px;}
+.cont_plant .plant_info li{padding:28px 0;border-bottom:1px solid #ddd;}
+.cont_plant .plant_info li:first-child{padding-top:0;}
+.cont_plant .plant_info li:last-child {border-bottom:0;}
+.cont_plant .plant_info li.img {text-align:center;}
+.cont_plant .plant_info li.img img {max-width:360px;margin:0 auto;}
+.cont_plant .plant_txt02 {font-size:11px;line-height:16px;transition:all 0.4s;}
+.cont_plant .plant_txt02 dt {font-weight:600;color:#999;padding-bottom:17px;}
+.cont_plant .accordian_ty {margin:0 0 20px 0;}
+.cont_plant .accordian_ty .list .btn {background:#f4f4f4;}
+.cont_plant .accordian_ty .list .view {background:#f8f8f8;border-top:1px solid #ddd;}
+
+
+
+/**** Become Partner ****/
+/* solar_cont */
+.solar_cont05 {padding-top:60px;text-align:center;}
+.solar_cont05 .t_tit02 {color:#666;font-size:16px;line-height:22px;font-weight:600;}
+.solar_cont05 .btn {margin-top:30px;}
+.solar_cont05 .txt {font-size:14px;line-height:20px;transition:all 0.4s;}
+
+/* ico_list */
+.solar_cont05 .ico_list {position:relative;padding-top:15px;}
+.solar_cont05 .ico_list .list {margin-top:18px;padding:0 50px;}
+.solar_cont05 .ico_list .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;}
+.solar_cont05 .ico_list .ico img {width:100%;}
+.solar_cont05 .ico_list .txt dt {margin-top:5px;color:#ccc;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.solar_cont05 .ico_list .txt dd {margin:5px 0 -2px 0;color:#666;font-size:13px;line-height:18px;transition:all 0.4s;}
+.solar_cont05 .ico_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+
+/**** Power_plant ****/
+.ico_step, .ico_step02 {display:block;}
+.ico_step li {margin-top:18px;padding:15px 50px;text-align:center;position:relative;}
+.ico_step02 li {margin-top:18px;padding:15px 10px;text-align:left;position:relative;}
+.ico_step li:first-child:before {display:none}
+.ico_step li:before {display:block;content:"";width:22px;height:12px;position:absolute;top:-15px;left:48%;background:url(../images/contents/ico_solar_projec_plant_step_arr.png) center /100% no-repeat;transition:all 0.4s;/* transform:rotate(90deg); */}
+.ico_step .ico02 {display:block;width:160px;margin:0 auto;transition:all 0.4s;}
+.ico_step .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;}
+.ico_step.ty02 .ico02 {width:75px;}
+.ico_step02 .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;float:left;padding-right:5px;}
+.ico_step .ico img, .ico_step02 .ico img, .ico_step .ico02 img {width:100%;}
+.ico_step dt {margin-top:15px;color:#0c0c0c;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.ico_step dd {margin:5px 0 -2px 0;color:#666;font-size:14px;line-height:18px;transition:all 0.4s;}
+.ico_step02 dl {overflow:hidden}
+.ico_step02 dt {margin-top:5px;color:#0c0c0c;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.ico_step02 dd {margin:5px 0 -2px 0;color:#666;font-size:13px;line-height:18px;transition:all 0.4s;}
+.ico_step02:after {display:block;content:"";clear:both}
+.ico_step02.ty02 dd {margin-bottom:0;}
+/* ico_step02_us */
+.ico_step02_us {display:block;}
+.ico_step02_us .ico img{width:100%;}
+.ico_step02_us li {margin-top:18px;padding:15px 10px;text-align:left;position:relative;}
+.ico_step02_us .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;float:left;padding-right:5px;}
+.ico_step02_us .txt{text-align:left;}
+.ico_step02_us dl {overflow:hidden}
+.ico_step02_us dt {margin-top:5px;color:#0c0c0c;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.ico_step02_us dd {margin:5px 0 -2px 0;color:#666;font-size:13px;line-height:18px;transition:all 0.4s;}
+.ico_step02_us:after {display:block;content:"";clear:both}
+
+/* plant_txt */
+.plant_txt {width:100%;float:none;text-align:left;margin-top:30px;}
+.plant_txt .s1 dd {font-size:14px;line-height:20px;}
+.plant_txt .s1 .btn {margin:15px 0 30px 0;}
+.plant_tb {width:100%;float:none;}
+.plant_tb .table_ty {padding:0;margin-top:30px;}
+.plant_tb .table_ty .orange {display:inline-block;width:10px;height:10px;border-radius:50%;background:#ec6941;}
+.plant_tb .table_ty .green {display:inline-block;width:10px;height:10px;border-radius:50%;background:#32b16c;}
+.plant_tb .table_ty .blue {display:inline-block;width:10px;height:10px;border-radius:50%;background:#0068b7;}
+
+
+
+
+/**** Produts ****/
+/*** SOLAR PANELS ***/
+.spc_box .txt {margin-top:-20px;font-size:14px;line-height:20px;text-align:center;}
+.spc01 {padding-top:15px;text-align:center;}
+.spc01 .t_tit02 {margin-top:-25px;}
+.spc01 .txt {margin-top:10px;}
+.spc02 {margin:0 -20px;padding:50px 0;background:#a19899 url(../images/contents/spc02_bg.jpg) 70% bottom /cover no-repeat;color:#fff;text-align:center;transition:all 0.4s;}
+.spc02 .b_tit {padding:0 40px;color:#fff;}
+.spc02 .ico_box_c {margin-top:-20px;padding:0 20px;font-size:0;text-align:center;}
+.spc02 .ico_box_c li {float:left;width:calc(50% - 20px);margin-top:25px;padding:0 10px;vertical-align:top;}
+.spc02 .ico_box_c li:nth-child(odd) {clear:left;}
+.spc02 .ico_box_c li i {display:block;width:70px;margin:0 auto;transition:all 0.4s;}
+.spc02 .ico_box_c li i img {width:100%;}
+.spc02 .ico_box_c li .t {margin-top:20px;font-size:13px;font-weight:600;line-height:16px;}
+.spc03 {margin:0 -20px;padding:50px 20px 250px 20px;background:#f4f4f4 url(../images/contents/spc03_bg.jpg) center bottom /600px 283px no-repeat;transition:all 0.4s;}
+.spc03 .b_tit {padding:0 20px;}
+.spc03 .half_list {position:relative;padding-top:110px;}
+.spc03 .half_list .img {max-width:630px;margin:0 auto;}
+.spc03 .half_list .img img {width:100%;}
+.spc03 .half_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.spc03 .txt_per_s1 dt {position:absolute;left:0;top:25px;width:100%;font-size:14px;text-align:center;}
+.spc03 .txt_per_s1 dt strong {display:block;color:#333;font-size:24px;}
+.spc03 .txt_per_s1 .txt {margin-top:25px;}
+.spc04 {padding-top:50px;}
+.spc04 .ico_box_c {font-size:0;text-align:center;transition:all 0.4s;}
+.spc04 .ico_box_c li {float:left;width:calc(50% - 20px);margin-top:25px;padding:0 10px;vertical-align:top;transition:width 0.4s;}
+.spc04 .ico_box_c li i {display:block;width:90px;margin:0 auto;transition:all 0.4s;}
+.spc04 .ico_box_c li i img {width:100%;}
+.spc04 .ico_box_c li .t {min-height:32px;margin-top:20px;color:#333;font-size:13px;font-weight:600;line-height:16px;}
+.spc05 .img {margin:0 auto;}
+.spc05 .img img {width:100%;}
+.spc05 .img_m {max-width:320px;margin-top:35px;}
+.spc05 .img_w {max-width:700px;margin-top:70px;}
+.solar_panels_info .txt.center {margin:-20px 0 -15px 0;text-align:center;}
+
+/* solar_info */
+.solar_info {padding-top:15px;}
+.solar_info .img {margin:0 -20px;transition:all 0.4s;}
+.solar_info .img img {width:100%;}
+.solar_info .txt {font-size:14px;line-height:20px;transition:all 0.4s;}
+.solar_info .txt dl {margin-top:20px;}
+.solar_info .txt dd {margin-top:5px;}
+
+/* cont_list */
+.cont_list {margin:0 -20px;background:#f4f4f4;}
+.cont_list .list {position:relative;}
+.cont_list .b_tit {display:none;}
+.cont_list .img {height:180px;transition:height 0.4s;}
+.cont_list .img img {width:100%;}
+.cont_list .txt {padding:20px 20px 35px 20px;box-sizing:border-box;font-size:14px;line-height:20px;}
+.cont_list .txt dt {color:#000;font-size:16px;font-weight:600;line-height:22px;transition:all 0.4s;}
+.cont_list .txt dd {margin-top:15px;transition:all 0.4s;}
+.cont_list.ty03 {background:#fff;}
+
+/* solar_cont */
+.solar_cont {padding-top:60px;}
+
+/* step_list */
+.step_list_area {overflow:hidden;}
+.step_list_area .caroufredsel_wrapper {float:left !important;width:100% !important;overflow:visible !important;}
+.step_list {position:relative;height:400px;overflow:hidden;}
+.step_list .list {position:relative;float:left;width:285px;cursor:default;}
+.step_list .list:first-child {margin-left:0;}
+.step_list .list a {display:block;position:relative;width:265px;height:400px;color:#fff;z-index:1;}
+.step_list .list i {position:absolute;left:15px;top:77px;font-style:normal;font-size:11px;line-height:14px;transition:all 0.4s;}
+.step_list .list dl {position:absolute;left:15px;top:104px;padding-right:15px;transition:transform 0.4s;}
+.step_list .list dt {position:relative;margin-bottom:22px;padding-bottom:20px;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.step_list .list dt:after {position:absolute;left:0;bottom:0;width:25px;height:1px;background:#009ee3;content:"";}
+.step_list .list dd {padding-right:5px;font-size:13px;line-height:20px;}
+.step_list .list .box {display:block;position:relative;width:265px;height:400px;color:#fff;z-index:1;}
+.step_list .list .box dd a {display:inline-block;margin:3px 0 8px 0;width:auto;height:auto;}
+.step_list .list .box dd a.t_line:hover {color:#009ee3;}
+.step_list .list .box dd a.t_line:before {background:#fff;}
+.step_list .list .box_over {display:none;position:absolute;left:0;top:0;width:265px;height:100%;background:rgba(0,0,0,0.95);z-index:2;animation:fade both 0.4s;}
+.step_list .list .box_over.act {display:block;}
+.step_list .list .box_over li {display:none;}
+.step_list .list .box_over li.on {display:block;}
+.step_list .list .box_over dl {position:absolute;left:15px;top:100px;width:235px;color:#fff;}
+.step_list .list .box_over dt {padding-bottom:0;}
+.step_list .list .box_over dt:after {display:none;}
+.step_list .list .box_over a {display:inline-block;margin:3px 0 8px 0;width:auto;height:auto;}
+.step_list .list .box_over .c2 {margin-top:30px;}
+.step_list .list .box_over .c2 a {color:#009ee3;}
+.step_list .list .box_over .c2 a:before {background:#009ee3 !important;}
+.step_list .list .box_over .btn_box_over_cl {position:absolute;right:15px;top:15px;width:22px;height:22px;background:url(../images/template/btn_pop_close.png) center / 100% 100% no-repeat;text-indent:-9999px;overflow:hidden;transition:transform 0.4s;cursor:pointer;}
+.step_list .list .box_over .btn_box_over_cl:hover {transform:rotate(90deg);}
+.step_list .list .img {display:none;}
+.step_list .list .img img {width:100%;}
+.step_list .list .img_m {position:absolute;left:0;top:0;width:265px;height:400px;overflow:hidden;transition:all 0.4s;}
+.step_list .list .img_m img {width:100%;}
+.step_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.step_list_pagn {padding-top:20px;text-align:center;}
+.step_list_pagn a {display:inline-block;width:5px;height:5px;margin:0 10px;background:#ddd;border-radius:100%;text-indent:-9999px;overflow:hidden;transition:all 0.4s;}
+.step_list_pagn a.selected {background:#00adef;}
+
+.step_list_area02 {overflow:hidden;}
+.step_list_area02 .caroufredsel_wrapper {float:left !important;width:100% !important;overflow:visible !important;}
+.step_list_area02_box .bg_img {display:none;}
+.step_list02 {position:relative;height:350px;overflow:hidden;}
+.step_list02 .list {position:relative;float:left;width:285px;}
+.step_list02 .list:first-child {margin-left:0;}
+.step_list02 .list a {display:block;position:relative;width:265px;height:350px;color:#fff;z-index:1;cursor:default;}
+.step_list02 .list i {position:absolute;left:25px;top:77px;color:#009ee3;font-style:normal;font-size:14px;line-height:14px;transition:all 0.4s;}
+.step_list02 .list dl {position:absolute;left:25px;top:104px;padding-right:15px;transition:transform 0.4s;}
+.step_list02 .list dt {position:relative;margin-bottom:22px;padding-bottom:20px;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.step_list02 .list dt:after {position:absolute;left:0;bottom:0;width:25px;height:1px;background:#009ee3;content:"";}
+.step_list02 .list dd {margin-top:10px;padding-right:15px;font-size:14px;line-height:18px;}
+.step_list02 .list dd:first-child {margin-top:0;}
+.step_list02 .list dd ul {margin:5px 0 13px 0;}
+.step_list02 .list dd li {margin-top:5px;}
+.step_list02 .list dd li:first-child {margin-top:0;}
+.step_list02 .list dd em {display:block;color:#999;font-size:12px;}
+.step_list02 .list .img_m {position:absolute;left:0;top:0;width:265px;height:400px;overflow:hidden;transition:all 0.4s;}
+.step_list02 .list .img_m img {width:100%;}
+.step_list02:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.step_list_prev {display:none;}
+.step_list_next {display:none;}
+
+
+/* solar_banner */
+.solar_banner {position:relative;margin:0 -20px 50px -20px;padding:55px 30px 65px 30px;background:url(../images/contents/img_solar_project02_cont_banner.jpg) center /cover no-repeat;transition:all 0.4s;}
+.solar_banner .b_tit {color:#fff;}
+.solar_banner .txt {margin-top:-10px;color:#00adef;font-size:13px;line-height:18px;text-align:center;transition:all 0.4s;}
+
+/* solar_cont02 */
+.solar_cont02 .img {height:45vw;margin:0 -20px;overflow:hidden;}
+.solar_cont02 .img img {width:100%;margin-top:-32%;}
+.solar_cont02 .txt .s1 {margin:20px 0 25px 0;font-size:14px;line-height:20px;}
+.solar_cont02 .txt .s1 li {margin-top:10px;}
+.solar_cont02 .txt .s1 li:first-child {margin-top:0;}
+.solar_cont02 .txt .s2 .t_tit02 {margin-bottom:10px;}
+
+
+/** solar_cont_area **/
+.solar_cont_area {position:relative;margin:0 -20px;padding-top:40px;}
+
+/* solar_cont_ty */
+.solar_cont_ty {display:block;}
+.solar_cont_ty .list {position:relative;display:block;}
+.solar_cont_ty .list .img img {width:100%;}
+.solar_cont_ty .txt {padding:30px 20px;background:#002e54;box-sizing:border-box;color:#fff;z-index:10;}
+.solar_cont_ty .txt .s1 dt > em {display:block;margin-top:-4px;font-size:24px;font-weight:600;line-height:28px;text-transform:uppercase;}
+.solar_cont_ty .txt .s1 dt > span {display:block;margin-top:7px;color:#009ee3;font-size:16px;line-height:16px;}
+.solar_cont_ty .txt .s1 dd {margin-top:17px;color:#999;font-size:14px;line-height:18px;}
+.solar_cont_ty .txt .s2 {margin-top:26px;font-size:14px;line-height:20px;}
+.solar_cont_ty .txt .s2:before {content:"";display:block;border-top:1px solid #1f4166;}
+.solar_cont_ty .txt .s2 dl {min-height:21px;padding:12px 0;border-bottom:1px solid #1f4166;}
+.solar_cont_ty .txt .s2 dt {float:left;}
+.solar_cont_ty .txt .s2 dd {padding:0 10px;color:#ccc;text-align:right;}
+.solar_cont_ty .txt .s2 dl:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* solar_cont_nav */
+.solar_cont_nav_area {position:absolute;left:0;top:40px;width:100%;}
+.solar_cont_nav_area .caroufredsel_wrapper {margin:0 20px !important;overflow:visible !important;}
+.solar_cont_nav {display:none;animation:fade both 0.6s;}
+.solar_cont_nav li {display:block;}
+.solar_cont_nav li a {display:block;position:relative;width:calc(100vw - 60px);height:59px;background:#fff;border:solid #ddd;border-width:0 1px 1px 1px;}
+.solar_cont_nav li dl {display:table-cell;width:calc(100vw - 100px);height:60px;padding:0 20px;vertical-align:middle;text-align:center;}
+.solar_cont_nav li dt {display:inline;color:#999;font-size:14px;font-weight:600;line-height:16px;transition:all 0.4s;}
+.solar_cont_nav li dd {display:inline;color:#999;font-size:14px;font-weight:600;line-height:16px;transition:all 0.4s;}
+.solar_cont_nav li.selected dt {color:#009ee3;}
+.solar_cont_nav li.selected a:after {position:absolute;left:20px;bottom:-1px;width:calc(100% - 40px);height:2px;background:#009ee3;content:"";}
+.solar_cont_nav li.selected dd {color:#009ee3;}
+.solar_cont_nav:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.solar_cont_nav.off {animation:fadeOut both 0.5s;}
+.solar_cont_nav.on {display:block;}
+.solar_cont_area .btn {display:none;position:absolute;bottom:-99999px;}
+
+/* solar_btn */
+.solar_btn {position:absolute;left:0;top:-40px;width:100%;height:40px;background:#00adef;text-align:center;}
+.solar_btn span {display:block;position:absolute;left:50%;top:50%;width:40px;height:40px;margin:-20px 0 0 -20px;text-indent:-9999px;transform:scale(0.8);overflow:hidden;}
+.solar_btn.op {display:none;}
+.solar_btn.op em {display:block;position:absolute;left:50%;top:50%;width:24px;height:16px;margin:-9px 0 0 -12px;}
+.solar_btn.op em:before {position:absolute;left:0;top:0;width:24px;height:2px;background:#fff;content:"";}
+.solar_btn.op em:after {position:absolute;left:0;top:16px;width:24px;height:2px;background:#fff;content:"";}
+.solar_btn.op span:after {position:absolute;left:50%;top:50%;width:24px;height:2px;margin:-1px 0 0 -12px;background:#fff;content:"";}
+.solar_btn.op.on {display:block;}
+.solar_btn.op.on em:before {animation:btnMgnb both 0.4s;}
+.solar_btn.op.on em:after {animation:btnMgnb both 0.4s 0.4s;}
+.solar_btn.op.on span:after {display:block;animation:btnMgnb both 0.4s 0.2s;}
+.solar_btn.cl {display:none;}
+.solar_btn.cl em {display:block;position:absolute;left:50%;top:50%;width:24px;height:24px;margin:-12px 0 0 -12px;transform:rotate(45deg);}
+.solar_btn.cl em:before {position:absolute;left:0;top:50%;width:24px;height:2px;margin-top:-1px;background:#fff;content:"";}
+.solar_btn.cl em:after {position:absolute;left:50%;top:0;width:2px;height:24px;margin-left:-1px;background:#fff;content:"";}
+.solar_btn.cl.on {display:block;}
+.solar_btn.cl.on em:before {animation:btnMgnb both 0.4s;}
+.solar_btn.cl.on em:after {animation:btnMgnbH both 0.4s 0.2s;}
+
+
+
+
+
+/***** PRODUCTS *****/
+.prod_area {position:relative;margin-bottom:20px;padding-top:50px;}
+.prod_area:before {position:absolute;left:0;top:0;width:100%;height:70px;background:#38393e;content:"";}
+.prod_area .cont {margin-bottom:0;}
+
+/** prod_nav **/
+.prod_nav {position:fixed;left:0;top:51px;width:calc(100% - 80px);height:44px;padding:0 40px;background:rgba(56,57,62,0.95);text-align:center;overflow:hidden;z-index:10;}
+.prod_nav_cont {display:block;font-size:0;}
+.prod_nav_cont li {position:relative;display:inline-block;margin:0 10px;text-align:center;vertical-align:top;}
+.prod_nav_cont li a {display:block;padding:0 5px;color:#fff;font-size:14px;font-weight:600;line-height:44px;transition:all 0.4s;}
+.prod_nav_cont li a:after {position:absolute;left:50%;bottom:0;width:0;height:1px;background:#fff;content:"";transition:all 0.4s;}
+.prod_nav_cont li a:hover:after {left:0;width:100%;}
+.prod_nav_cont li.on a {color:#00adef;}
+.prod_nav_cont li.on a:after {left:0;width:100%;height:2px;background:#00adef;}
+.prod_nav_cont:after {display:block;clear:both;content:"";height:0;}
+.prod_nav_ctr a {display:block;position:absolute;top:0;width:44px;height:44px;text-indent:-9999px;overflow:hidden;}
+.prod_nav_ctr_next {right:0;background:url(../images/template/btn_prod_nav_ctr_next.png) center /8px 13px no-repeat;}
+.prod_nav_ctr_prev {left:0;background:url(../images/template/btn_prod_nav_ctr_prev.png) center /8px 13px no-repeat;}
+.prod_nav .caroufredsel_wrapper {margin:0 auto !important;}
+.prod_nav:before {position:absolute;left:0;top:0;width:100%;height:1px;background:rgba(255,255,255,0.1);content:"";}
+.prod_nav:after {position:absolute;left:0;bottom:0;width:100%;height:1px;background:rgba(255,255,255,0.1);content:"";}
+.top .prod_nav {top:51px;}
+.prod_nav_box.d2 .caroufredsel_wrapper {width:290px !important;}
+.prod_nav_box.d2 .prod_nav_cont {width:100% !important;text-align:center !important;}
+
+
+/** prod_info **/
+.prod_info {position:relative;padding:84px 30px 0 30px;background:#38393e;color:#fff;text-align:center;}
+.prod_info .p_tit {margin-top:-7px;font-size:32px;line-height:36px;transition:all 0.4s;}
+.prod_info .p_txt {margin-top:9px;font-size:14px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.prod_info .p_txt02 {margin-top:17px;font-size:14px;line-height:20px;transition:all 0.4s;}
+.prod_info .p_txt03 {display:inline-block;position:relative;top:-12px;font-size:17px;line-height:20px;transition:all 0.4s;}
+.prod_info .img {width:210px;margin:15px auto 0 auto;transition:width 0.4s;}
+.prod_info .img img {width:100%;}
+
+
+/** prod_cont **/
+.prod_cont {position:relative;background:#fff;}
+
+/* info */
+.prod_cont .info {padding:0 20px 50px 20px;}
+.prod_cont .txt{margin-bottom:30px;font-size:14px;line-height:20px;}
+.prod_cont .txt02 {margin-bottom:30px;font-size:14px;line-height:22px;}
+.prod_cont .txt dt, .prod_cont .txt02 dt {margin-bottom:14px;color:#000;font-weight:600;letter-spacing:-0.5px;}
+.prod_cont .txt dt em, .prod_cont .txt02 dt em {display:block;margin-top:-6px;font-size:26px;line-height:32px;}
+.prod_cont .txt dt span, .prod_cont .txt02 dt span {display:block;margin-top:2px;font-size:16px;line-height:22px;}
+.prod_cont .txt02 dd {margin-bottom:10px;}
+.prod_cont .txt02 dd:last-child {margin-bottom:0;}
+.prod_cont .info .list ul {margin-top:-14px;padding:3px 1px 0 1px;}
+.prod_cont .info .list li {position:relative;min-height:16px;margin-top:17px;padding-left:160px;font-size:14px;line-height:18px;}
+.prod_cont .info .list li .tit {display:block;position:absolute;left:0;top:0;width:160px;color:#000;font-weight:normal;}
+.prod_cont .info .list li .t {text-align:right;}
+.prod_cont .info .list li.resp {padding-left:0;}
+.prod_cont .info .list li.resp .tit {position:static;margin-bottom:15px;}
+.prod_cont .info .list li.resp li {margin-top:5px;padding:0;}
+.prod_cont .app dt {margin-bottom:10px;color:#000;font-size:16px;font-weight:600;line-height:22px;}
+.prod_cont .app dd {margin:0 -20px;}
+.prod_cont .app dd ul {border-bottom:1px solid #eee;}
+.prod_cont .app dd li {position:relative;padding:10px 20px;border-top:1px solid #eee;color:#666;font-size:14px;line-height:16px;}
+.prod_cont .app dd li em {display:table-cell;height:30px;padding-left:32px;background:url(../images/products/ico_prod_app01.png) left center /20px 20px no-repeat;vertical-align:middle;}
+.prod_cont .app dd li.s2 em {background:url(../images/products/ico_prod_app02.png) left center /20px 20px no-repeat;}
+.prod_cont .app dd li.s3 em {background:url(../images/products/ico_prod_app03.png) left center /20px 20px no-repeat;}
+.prod_cont .btn {margin-top:25px;text-align:center;}
+.prod_cont .txt02 dd ul li em {color:#000;font-weight:600;font-size:16px;line-height:30px;}
+.prod_cont .txt02 dd ul.info02 {padding:17px 1px 0 1px;border-top:1px solid #666666;margin-top:40px;}
+.prod_cont .txt02 dd ul.info02 li {padding-left:8px;font-size:11px;color:#999;position:relative;line-height:14px;transition:all 0.4s;}
+.prod_cont .txt02 dd ul.info02 li em {display:block;color:#999;position:absolute;left:0;top:0;line-height:inherit;}
+
+/* gallery */
+.prod_cont .gallery {position:relative;padding:0 20px;overflow:hidden;}
+.gallery_view {position:relative;width:240px;margin:10px auto 0 auto;}
+.gallery_view .hit img {width:100%;}
+
+/* 360 */
+.g_load {position:absolute;left:0;top:50%;width:100%;margin-top:-7px;color:#fff;font-size:14px;line-height:14px;text-align:center;z-index:1;}
+.g_rot_area {position:absolute;left:0;top:0; width:100%;height:100%;}
+.g_rot {position:relative;overflow:hidden;cursor:move;}
+.g_rot .g_rot_img {display:none;}
+.g_rot .g_rot_img img {position:absolute;top:0;width:100%;height:auto;}
+.g_rot .g_rot_img img.previous-image {width:0;visibility:hidden;}
+.g_rot .g_rot_img img.current-image {width:100%;visibility:visible;}
+
+/* gallery_btn */
+.gallery_btn {position:relative;margin:-40px 0 50px 0;font-size:0;text-align:center;}
+.gallery_btn a {display:inline-block;position:relative;width:48px;height:48px;margin:0 7px;background:#fff;border:1px solid #ddd;box-sizing:border-box;overflow:hidden;transition:border 0.4s;}
+.gallery_btn a img {position:relative;width:100%;opacity:0.5;transition:opacity 0.4s;}
+.gallery_btn a:before {position:absolute;left:0px;right:0px;top:0px;bottom:0px;border:1px solid #000;content:"";opacity:0;transition:opacity 0.4s;z-index:1;}
+.gallery_btn a:hover {border-color:#000;}
+.gallery_btn a.on {border-color:#000;}
+.gallery_btn a.on img {opacity:1;}
+.gallery_btn a.on:before {opacity:1;}
+.gallery_btn a.btn_g3:after {position:absolute;left:0px;top:0;width:100%;height:100%;background:url(../images/products/ico_gallery_btn_rot.png) center /100% 100% no-repeat;content:"";transition:background 0.4s;}
+.gallery_btn a.btn_g3.on img {opacity:0.5;}
+
+.gallery_btn_us{margin:-20px 0 50px 0;}
+
+/** prod_cont02 **/
+.prod_cont02 {position:relative;padding:60px 18px 36px 18px;background:#171d2b;color:#fff;text-align:center;}
+.prod_cont02.bg01 {background:#171d2b url(../images/products/prod_cont02_bg01.jpg) center bottom /contain no-repeat;}
+.prod_cont02.bg02 {background:#171d2b url(../images/products/prod_cont02_bg02.jpg) center bottom /contain no-repeat;}
+.prod_cont02.bg03 {background:#171d2b url(../images/products/prod_cont02_bg03.jpg) center bottom /contain no-repeat;}
+.prod_cont02 .p_tit {margin-top:-6px;font-size:22px;line-height:28px;letter-spacing:-0.5px;}
+.prod_cont02 .info {display:none;margin:47px 0 0px 0;padding:17px 1px 0 1px;border-top:1px solid #666;}
+.prod_cont02 .info li {position:relative;margin-top:5px;padding-left:8px;color:#999;font-size:11px;line-height:14px;text-align:left;transition:all 0.4s;}
+.prod_cont02 .info li:first-child {margin-top:0;}
+.prod_cont02 .info li em {display:block;position:absolute;left:0;top:0;}
+
+/* ico_list */
+.ico_list {position:relative;padding-top:15px;}
+.ico_list .list {margin-top:18px;padding:0 50px;}
+.ico_list .ico {display:block;width:80px;margin:0 auto;transition:all 0.4s;}
+.ico_list .ico img {width:100%;}
+.ico_list .txt dt {margin-top:5px;color:#ccc;font-size:14px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.ico_list .txt dd {display:none;margin:5px 0 -2px 0;color:#999;font-size:13px;line-height:18px;transition:all 0.4s;}
+.ico_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+
+/*** COMPARE PRODUCTS ***/
+/** prod_search **/
+.prod_search {position:relative;margin:-30px -20px 0 -20px;}
+.prod_search .inner {padding:5px 20px 0 20px;background:#f4f4f4;border-bottom:1px solid #ddd;}
+.prod_search .list {position:relative;padding:25px 1px;border-top:1px solid #ddd;}
+.prod_search .list:first-child {border-top:0;}
+.prod_search .list dt {color:#000;font-size:16px;line-height:16px;text-align:center;transition:all 0.4s;}
+.prod_search .list dd {display:none;margin-top:15px;animation:fade both 0.6s;}
+.prod_search .list ul{margin:-10px 0 0 -10px;}
+.prod_search .list li {float:left;min-width:calc(50% - 10px);margin:10px 0 0 10px;}
+.prod_search .list li label {position:relative;top:1px;margin-left:2px;font-size:14px;transition:color 0.4s;}
+.prod_search .list li.chk_on label {color:#00adef;}
+.prod_search .list ul:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.prod_search .ez-disabled {opacity:0.4;}
+.prod_search .btn_prod_search {display:block;height:35px;color:#000;font-size:12px;line-height:35px;text-align:center;}
+.prod_search .btn_prod_search span {display:inline-block;position:relative;padding-right:18px;}
+.prod_search .btn_prod_search span:after {display:block;position:absolute;right:0;top:50%;width:12px;height:8px;margin-top:-5px;background:url(../images/template/ico_prod_search.png) center /100% 100% no-repeat;content:"";transform:rotate(-180deg);transition:all 0.4s;}
+.prod_search .btn {padding-top:20px;border-top:1px solid #000;text-align:center;}
+.prod_search .btn a {display:inline-block;min-width:125px;height:40px;padding:0 20px;border-radius:60px;box-sizing:border-box;font-size:14px;font-weight:600;line-height:40px;overflow:hidden;}
+
+/* Active */
+.prod_search.on .list dt {text-align:left;}
+.prod_search.on .list dd {display:block;}
+.prod_search.on .btn_prod_search span:after {transform:rotate(0);}
+
+/** prod_s_list **/
+.prod_s_list {padding-bottom:50px;}
+.prod_s_list .list {/*display:none;*/position:relative;height:185px;padding-left:100px;margin-top:15px;border-bottom:1px solid #ddd;animation:fade both 0.6s;}
+/*
+.prod_s_list .list.on {display:block;}
+.prod_s_list .list.mod {display:block;}
+.prod_s_list .list.mdu {display:block;}
+*/
+.prod_s_list .list:first-child {margin-top:0;}
+.prod_s_list .list .img {position:absolute;left:0;top:0;width:100px;height:100%;background:#f8f8f8;overflow:hidden;}
+.prod_s_list .list .img .hit {display:none;}
+.prod_s_list .list .img img {width:94%;margin:16% 0 0 3%;}
+.prod_s_list .list .txt {position:relative;height:185px;padding:25px 15px;border:solid #eee;border-width:1px 1px 0 0;box-sizing:border-box;transition:all 0.4s;}
+.prod_s_list .list .txt dt {margin:-3px 0 7px 0;color:#000;font-size:16px;font-weight:600;line-height:16px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;transition:all 0.4s;}
+.prod_s_list .list .txt .s1 {max-height:54px;font-size:14px;line-height:18px;overflow:hidden;transition:all 0.4s;}
+.prod_s_list .list .txt .s2 {margin-top:5px;color:#999;font-size:11px;line-height:11px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;transition:all 0.4s;display:none;}
+.prod_s_list .list .btn {position:absolute;left:15px;bottom:25px;}
+.prod_s_list .list .btn .ez-checkbox {background:none;}
+.prod_s_list .list .btn label {cursor:pointer;}
+.prod_s_list .list .btn.chk_on .btn_ty04 {background:#00adef;color:#fff;transition:all 0.4s;}
+.prod_s_list .list .btn.chk_on .btn_ty04:hover {background:#007eb5;}
+.prod_s_list .list .btn_view {position:absolute;left:0;top:0;width:100%;height:65%;background:#eee;opacity:0;text-indent:-9999px;overflow:hidden;}
+.prod_s_list .list:after {position:absolute;left:0;bottom:-1px;width:0;height:2px;background:#00adef;content:"";transition:all 0.6s;z-index:2;}
+.prod_s_list .list:hover:after {width:100%;}
+.prod_s_list .emp {display:none;text-align:center;}
+.prod_s_list .emp p {padding:80px 0;border:solid #ddd;border-width:1px 0;}
+.prod_s_list.empv .emp {display:block;}
+
+
+/** compare_table  **/
+.compare_table {position:relative;}
+.compare_table li {height:60px;border-bottom:1px solid #ddd;font-size:14px;line-height:18px;box-sizing:border-box;overflow:hidden;transition:all 0.4s;}
+.compare_table li:first-child {border-top:1px solid #ddd;}
+.compare_table li p {display:table-cell;height:50px;padding:5px 10px;vertical-align:middle;}
+.compare_table:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* compare_tit */
+.compare_tit {float:left;width:115px;padding-top:46px;}
+.compare_tit li {background:#f4f4f4;color:#000;}
+
+/* compare_cont */
+.compare_cont {float:left;width:calc(100% - 115px);overflow:auto;}
+.compare_cont .inner {display:table;table-layout:fixed;width:420px;}
+.compare_cont .list {display:table-cell;}
+.compare_cont .list dt {max-width:130px;height:46px;padding:0 5px;color:#000;font-size:16px;line-height:16px;font-weight:600;transition:font-size 0.4s;}
+.compare_cont .list .t {position:absolute;left:-9999px;top:-9999px;}
+
+
+
+
+/***** SERVICE & SUPPORT *****/
+/**** DOWNLOAD ****/
+/*** BROCHURE ***/
+/* brochure_list */
+.brochure_list  {position:relative;margin:-15px 0 0 -15px;}
+.brochure_list .list {position:relative;float:left;width:calc(100% / 2 - 15px);margin:15px 0 0 15px;transition:all 0.4s;}
+.brochure_list .list a {display:block;position:relative;background:#fff;border:solid #eee;border-width:1px 1px 0 1px;box-sizing:border-box;}
+.brochure_list .list a:before {position:absolute;left:-1px;bottom:0;width:calc(100% + 2px);height:1px;background:#000;content:"";z-index:2;}
+.brochure_list .list a:after {position:absolute;left:-1px;bottom:0;width:0;height:2px;background:#00adef;content:"";transition:all 0.6s;z-index:2;}
+.brochure_list .list a:hover:after {width:calc(100% + 2px);}
+.brochure_list .img {position:relative;background:#f4f4f4;overflow:hidden;}
+.brochure_list .img img {width:100%;}
+.brochure_list .img span {display:block;position: absolute;left:0;top:0;width:100%;}
+.brochure_list .hit {display:block;width:100%;}
+.brochure_list .txt {position:relative;height:110px;margin-top:-5px;padding:10px 15px 0 15px;background:#fff;box-sizing:border-box;font-size:14px;line-height:20px;text-align:left;overflow:hidden;}
+.brochure_list .txt dt {height:60px;color:#666;overflow:hidden;}
+.brochure_list .txt dd {margin-top:15px;color:#999;font-size:11px;line-height:11px;}
+.brochure_list .emp {float:none;padding:30px 0 0 20px;text-align:center;}
+.brochure_list .emp p {padding:80px 0;border:solid #ddd;border-width:1px 0;}
+.brochure_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+
+
+/**** CONTACT US ****/
+/* contact_info ***/
+.contact_info {position:relative;margin-bottom:25px;}
+.contact_info .list {margin-top:20px;padding:25px 25px 20px 25px;background:#fff;border:1px solid #ddd;box-sizing:border-box;}
+.contact_info .list:first-child {margin-top:0;}
+.contact_info .list dt {position:relative;margin:-7px 0 10px 0;padding-bottom:9px;color:#666;font-size:16px;font-weight:600;line-height:22px;transition:all 0.4s;}
+.contact_info .list dt:after {display:block;position:absolute;left:0;bottom:0;width:35px;height:2px;background:#009ee3;content:"";}
+.contact_info .list dd {position:relative;margin-top:4px;font-size:14px;line-height:20px;transition:all 0.4s;}
+.contact_info .list dd:first-child {margin-top:0;}
+.contact_info .list dd strong {display:inline-block;padding-right:10px;font-weight:normal;}
+.contact_info .list.s1 {margin-top:-15px;background:#00adef;border-color:#00adef;color:#fff;}
+.contact_info .list.s1 dt {color:#fff;}
+.contact_info .list.s1 dt:after {background:#fff;}
+.contact_info .list.s1:first-child {margin-top:0;}
+
+/* contact_btn */
+.contact_btn {position:relative;margin:0 -20px;padding:50px 45px;background:#f4f4f4;text-align:center;}
+.contact_btn .select_ty {width:100%;height:32px;background:url(../images/template/ico_select_ty.png) right center /25px 8px no-repeat;border-width:0 0 1px 0;border-color:#999;}
+.contact_btn .txt {margin-bottom:-10px;font-size:14px;line-height:20px;}
+.contact_btn .txt strong {font-weight:normal;}
+.contact_btn .btn {display:inline-block;height:40px;margin-top:20px;padding:0 30px;background:#666;border-radius:20px;color:#fff;font-size:14px;font-weight:600;line-height:40px;vertical-align:top;transition:all 0.4s;}
+.contact_btn .btn:hover {background:#555;}
+
+
+
+
+
+/***** TERMS  *****/
+/** terms_ty **/
+.terms_ty {margin-bottom:-30px;font-size:14px;line-height:20px;transition:all 0.4s;}
+.terms_tit_b {position:relative;margin-bottom:10px;padding-top:15px;color:#000;font-size:16px;font-weight:normal;line-height:20px;transition:all 0.4s;}
+.terms_tit_b:first-child {padding-top:0;}
+.terms_tit {position:relative;margin-bottom:5px;color:#666;font-size:16px;font-weight:600;line-height:20px;transition:all 0.4s;}
+.terms_tit.b1 {padding-left:18px;}
+.terms_tit em {position:absolute;left:-1px;top:0;letter-spacing:-1px;}
+.terms_tit.b2 {padding-left:24px;}
+.terms_tit.b2 em {left:-3px;}
+.terms_ty_num .terms_cont li {padding-left: 40px !important;}
+.terms_cont {margin-bottom:20px;}
+.terms_cont.s1 li {position:relative;margin-top:10px;padding-left:18px;}
+.terms_cont.s1.n li {padding-left:30px;}
+.terms_cont.s1.n li.d  {padding-left:40px;}
+.terms_cont.s1 li:first-child {margin-top:0;}
+.terms_cont.s1 li em {position:absolute;left:0;top:0;}
+.terms_cont.s1 li em:after {position:absolute;left:-1px;bottom:0;width:calc(100% + 4px);height:2px;background:#009ee3;content:"";}
+.terms_cont.s1 .terms_dep {margin:10px 0 20px 0;}
+.terms_cont.s1 .terms_dep li {margin-top:5px;padding-left:10px;}
+.terms_cont.s1 .terms_dep li:before {position:absolute;left:0;top:10px;width:4px;height:1px;background:#666;content:"";}
+.terms_cont.s1.n .terms_dep li {padding-left:10px;}
+.terms_cont.s2 p, .terms_cont.s2 ul {margin-top:10px;}
+.terms_cont.s2 p:first-child, .terms_cont.s2 ul:first-child {margin-top:0;}
+.terms_cont .btn {font-size:16px;font-weight:600;line-height:20px;}
+
+
+
+/*** Site Map ***/
+.sitemap{text-align:center;}
+.site_ty {margin:0 -20px;border:solid #000;border-width:1px 0;}
+.site_ty02 {border-bottom:1px solid #ddd;padding:25px 0 50px 0;}
+.site_tit {font-size:16px;line-height:20px;font-weight:600;color:#000;padding-left:18px;transition:all 0.4s;display:table-cell;float:left;width:30%;}
+.site_tit:after {width:25px;height:4px;background:#009ee3;display:block;content:"";margin-top:8px;}
+.site_cont {display:table-cell;padding-top:2px;}
+.site_cont:after {display:block;content:"";clear:both}
+.site_cont02 {color:#000;font-size:16px;line-height:20px;padding-top:20px;}
+.site_cont02:first-child {padding:0;}
+.site_cont02 a {color:#000;}
+.site_cont02 .dep4 {margin:10px 0 -10px 0;}
+.site_cont02 .dep4 li {padding-left:17px;}
+.site_cont02 .dep4 li:after {width:12px;height:2px;background:#009ee3;display:block;content:"";margin-top:2px;}
+.site_cont02 .dep3 span:after {width:12px;height:2px;background:#009ee3;display:block;content:"";margin-top:2px;}
+.site_cont02 .dep3 li {margin-top:6px;color:#999;font-size:16px;line-height:20px;}
+.site_cont02 .dep3 li:first-child {padding-top:2px;}
+.site_cont02 .dep4 li:first-child {padding-top:0;}
+.site_cont02 .dep3 li a {color:#999;}
+.site_cont02 .dep3 li.b1 {padding:22px 0 14px 0;}
+.site_cont02 .dep3 li.b2 {padding:0 0 14px 0;}
+
+
+
+
+
+/**** Etc. *****/
+/* scroll-wrapper */
+.scroll-wrapper {position:relative;padding:0 !important;overflow:hidden !important;}
+.scroll-wrapper > .scroll-content {position:relative !important;left:0;top:0;width:auto !important;max-width:none !important;height:auto;max-height:none;margin:0;padding-right:30px;border:none !important;box-sizing:content-box !important;overflow:scroll !important; outline:none;}
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {width:0;height:0;}
+.scroll-element {display:none;}
+.scroll-element, .scroll-element div {box-sizing:content-box;}
+.scroll-element.scroll-x.scroll-scrollx_visible, .scroll-element.scroll-y.scroll-scrolly_visible {display:block;}
+.scroll-element .scroll-bar, .scroll-element .scroll-arrow {cursor:default;}
+.scrollbar-inner > .scroll-element, .scrollbar-inner > .scroll-element div {position:absolute;margin:0;padding:0;border:none;z-index:10;}
+.scrollbar-inner > .scroll-element div {display:block;left:0;top:0;width:100%;height:100%;}
+.scrollbar-inner > .scroll-element.scroll-x {left:0;bottom:2px;width:100%;height:3px;}
+.scrollbar-inner > .scroll-element.scroll-y {right:1px;top:0;width:3px;height:100%;}
+.scrollbar-inner > .scroll-element .scroll-element_outer {overflow:hidden;}
+.scrollbar-inner > .scroll-element .scroll-element_outer, .scrollbar-inner > .scroll-element .scroll-element_track, .scrollbar-inner > .scroll-element .scroll-bar {border-radius:3px;}
+.scrollbar-inner > .scroll-element .scroll-element_track, .scrollbar-inner > .scroll-element .scroll-bar {opacity:1;}
+.scrollbar-inner > .scroll-element .scroll-element_track {}
+.scrollbar-inner > .scroll-element .scroll-element_track:before {position:absolute;left:1px;top:0;width:1px;height:100%;background:#032040;content:"";}
+.scrollbar-inner > .scroll-element .scroll-bar {background:#1f4166;transition:background 0.3s;}
+.scrollbar-inner > .scroll-element:hover .scroll-bar {background:#30557e;}
+.scrollbar-inner > .scroll-element.scroll-draggable .scroll-bar {}
+.scrollbar-inner > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {left:-12px;}
+.scrollbar-inner > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {top:0;}
+.scrollbar-inner > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {left:-12px;}
+.scrollbar-inner > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {top:0;}
+
+/**** CONTACT US ****/
+/* contact_info.c1 ***/
+.contact_info.c1 .list dd strong {font-weight:600;padding-top:6px;}
+.contact_info.c1 .list dd strong.fir{padding-top:20px;}
+
+
+@media all and (max-width:739px) {
+	/* RECRUITMENT PROCESS */
+	.rec_process { width: 300px; list-style:none; padding:0; margin:0; text-align:center; margin:50px auto; }
+	.rec_process:after { content:''; clear:both; display:block; }
+	.rec_process li {display:block; position:relative; z-index:2;  text-align:center; vertical-align:top; }
+	.rec_process li span.mid {display: inline-block;vertical-align: middle;}
+	.rec_process li:after { content:''; position:absolute; background:#8b8b8b; z-index:1; } /* 라인*/
+	.rec_process li.step1 { float: left; }
+	.rec_process li.step2 { float: right; padding-left:50px;}
+	.rec_process li.step3 { float: right; padding-top: 50px; }
+	.rec_process li.step4 { float: left; padding-top: 50px; padding-right: 50px;}
+	.rec_process li.last { float: left; padding-top: 50px;}
+	.rec_process li.last:before { content:''; display:block; width:125px; height:125px; box-sizing:border-box; border:dashed 1px #009ee3; border-radius:100%; display:inline-block; position:absolute; bottom:0; left:0;}
+	.rec_process li.step1:after { content: none; }
+	.rec_process li.step2:after { width:100%; height:1px; right:0; top:50%; }
+	.rec_process li.step3:after { width:1px; height:100%; bottom:0; right:50%; }
+	.rec_process li.step4:after { width:100%; height:1px; bottom:61px; left: 0;}
+	.rec_process li.last:after { width:1px; height:100%; bottom:0; right:50%; background:#009ee3; }
+	.rec_process li .rank { width:125px; height:125px; box-sizing:border-box;background:#fff; border:solid 1px #8b8b8b; border-radius:100%; display:inline-block; position:relative; text-align:center; font-size:14px; font-weight:bold; color:#666; line-height:1.3; z-index:3; }
+	.rec_process li .rank:before { content:''; display:inline-block; vertical-align:middle; width:1px; height:100%; }
+	.rec_process li .rank:after { content:''; position:absolute; display:inline-block; vertical-align:middle; background:#8b8b8b; border:solid 4px #fff; width:8px; height:8px; z-index:4; border-radius: 100%; }
+	.rec_process li .ref { display:block; position:absolute; color:#999999; font-size:13px; line-height:1.5; margin-top:13px; width:140px; left:50%; margin-left:-70px; }
+	.rec_process li.step1 .rank:after { content: none;}
+	.rec_process li.step2 .rank:after { top:50%; left:-8px; margin-top: -8px; }
+	.rec_process li.step3 .rank:after { left:50%; top:-8px; margin-left: -8px;}
+	.rec_process li.step4 .rank:after { top:50%; right:-8px; margin-top: -8px;}
+	.rec_process li.last .rank:after { left:50%; top:-22px; margin-left: -8px; background:#009ee3;}
+	.rec_process li.last .rank { width: 98px; height: 98px; box-sizing: content-box; background:#009ee3; border:solid 12.5px #fff; color:#fff; margin: 1px;}
+	.rec_process.col4 {margin: 50px auto 80px;}
+	.rec_process.col4 li.last {padding-right: 50px;}
+	.rec_process.col4 li.last:after { width:100%; height:1px; bottom:61px; left: 0; right: auto; }
+	.rec_process.col4 li.last .rank:after {left: auto; margin-left: 0; top:50%; right:-22px; margin-top: -8px; }
+}
+
+
+/********** Mobile Old **********/
+@media all and (max-width:350px) {
+.quality_img_box .list .txt dt {font-size:15px;line-height:15px;}
+.quality_img_box .list .txt dd {font-size:11px;line-height:13px;}
+.tab_ty02 div a {font-size:13px;line-height:16px;}
+}
+
+@media all and (max-width:420px) {
+.technology_cont02 .btn a {font-size:12px;}
+}
+
+@media all and (min-width:580px) and (max-width:999px) {
+/* quality_img_box */
+.quality_img_box {margin-top:-15px;}
+.quality_img_box .list {float:left;width:50%;}
+.quality_img_box .list:first-child {margin-top:15px;}
+.quality_img_box .list .txt dl {height:calc(25vw - 65px);}
+.quality_img_box .list .txt dt {font-size:15px;line-height:15px;}
+.quality_img_box .list .txt dd {font-size:11px;line-height:13px;}
+.quality_img_box .list:nth-child(2) i,
+.quality_img_box .list:nth-child(5) i,
+.quality_img_box .list:nth-child(6) i {float:left;}
+.quality_img_box .list:nth-child(2) .txt,
+.quality_img_box .list:nth-child(5) .txt,
+.quality_img_box .list:nth-child(6) .txt {left:25%;right:inherit;text-align:left;}
+.quality_img_box .list:nth-child(2) .txt dt:before,
+.quality_img_box .list:nth-child(5) .txt dt:before,
+.quality_img_box .list:nth-child(6) .txt dt:before {left:0;right:inherit;}
+.quality_img_box .list:nth-child(3) i,
+.quality_img_box .list:nth-child(4) i {float:right;}
+.quality_img_box .list:nth-child(3) .txt,
+.quality_img_box .list:nth-child(4) .txt {left:inherit;right:25%;text-align:right;}
+.quality_img_box .list:nth-child(3) .txt dt:before,
+.quality_img_box .list:nth-child(4) .txt dt:before {left:inherit;right:0;}
+.quality_img_box:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+}
+
+
+
+
+
+
+/********** Tablet & PC **********/
+@media all and (min-width:740px) {
+/***** ABOUT *****/
+/**** WHY Q CELLS? ****/
+/* cont_list */
+.tab_cont .tab_info .img_t {margin:0;}
+.cont_list_box02 {margin:0 -50px;}
+.cont_list_box02 .cont_list .txt dt:after {width:50px;height:5px;background:#009ee3;display:block;content:"";margin-top:18px;}
+.cont_list_box02 .cont_list .txt dt {font-size:24px;line-height:32px;}
+.cont_list_box02 .cont_list .txt .inner{height:auto;}
+
+/* why_ico */
+.why_ico {padding:60px 0 0 0}
+.why_ico_list {margin:30px 0px 40px 30px}
+.why_ico_list .list {float:left;width:calc(100%/2 - 60px);height:auto;margin:0 0 20px 58px;padding:0}
+.why_ico_list .list .box {position:relative;width:220px;height:210px;}
+.why_ico_list .ico {display:block;width:80px;}
+.why_ico_list .list dt {font-size:18px;line-height:22px;}
+.why_ico_list .list dd {font-size:16px;line-height:20px;}
+.why_ico_list .list .t {font-size:16px;line-height:20px;}
+.why_ico_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+/* solar_box */
+.solar_box .cont_box {display:block;margin:0 -50px;background-color:#f4f4f4;}
+.solar_box .cont_box:after {content:"";display:block;clear:both;}
+.solar_box .cont_box li {float:right;width:calc(100% / 2);height:500px;}
+.solar_box .cont_box li.txt {display:table;position:absolute;right:calc(100% / 2);background:#f4f4f4;}
+.solar_box .cont_box li.txt dl {display:table-cell;padding:0 50px 0 0;vertical-align:middle;}
+.solar_box .cont_box li.txt dd {font-size:16px;}
+.solar_box .img {height:500px;transition:all 0.4s;}
+.solar_box .img img {height:100%;}
+
+/* cont_wide_box */
+.cont_wide_box .cont_box {margin:0 -50px 70px -50px;}
+
+
+
+/* why_ico_list */
+.icon_why_list {padding-top:20px;}
+.icon_why_list li {float:left;width:calc(100% / 2);margin:0 0 35px 0;}
+.icon_why_list .step3 {margin-bottom:0;}
+.icon_why_list .step4 {margin-bottom:0;}
+.icon_why_list .list .box {width:220px;height:220px;padding:35px 0;}
+.icon_why_list .list .ico {width:100px;}
+.icon_why_list .list .ico img {width:100px;}
+.icon_why_list .list  .txt {margin:15px 0 0;font-size:16px;}
+
+/* best_box */
+.best_box .img {max-height:450px;overflow:hidden;}
+.best_box ul {margin:0 -50px;}
+.best_box .inner_box {top:-55px;margin:0 30px -40px;padding:30px 40px;}
+
+
+
+/*** Technology ***/
+/* technology_info */
+.technology_info02 .cont.inner {margin:0;padding:30px 50px 0 50px;}
+.technology_info02 .cont .t_tit02 {margin-bottom:25px;font-size:20px;}
+.technology_cont .cont .b_tit {margin-bottom:40px;}
+.technology_cont .visu_cont .txt {text-align:left;padding:60px 60px 0;height:500px;}
+.technology_cont .visu_cont .txt dt {padding:0}
+.technology_cont .text_cont {margin-top:60px;}
+.technology_cont .text_cont .img {display:table-cell;width:250px;padding:0 30px 0 0;vertical-align:middle}
+.technology_cont .text_cont .txt {font-size:16px;line-height:26px;display:table-cell}
+
+/* technology_banner */
+.technology_banner:after {display:block;content:"";clear:both}
+.technology_banner {padding:90px 30px 65px 30px;margin:0 -50px;}
+.technology_banner .info {width:500px;float:right}
+.technology_banner .info p {font-size:16px;line-height:26px;}
+.technology_banner .info .inner {vertical-align:middle;}
+
+/* history_info */
+.history_info {position:relative}
+.history_info:after {display:block;content:"";clear:both}
+.history_info .img {width:100%;height:350px;margin:0;}
+.history_info .inner {}
+.history_info .b_tit {text-align:left;}
+.history_info .t_tit02 {text-align:left;}
+.history_info ul.st03 li.m3{margin-left:50px;}
+.history_info ul.st03 li.m4{margin-left:97px;}
+.history_info .txt {font-size:16px;line-height:26px;margin:45px 0 25px 0;}
+.history_info .b_tit:after {left:0;top:56px;height:8px;width:50px;}
+.player_cont .btn {margin-top:50px;}
+
+/* technology_info02 */
+.technology_info02 .ico_step03 {display:table-cell;}
+
+/* ico_step03 */
+.ico_step03 dt {margin:0 0 16px 0;}
+.ico_step03 dd {font-size:14px;line-height:20px;}
+
+/* technology_info02  */
+.s_tit {font-size:26px;line-height:32px;}
+.technology_info02 {margin:0 -50px;}
+.technology_cont02 .t_tit02 {margin-bottom:35px;}
+.technology_cont02 .txt {font-size:16px;line-height:24px;}
+.technology_cont02 .mt {margin-top:26px;}
+.technology_info02 .box {margin-bottom:0;padding:30px 50px;}
+.tab_cont .tab_info .txt {margin:35px 0 120px 0;}
+.tab_cont .tab_info .txt.m1 {margin:35px 0 60px 0;}
+
+/* text_info */
+.text_info {padding:0 50px;font-size:16px;line-height:22px;}
+.text_info.mb{margin-bottom: 50px}
+.text_info_us {padding:0 50px;font-size:16px;line-height:22px;}
+
+/* tab_ty02 */
+.tab_ty02 {margin:0 -50px 35px -50px;}
+.tab_ty02 div {width:100%;margin:0;}
+.tab_ty02 div a {width:33.33%;height:60px;padding:0 5px;font-size:14px;font-weight:600;line-height:35px;border-top:solid 1px #ddd;}
+.tab_ty02 div a:nth-child(1) {padding-right:30px;width:33.33%;text-align:center;}
+.tab_ty02 div a:nth-child(3) {padding-left:30px;width:33.33%;text-align:center;}
+.tab_ty02 a:nth-child(1):before {top:19px;width:10px;height:10px;}
+.tab_ty02 a:nth-child(3):before {top:19px;width:10px;height:10px;}
+
+
+/*** Q ANTUM Technology ***/
+/* qantum_box */
+.qantum_box {margin:50px -50px 0;}
+.qantum_box .inner a {font-size:16px;}
+.qantum_box .inner a:after {content:"";display:block;position:absolute;left:50px;top:45px;width:15px;height:2px;background:#009ee3;}
+.qantum_box .inner a .num {display:inline-block;width:30px;font-size:14px;font-weight:normal;color:#666;}
+.qantum_box .inner div ul li {font-size:14px;}
+
+/* qantum_banner */
+.qantum_banner {margin:0 -50px 70px;padding:70px 50px;}
+.qantum_banner .info {margin:0 auto;}
+.qantum_banner .info .q_logo {margin-bottom:20px;}
+.qantum_banner .info dt {font-size:22px;line-height:30px;}
+.qantum_banner .info dd {font-size:16px;line-height:22px;}
+
+/* qantum_box02 */
+.qantum_box02 .b_tit {margin-bottom:30px;}
+.qantum_box02 .b_tit .br {display:block;margin:-5px 0 0 0;font-size:0;line-height:0;}
+.qantum_box02 .text {margin-bottom:40px;padding-top:20px;}
+.qantum_box02 .text:after {content:"";display:block;clear:both;}
+.qantum_box02 .text li {float:left;width:calc(100% / 2 - 20px);}
+.qantum_box02 .text li:last-child {float:right;}
+.qantum_box02 .text li dl {margin-bottom:0;}
+.qantum_box02 .text li dt {margin-bottom:30px;font-size:20px;text-align:center;}
+.qantum_box02 .text li dd {font-size:16px;line-height:26px;}
+.qantum_box02 .img_box {margin:0 -50px;}
+.qantum_box02 .img_box .img_m {display:none;}
+.qantum_box02 .img_box .img_w {display:block;}
+
+/* qantum_box03 */
+.qantum_box03 {margin:-70px -50px 60px;}
+.qantum_box03 .img_box02 {margin:40px 50px 0 50px;}
+
+/* history_box */
+.history_box {position:relative;margin-top:50px;}
+.history_box .history_img {margin:0;}
+.history_box .stairs {width:50%;}
+.history_box .stairs li {font-size:26px;font-weight:600;color:#000;margin-bottom:28px;}
+.history_box .stairs li:after {content:"";position:absolute;bottom:-10px;left:0;display:inline-block;width:30px;height:3px;background:#009ee3;}
+.history_box .stairs li:nth-child(2) {margin-left:25px;}
+.history_box .stairs li:nth-child(3) {margin-left:50px;}
+.history_box .list {width:50%;margin-top:45px;padding-top:0;box-sizing:border-box;}
+.history_box .list:after {content:"";left:45px;}
+.history_box .list dt {width:45px;font-size:16px;color:#000;font-weight:600;}
+.history_box .list dt:after {content:"";top:1px;height:18px;}
+.history_box .list dd {position:relative;margin-left:45px;padding:0 0 15px 15px;font-size:16px;line-height:20px;box-sizing:border-box;}
+.history_box .history_img {position:absolute;right:0;top:0;width:calc(50% - 45px);}
+
+/* player_box */
+.player_box .img {height:400px;}
+.player_box .ico {width:70px;height:70px;margin:-35px 0 0 -35px;}
+.player_cont .movie .btn_movie_play em {width:70px;height:70px;margin:-35px 0 0 -35px;}
+.player_box .btn a {font-size:15px;}
+.player_box .txt {left:40px;top:40px;}
+.player_box .txt dt {width:70px;}
+.player_box .txt dd {margin-top:15px;font-size:24px;line-height:24px;}
+.player_box.ty02 {margin-bottom:-30px;}
+
+
+/*** Q ANTUM DUO TECHNOLOGY ***/
+/* qantum_box04 */
+.qantum_box04 {margin:30px 0;}
+.qantum_box04 .img {margin:30px -50px;}
+.qantum_box04 li > dl {padding:0;box-sizing:border-box;}
+.qantum_box04 li div {padding:0;box-sizing:border-box;}
+.qantum_box04 .text dd {font-size:16px;}
+
+/* qantum_box05 */
+.qantum_box05 {margin:0 -50px 70px;padding:70px 50px;}
+.qantum_box05 .text {float:left;width:calc(100% / 2 - 10px);}
+.qantum_box05 .text li {position:relative;font-size:22px;line-height:36px;}
+.qantum_box05 .text li:nth-child(2) {margin-left:20px;}
+.qantum_box05 .text li:nth-child(3) {margin-left:40px;}
+.qantum_box05 .text li:after {width:20px;height:2px;}
+.qantum_box05 .text .txt {font-size:16px;line-height:24px;}
+.qantum_box05 .img {float:right;width:calc(100% / 2 - 10px);}
+.qantum_box05 .btn {padding-top:50px;clear:both;}
+.qantum_box05 .info_box:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* qantum_box06 */
+.qantum_box06 dt {font-size:20px;}
+.qantum_box06 dt:after {width:20px;}
+.qantum_box06 dd.txt {max-width:520px;font-size:16px;line-height:20px;}
+
+
+/*** Q CELLS YIELD SECURITY ***/
+.qantum_banner .icon_list li {float:left;width:calc(100% / 2);margin-bottom:30px;}
+.qantum_banner .icon_list i {display:block;width:95px;margin:0 auto;}
+.qantum_banner .icon_list p {margin-top:15px;font-size:20px;font-weight:600;color:#fff;}
+.qantum_banner .icon_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+
+/*** Quality ***/
+.quality_banner {margin:0 -50px;padding:120px 80px 120px 80px;}
+.quality_banner .txt {font-size:16px;line-height:28px;max-width:1000px;margin:0 auto;}
+.technology_banner .info .b_tit {margin:30px 0 50px 0;font-size:48px;}
+.quality_info .table_ty {overflow:hidden;}
+.technology_info02 .board_ty .list {width:calc(100% - 20px);}
+
+/* quality_img_box */
+.quality_img_box {margin-top:-15px;}
+.quality_img_box .list {float:left;width:50%;}
+.quality_img_box .list:first-child {margin-top:15px;}
+.quality_img_box .list .txt dl {height:calc(25vw - 80px);}
+.quality_img_box .list .txt dt {font-size:16px;line-height:16px;}
+.quality_img_box .list .txt dd {font-size:11px;line-height:13px;}
+
+
+
+/*** Manufacturing Excellence ***/
+/* txt_info_line */
+.txt_info_line {max-width:580px;margin:0 auto;font-size:16px;line-height:22px;}
+.txt_info_line li {margin-top:10px;}
+.txt_info_line li.s2 p {display:inline;position:relative;}
+.txt_info_line li.s2 p:before {top:20px;}
+
+/* img_info_dep */
+.img_info_dep {margin-top:75px;}
+.img_info_dep .img {margin-top:40px;}
+
+/* excellence */
+.excellence01 {margin:0 -50px;padding:70px 20px;}
+.excellence01 .ico_box_c li {display:inline-block;width:175px;margin-top:30px;}
+.excellence01 .txt {margin-top:30px;padding:7px 15px;font-size:22px;line-height:26px;}
+.excellence02 {padding:70px 0;}
+.excellence02 .img {margin-top:40px;}
+.excellence03 {margin:0 -50px;padding:70px 20px;}
+.excellence03 .marker {width:auto;margin:20px auto 45px auto;text-align:center;}
+.excellence03 .marker li {display:inline-block;margin-top:0;padding:0 40px;font-size:14px;line-height:18px;text-align:left;}
+.excellence03 .marker li:before {left:26px;top:5px;width:7px;height:7px;}
+.excellence03 .marker li .br {display:block;}
+.excellence03 .txt {max-width:800px;margin:0 auto;}
+.excellence03 .txt li {border-right:1px solid #ddd;box-sizing:border-box;}
+.excellence03 .txt li:last-child {border-right:0;}
+.excellence03 .txt dl {padding:0 35px;}
+.excellence03 .txt dt {padding-right:35px;font-size:42px;line-height:42px;}
+.excellence03 .txt dt:before {right:0;top:19px;width:26px;height:2px;}
+.excellence03 .txt dt:after {right:12px;top:7px;width:2px;height:26px;}
+.excellence03 .txt dd {padding-top:35px;font-size:14px;line-height:20px;}
+.excellence03 .txt dd:before {top:15px;width:20px;margin-left:-10px;}
+
+.excellence03 .txt dt.t {height:60px;padding:0 40px;box-sizing:border-box;font-size:14px;line-height:18px;}
+.excellence03 .txt dd.tit {max-width:250px;min-height:60px;font-size:24px;line-height:30px;box-sizing:border-box;}
+.excellence03 .txt li:first-child dd.tit {padding-top:14px;}
+html[lang="ko"] .excellence03 .txt dd.tit {max-width:250px;}
+
+html[lang="zh"] .excellence03 .txt dt.t {padding-right:35px;font-size:42px;line-height:42px;}
+html[lang="zh"] .excellence03 .txt dd.tit {padding-top:35px;font-size:14px;line-height:20px;}
+html[lang="zh"] .excellence03 .txt dd.tit:before {top:15px;width:20px;margin-left:-10px;}
+
+html[lang="tr"] .excellence03 .txt dt.t {padding-right:35px;font-size:42px;line-height:42px;}
+html[lang="tr"] .excellence03 .txt dd.tit {padding-top:35px;font-size:14px;line-height:20px;}
+html[lang="tr"] .excellence03 .txt dd.tit:before {top:15px;width:20px;margin-left:-10px;}
+
+/* RECRUITMENT JOB */
+.rec_job .pcol {float: left;width: 33.3%;margin-left: 9px;margin-bottom: 0;}
+.rec_job .pcol:first-child {margin-left: -18px;}
+
+/* RECRUITMENT PROCESS */
+.rec_process { list-style:none; padding:0; margin:0; text-align:center; margin:75px 0; }
+.rec_process:after { content:''; clear:both; display:block; }
+.rec_process li { display:inline-block; position:relative; z-index:2;  text-align:center; margin-left:-5px; vertical-align:top; padding-left:30px;}
+.rec_process li span.mid {display: inline-block;vertical-align: middle;}
+.rec_process.col4 { margin-bottom:120px; }
+.rec_process li:after { content:''; position:absolute; width:100%; height:1px; background:#8b8b8b; right:0; top:50%; z-index:1; margin-top:-1px; } /* 라인*/
+.rec_process li .rank { width:100px; height:100px; box-sizing:border-box;background:#fff; border:solid 1px #8b8b8b; border-radius:100%; display:inline-block;  position:relative; text-align:center; font-size:16px; font-weight:bold; color:#666; line-height:1.3; z-index:3; }
+.rec_process li .ref { display:block; position:absolute; color:#999999; font-size:12px; line-height:1.5; margin-top:13px; width:130px; left:50%; margin-left:-50px; }
+.rec_process li .rank:before { content:''; display:inline-block; vertical-align:middle; width:1px; height:100%; }
+.rec_process li .rank:after { content:''; position:absolute; top:50%; margin-top:-6px; left:-6px; display:inline-block; vertical-align:middle; background:#8b8b8b; border:solid 2px #fff; width:7px; height:7px; z-index:4; border-radius: 100%; }
+
+.rec_process li.step1 { padding-left:0; }
+.rec_process li.step1:after { width:0; }
+.rec_process li.step1 .rank:after { display:none; }
+
+.rec_process li.last .rank:after { background:#009ee3 !important; }
+.rec_process li.last:after { background:#009ee3 !important; }
+.rec_process li.last .rank { background:#009ee3; border:solid 1px #009ee3; color:#fff; }
+.rec_process li.last:before { content:''; display:block; width:130px; height:130px; box-sizing:border-box; border:dashed 1px #009ee3; border-radius:100%; display:inline-block; position:absolute; top:-15px; right:-15px; }
+
+/* RECRUITMENT BANNER */
+.rec_banner {height: 280px;margin: 0 -50px}
+.rec_banner .txt {font-size: 26px;margin-bottom: 30px;}
+.rec_banner .txt .hw {top:-3px;margin-right: -2px;}
+.rec_banner .txt .hw img {height:26px;}
+.rec_banner .txt br {display: none;}
+
+
+/***** SOLAR PROJECT *****/
+/**** HOW IT WORKS ****/
+/* visu_cont */
+.visu_cont {position:relative;margin:0;}
+.visu_cont .txt {height:400px;padding:0 50px;}
+.visu_cont .txt dt {margin-bottom:0;padding:0 50px;font-size:26px;line-height:32px;}
+.visu_cont .txt .c1 {font-size:16px;line-height:24px;}
+
+/* how works */
+.solar_cont06 {text-align:center;}
+.works_cont {margin:0 -50px;}
+.works_cont .visual_area {height:400px;}
+.works_cont .visual_area .img {height:400px;}
+.works_cont .txt {top:100px;}
+.works_cont .txt h4 {font-size:24px;line-height:30px;}
+.works_cont .txt p {font-size:13px;line-height:17px;margin:30px 10px 60px 30px;}
+.how_tab {padding:60px 0 0 0;}
+.player_cont .img {margin:0}
+.player_cont .img .btn {position:absolute;top:43%;left:47%;background:url(../images/contents/ico_btn.png) center /100% no-repeat;text-indent:-999em;display:block;width:55px;height:55px;}
+
+/* ico_how */
+.ico_how_area {margin:60px -50px 0 -50px;}
+.ico_how_area .btn {top:calc(100% / 2 - 20px);width:20px;height:40px;}
+.ico_how_area .how_i_prev {left:50px;background-size:15px 29px;}
+.ico_how_area .how_i_next {right:50px;background-size:15px 29px;}
+.ico_how .t_tit {font-size:26px;line-height:30px;}
+.ico_how .list .txt {font-size:15px;line-height:22px;}
+.ico_how .list .img {margin-bottom:40px;}
+.ico_how .list .img_m img {width:100%;max-width:420px;}
+.ico_how .list {padding:70px 100px;}
+.ico_how .list ul i {margin-bottom:30px;}
+.ico_how .list ul i img {max-width:100px;}
+.ico_how .list ul {margin-bottom:30px;}
+.ico_how .list ul li {font-size:18px;}
+.ico_how .list ul.s2 {padding:0 100px;}
+.ico_how .list ul.s3 {padding:0;}
+.ico_how .list ul.s3 li {width:calc(100% / 4);}
+
+/* how_tab */
+.how_tab .t_tit02 {line-height:26px;}
+.how_tab .t_tit {margin:15px 0 50px 0;font-size:22px;line-height:26px;}
+.ico_step04 {display:table !important;table-layout:fixed;width:100%;padding-top:30px;}
+.ico_step04 li {display:table-cell;padding:15px 30px 0 30px;text-align:center;}
+.ico_step04.arrow li {width:auto;}
+.ico_step04.arrow li:before {top:43%;left:0;width:22px;height:12px;transform:rotate(-90deg);}
+.ico_step04 i {position:static;float:inherit;clear:both;width:100px;height:auto;margin:0 auto;}
+.ico_step04 .txt {display:block;height:inherit;margin-top:5px;padding:0;}
+.ico_step04 .txt dd {margin-top:5px;font-size:14px;line-height:18px;}
+
+/* qcp_box:na */
+.qcp_box{margin:40px 0 0 0;padding:60px 20px;}
+.qcells_plus{display:table;width:100%;}
+.qcells_plus .img {display:table-cell;vertical-align:middle;width:20%;text-align:left;}
+.qcells_plus .img img{height:110px;}
+.qcells_plus .txt{display:table-cell;vertical-align:middle;width:80%;margin-top:0;}
+.qcells_plus .txt p{padding-right:80px;padding-left:80px;padding-top:0;text-align:left;}
+
+/**** Residential ****/
+/* solar_residential_visual */
+.solar_residential_visual p.b_tit {padding-top:30px;}
+.solar_residential_visual .img {padding-top:10px;}
+.solar_residential_visual .tab_ty {max-width:500px;margin:35px auto 25px auto;}
+.solar_residential_visual .tab_ty a {padding:95px 0 0 0;background-size:85px 85px !important;font-size:16px;line-height:20px;}
+.solar_residential_visual .tab_cont {max-width:580px;margin:0 auto;font-size:16px;line-height:22px;}
+.solar_residential_visual .img_over_b li {top:10px;}
+
+/* ico_list */
+.ico_step {display:table !important;table-layout:fixed;width:100%;padding-top:30px;}
+.ico_step li {display:table-cell;padding:15px 30px;}
+.ico_step .ico {width:100px;}
+.ico_step02 dt {margin:20px 0 10px 0;}
+.ico_step dt {margin-top:19px;color:#000;font-size:18px;line-height:22px;}
+.ico_step dd {max-width:250px;margin:10px auto -2px auto;font-size:14px;line-height:22px;}
+.ico_step.ty02 dt {font-size:16px;line-height:20px;}
+
+.ico_step li:first-child:before {display:none}
+.ico_step li:before {width:22px;height:12px;position:absolute;top:43%;left:0;transform:rotate(-90deg)}
+.ico_step02 {display:table !important;table-layout:fixed;width:100%;}
+.ico_step02 li {display:table-cell;width:33.3%;padding:30px 30px;}
+.ico_step02 li.list {float:left;width:calc(100% /2 - 120px);margin-top:50px;padding:0 60px;}
+.ico_step02 li.list:nth-child(odd) {clear:left;}
+.ico_step .ico02 {width:200px;}
+.ico_step02 .ico {float:none;width:100px;}
+.ico_step02 .txt dt {margin-top:19px;color:#0c0c0c;font-size:20px;line-height:24px;}
+.ico_step02 .txt dd {margin:10px 0 -2px 0;font-size:14px;line-height:22px;}
+.ico_step02.ty02 dd {margin-bottom:0;}
+.solar_cont05 .txt {text-align:center;font-size:16px;line-height:24px;}
+.solar_cont03 .solar_con_ty {margin:0 -50px;}
+
+/**** Become Partner ****/
+/* solar_cont */
+.solar_cont05 {padding-top:100px;}
+.solar_cont05 .t_tit02 {font-size:18px;line-height:26px;}
+.solar_cont05 .btn {margin-top:50px;}
+
+/* ico_list */
+.solar_cont05 .ico_list {margin:0 -60px;padding-top:0;}
+
+/* ico_step02_us */
+.ico_step02_us{margin-top:60px;}
+.ico_step02_us .ico {display:block; float:left; width:100px; padding-right:10px;}
+.ico_step02_us .ico img{width:100%;}
+.ico_step02_us .txt{padding-left:0; text-align:left;}
+
+.ico_step02_us .txt dt{text-align:left;color:#0c0c0c;font-size:20px;font-weight:600;line-height:24px;}
+.ico_step02_us .txt dd {text-align:left; /* margin:10px 0 -2px 0; */font-size:14px;line-height:22px;}
+.ico_step02_us:after{content:""; display:block; claer:both;}
+.ico_step02_us li{display:table-cell; float:left; width:calc(50% - 20px); height:100px; padding:30px 0 60px;}
+.ico_step02_us li:nth-child(even){float:right;}
+.ico_step02_us li:first-child, .ico_step02_us li:nth-child(2){ border-bottom:solid 1px #ddd; padding-top:0;}
+
+/**** Power_plant ****/
+.solar_cont06 .tb_st {margin-top:0;}
+.solar_cont06 .tb_st .txt {padding-bottom:0;font-size:16px;line-height:24px;}
+.solar_cont06 .tb_st .img {margin:0;}
+.plant_txt {float:left;width:calc(50% - 50px);margin-top:0;}
+.plant_txt .s1 dd {font-size:16px;line-height:24px;}
+.plant_txt .s1 {padding:0 40px 0 0;}
+.plant_txt .s1 dt {padding-bottom:28px;}
+.plant_txt .s1 .btn {margin:44px 0 68px 0;}
+.plant_txt .s1 dt:nth-child(2) {padding-top:50px;}
+.plant_tb {width:50%;float:right;}
+.plant_tb .table_ty {margin-top:0;}
+
+.txt.cont_line {margin-top:57px;padding-top:57px;}
+
+/* plan_img_box */
+.plan_img_box {padding-bottom:60px;font-size:16px;line-height:22px;}
+.plan_img_box .visual {min-height:460px;margin:0 -50px 40px -50px;}
+.plan_img_box .img.img_m {display:none;}
+.plan_img_box .img.img_w {display:block;}
+.plan_img_box .t_tit02 {margin-bottom:10px;}
+
+/* plan_img_box02 */
+.plan_img_box02 .txt {margin:-5px 0 0 0;}
+
+/* ico_box_plan */
+.ico_box_plan {margin-top:35px;font-size:0;}
+.ico_box_plan .li {display:inline-block;width:calc(33.3% - 30px);margin-top:0;padding:0 15px;font-size:14px;line-height:18px;vertical-align:top;}
+.ico_box_plan .li i {width:90px;}
+.ico_box_plan .li dt {margin-top:10px;}
+.ico_box_plan .s1 {padding:0;border:0;text-align:center;}
+.ico_box_plan .s1 i {position:static;width:90px;margin-top:0;}
+.ico_box_plan .s1 dl {padding-left:0;}
+.ico_box_plan .s2 {margin-top:80px;padding:0;border:0;}
+.ico_box_plan .s2:before {position:absolute;left:10%;top:-44px;width:80%;height:1px;background:#01a6d6;content:"";}
+.ico_box_plan .s2 .t {position:static;margin-bottom:35px;font-size:20px;line-height:20px;}
+.ico_box_plan .s2 .li dt {margin-top:20px;}
+.ico_box_plan .s2 .li:after {position:absolute;left:50%;top:-124px;width:1px;height:26px;background:#01a6d6;content:"";}
+.ico_box_plan .s2 .li:first-child:before {position:absolute;left:0;top:-132px;width:50%;height:50px;background:#fff;content:"";}
+.ico_box_plan .s2 .li:last-child:before {position:absolute;right:0;top:-132px;width:calc(50% - 1px);height:50px;background:#fff;content:"";}
+.ico_box_plan .s2 .li:nth-child(2):after {top:-124px;height:51px;}
+
+/* cont_tb  */
+.cont_tb {margin-top:20px;}
+.cont_tb:after {content:"";display:block;clear:both;}
+.cont_tb .table_ty {background:#f8f8f8;padding:0;}
+.cont_tb .table_ty th {padding:40px 15px;}
+.cont_tb .table_ty td {padding:37px 15px;}
+.solar_info .txt .cont_tb dl {margin:0;padding-left:0;}
+
+/* cont_tb02 */
+.cont_tb02 {margin-top:108px;}
+.cont_tb02:after {content:"";display:block;clear:both;}
+.cont_tb02 .text_list02 {background-size:140px 175px;background-position:70px center;}
+.cont_tb02 .text_list02.s2 {padding:50px 20px 50px 150px;}
+.cont_tb02 .text_list02.s2 dl {width:calc(80% - 20px)}
+
+/* cont_plan */
+.cont_plant .step_list_area {padding-top:96px;}
+.cont_plant {margin-bottom:70px;padding-bottom:70px;}
+.cont_plant .inner {padding-bottom:60px;}
+.cont_plant .plant_info ul {padding-bottom:60px;}
+.cont_plant .plant_info li {position:relative;border-bottom:0;width:calc(50% - 40px);padding:0;}
+.cont_plant .plant_info li:before {display:block;position:absolute;left:-40px;top:0;width:1px;height:100%;background:#ddd;content:"";}
+.cont_plant .plant_info ul:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.cont_plant .plant_info li:nth-child(1) {float:left;top:80px;}
+.cont_plant .plant_info li:nth-child(2) {float:right;}
+.cont_plant .plant_info {margin-bottom:0;overflow:hidden;/*border-bottom:1px solid #ddd;*/}
+.cont_plant .plant_txt02 {font-size:16px;line-height:24px;}
+.cont_plant .plant_info li.img img {max-width:520px;}
+
+
+
+
+/**** Produts ****/
+/*** SOLAR PANELS ***/
+.spc_box .txt {margin-top:-10px;font-size:16px;line-height:22px;}
+.spc01 {padding-top:20px;}
+.spc01 .t_tit02 {margin-top:-10px;}
+.spc01 .txt {margin-top:14px;padding:0 50px;}
+.spc02 {margin:0 -50px;padding:120px 0;}
+.spc02 .ico_box_c {margin-top:0;padding:0 50px;}
+.spc02 .ico_box_c li {width:calc(33% - 40px);margin-top:50px;padding:0 20px;}
+.spc02 .ico_box_c li:nth-child(odd) {clear:none;}
+.spc02 .ico_box_c li:nth-child(3n+1) {clear:left;}
+.spc02 .ico_box_c li i {width:90px;}
+.spc02 .ico_box_c li .t {font-size:14px;line-height:18px;}
+.spc03 {margin:0 -50px;padding:70px 50px 350px 50px;background-size:800px 377px;}
+.spc03 .half_list {padding-top:160px;}
+.spc03 .txt_per_s1 dt {top:50px;font-size:15px;line-height:32px;letter-spacing:-1px;}
+.spc03 .txt_per_s1 dt strong {font-size:36px;}
+.spc03 .txt_per_s1 .txt {margin-top:35px;}
+.spc04 {padding-top:70px;}
+.spc04 .ico_box_c {margin-top:30px;font-size:0;text-align:center;}
+.spc04 .ico_box_c li {display:inline-block;float:none;width:139px;vertical-align:top;}
+.spc04 .ico_box_c li i {width:105px;}
+.solar_panels_info .txt.center {margin:-10px 0 -25px 0;}
+
+/* solar_info */
+.solar_info {padding-top:30px;}
+.solar_info .img {margin:0;}
+.solar_info .txt {margin-left:-60px;font-size:16px;line-height:24px;}
+.solar_info .txt dl {margin-top:65px;padding-left:60px;}
+.solar_info .txt dd {margin:10px 0 -7px 0;}
+.solar_info .txt:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.solar_info .plan_img_box02 .txt {margin-left:0;}
+
+/* cont_list */
+.cont_list_box .b_tit {display:none;}
+.cont_list {margin:0 -50px;background:#f4f4f4;}
+.cont_list .b_tit {display:block;margin-bottom:40px;padding-top:20px;text-align:left;}
+.cont_list .img {width:50%;height:530px;}
+.cont_list .txt {position:absolute;bottom:0;width:50%;padding:0;font-size:14px;line-height:20px;}
+.cont_list .txt dt {font-size:18px;line-height:26px;}
+.cont_list .txt dd {margin-top:10px;}
+.cont_list .txt .inner {display:table-cell;height:470px;padding:30px 40px;vertical-align:middle;}
+.cont_list .list:nth-child(odd) .img {float:left;}
+.cont_list .list:nth-child(odd) .txt {right:0;}
+.cont_list .list:nth-child(odd) .txt .inner {/*float:left;*/}
+.cont_list .list:nth-child(even) .img {float:right;}
+.cont_list .list:nth-child(even) .txt {left:0;}
+.cont_list .list:nth-child(even) .txt .inner {/*float:right;*/}
+.cont_list.ty02 .list:nth-child(even) .img {float:left;}
+.cont_list.ty02 .list:nth-child(even) .txt {right:0;}
+.cont_list.ty02 .list:nth-child(even) .txt .inner {float:left;}
+.cont_list.ty02 .list:nth-child(odd) .img {float:right;}
+.cont_list.ty02 .list:nth-child(odd) .txt {left:0;}
+.cont_list.ty02 .list:nth-child(odd) .txt .inner {float:right;}
+.cont_list.ty03 .img {height:440px;}
+.cont_list.ty03 .txt {font-size:14px;line-height:22px;}
+.cont_list.ty03 .txt dt {font-size:20px;line-height:28px;}
+.cont_list.ty03 .txt .inner {height:370px;}
+.cont_list .list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* solar_cont */
+.solar_cont {padding-top:100px;}
+
+/* solar_cont02 */
+.solar_cont02 .img {float:right;width:50%;height:100%;margin:0;padding-left:40px;box-sizing:border-box;}
+.solar_cont02 .img img {margin-top:0;}
+.solar_cont02 .txt .s1 {float:left;width:50%;margin:0;font-size:15px;line-height:22px;}
+.solar_cont02 .txt .s1 li {margin-top:20px;}
+.solar_cont02 .txt .s2 {clear:both;padding-top:55px;}
+.solar_cont02 .txt .s2 .t_tit02 {margin-bottom:10px;}
+.solar_cont02:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* solar_banner */
+.solar_banner {position:relative;margin:0 -50px 100px -50px;padding:85px 80px 90px 80px;background:url(../images/contents/img_solar_project03_cont_banner.jpg) center /cover no-repeat;}
+.solar_banner .b_tit {color:#fff;}
+.solar_banner .txt {margin-top:-10px;color:#00adef;font-size:16px;line-height:28px;}
+
+
+/** solar_cont_area **/
+.solar_cont_area {margin:0 -50px;padding-top:50px;}
+/* solar_cont_ty */
+.solar_cont_ty .txt {position:relative;padding:60px 50px 60px 280px;}
+.solar_cont_ty .txt .s1 dt {position:absolute;left:50px;top:60px;width:210px;}
+.solar_cont_ty .txt .s1 dt > em {display:block;}
+.solar_cont_ty .txt .s1 dd {margin-top:-3px;}
+
+/* solar_cont_nav */
+.solar_cont_nav_area {top:50px;}
+
+/* solar_btn */
+.solar_btn {top:-50px;height:50px;}
+.solar_btn span {transform:scale(0.9);}
+
+
+
+
+
+/***** PRODUCTS *****/
+.prod_area {margin-bottom:70px;padding-top:0;}
+
+/** prod_nav **/
+.prod_nav {height:56px;}
+.prod_nav:before {display:none;}
+
+/** prod_nav **/
+.prod_nav {position:absolute;top:0;width:calc(100% - 100px);height:55px;padding:0 50px;}
+.prod_nav_cont li {margin:0 20px;}
+.prod_nav_cont li a {font-size:15px;line-height:55px;}
+.prod_nav_ctr a {width:55px;height:55px;}
+.prod_nav:before {display:none;}
+.top .prod_nav {position:fixed;top:78px;}
+.prod_nav_box.d2 .caroufredsel_wrapper {width:700px !important;}
+
+
+/** prod_info **/
+.prod_info {padding:125px 50px 0 50px;}
+.prod_info .p_tit {max-width:860px;margin:0 auto;margin-top:-7px;font-size:52px;line-height:56px;}
+.prod_info .p_txt {max-width:860px;margin:0 auto;margin-top:13px;font-size:16px;line-height:24px;}
+.prod_info .p_txt02 {max-width:860px;margin:0 auto;margin-top:27px;font-size:16px;line-height:24px;}
+.prod_info .p_txt03 {max-width:860px;top:-20px;font-size:23px;line-height:24px;}
+.prod_info .img {width:320px;margin:25px auto 0 auto;}
+
+
+/** prod_cont **/
+/* info */
+.prod_cont .info {padding:0 50px 75px 50px;}
+.prod_cont .txt {margin-bottom:30px;font-size:15px;line-height:24px;}
+.prod_cont .txt02 {margin-bottom:30px;font-size:15px;line-height:24px;}
+.prod_cont .txt dt em, .prod_cont .txt02 dt em {font-size:44px;line-height:52px;}
+.prod_cont .txt dt span, .prod_cont .txt02 dt span {font-size:20px;line-height:28px;}
+.prod_cont .txt02 dd {margin-bottom:10px;}
+.prod_cont .txt02 dd ul li em{font-size:18px;line-height:35px;}
+.prod_cont .info .list ul {margin-top:-30px;}
+.prod_cont .info .list li {float:left;width:calc(50% - 15px);min-height:20px;margin-top:32px;padding-left:0;font-size:16px;line-height:20px;}
+.prod_cont .info .list li:nth-child(odd) {clear:left;padding-right:15px;}
+.prod_cont .info .list li:nth-child(even) {padding-left:15px;}
+.prod_cont .info .list li .tit {position:static;width:100%;margin-bottom:10px;font-size:20px;letter-spacing:-0.5px;line-height:20px;}
+.prod_cont .info .list li .t {text-align:left;}
+.prod_cont .info .list li.resp {clear:left;width:calc(100% - 15px);padding:0 15px 0 0;}
+.prod_cont .info .list li.resp .tit {margin-bottom:0;}
+.prod_cont .info .list li.resp ul {margin:0;}
+.prod_cont .info .list li.resp li {float:none;width:100%;margin-top:5px;padding:0;}
+.prod_cont .info .list ul:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.prod_cont .app dt {margin-bottom:10px;font-size:20px;}
+.prod_cont .app dd {margin:0;}
+.prod_cont .app dd li {padding:10px;}
+.prod_cont .app dd li em {display:table-cell;height:35px;padding-left:35px;background:url(../images/products/ico_prod_app01.png) left center /25px 25px no-repeat;vertical-align:middle;}
+.prod_cont .app dd li.s2 em {background:url(../images/products/ico_prod_app02.png) left center /25px 25px no-repeat;}
+.prod_cont .app dd li.s3 em {background:url(../images/products/ico_prod_app03.png) left center /25px 25px no-repeat;}
+.prod_cont .btn {margin-top:35px;}
+.prod_cont .txt02 dd ul.info02 {padding:17px 1px 0 1px}
+.prod_cont .txt02 dd ul.info02 li {font-size:12px;color:#999;line-height:16px;}
+
+/* gallery */
+.prod_cont .gallery {padding:10px 50px 0 50px;}
+
+
+/** prod_cont02 **/
+.prod_cont02 {padding:100px 80px 70px 80px;}
+.prod_cont02 .p_tit {margin-top:-11px;font-size:40px;line-height:48px;transition:all 0.4s;}
+.prod_cont02 .info {display:block;margin:47px 0 0px 0;padding:17px 1px 0 1px;border-top:1px solid #666;}
+.prod_cont02 .info li {font-size:12px;line-height:16px;}
+
+/* ico_list */
+.ico_list {margin:0 -60px;padding-top:0;}
+.ico_list .list {float:left;width:calc(100% /2 - 121px);margin-top:50px;padding:0 60px;}
+.ico_list .list:nth-child(odd) {clear:left;}
+.ico_list .ico {width:100px;}
+.ico_list .txt dt {margin-top:19px;color:#fff;font-size:18px;line-height:24px;}
+.ico_list .txt dd {display:block;margin:10px 0 -2px 0;font-size:14px;line-height:22px;}
+
+/* prod_cont : popup */
+/*
+.modal_body .prod_cont .info .list ul {margin-top:-30px;}
+.modal_body .prod_cont .info .list li {float:left;width:calc(50% - 15px);min-height:20px;margin-top:32px;padding-left:0;font-size:16px;line-height:20px;}
+.modal_body .prod_cont .info .list li:nth-child(odd) {clear:left;padding-right:15px;}
+.modal_body .prod_cont .info .list li:nth-child(even) {padding-left:15px;}
+.modal_body .prod_cont .info .list li .tit {position:static;width:100%;margin-bottom:10px;font-size:20px;letter-spacing:-0.5px;line-height:20px;}
+.modal_body .prod_cont .info .list li p {text-align:left;}
+.modal_body .prod_cont .info .list ul:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+*/
+
+
+/*** COMPARE PRODUCTS ***/
+/** prod_search **/
+.prod_search {margin:-50px -50px 0 -50px;}
+.prod_search .list li {min-width:calc(33% - 10px);}
+.prod_search .btn_prod_search {height:50px;;font-size:13px;line-height:50px;}
+
+
+/** prod_s_list **/
+.prod_s_list {margin:0 0 -20px -20px;}
+.prod_s_list .list {float:left;width:calc(100%/2 - 20px);height:auto;margin:0 0 20px 20px;padding-left:0;border-bottom:1px solid #000;}
+.prod_s_list .list .img {position:relative;width:100%;height:auto;}
+.prod_s_list .list .img .hit {display:block;}
+.prod_s_list .list .img img {width:100%;margin:0;}
+.prod_s_list .list .img span {display:block;position:absolute;left:15%;top:0;width:70%;}
+.prod_s_list .list .txt {height:242px;padding:50px 20px;border-width:0 1px 1px 1px;text-align: center;}
+.prod_s_list .list .txt dt {margin:-3px 0 12px 0;font-size:20px;line-height:20px;}
+.prod_s_list .list .txt .s1 {height:40px;max-height:40px;line-height:20px;overflow:hidden;}
+.prod_s_list .list .txt .s2 {margin-top:23px;font-size:14px;line-height:14px;}
+.prod_s_list .list .btn {position:static;margin-top:35px;}
+.prod_s_list .list .btn_view {height:75%;}
+.prod_s_list .emp {margin:0 0 20px 20px;}
+.prod_s_list .emp p {padding:120px 0;}
+.prod_s_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+/** compare_table  **/
+.compare_table li {height:70px;}
+.compare_table li p {height:60px;padding:5px 15px;}
+
+/* compare_tit */
+.compare_tit {width:140px;padding-top:61px;}
+
+/* compare_cont */
+.compare_cont {width:calc(100% - 140px);}
+.compare_cont .inner {display:table;table-layout:fixed;width:600px;}
+.compare_cont .list {display:table-cell;}
+.compare_cont .list dt {max-width:150px;height:61px;padding:0 15px;font-size:20px;line-height:20px;}
+
+
+
+
+
+/***** SERVICE & SUPPORT *****/
+/**** DOWNLOAD ****/
+/*** BROCHURE ***/
+/* brochure_list */
+.brochure_list  {margin:-30px 0 0 -20px;}
+.brochure_list .list {width:calc(100% / 3 - 20px);margin:30px 0 0 20px;}
+.brochure_list .emp p {padding:120px 0;}
+.brochure_list .txt {height:140px;padding:30px 15px 0 15px;font-size:14px;line-height:22px;text-align:center;}
+.brochure_list .txt dt {height:44px;}
+.brochure_list .txt dd {margin-top:10px;font-size:14px;line-height:14px;}
+
+
+
+
+/**** CONTACT US ****/
+/* contact_info ***/
+.contact_info {margin:0 0 20px -20px;}
+.contact_info .list {float:left;height:380px;margin-top:0;width:calc(50% - 20px);margin-left:20px;padding:75px 45px 20px 45px;}
+.contact_info .list dt {margin:-7px 0 15px 0;padding-bottom:15px;font-size:26px;line-height:32px;}
+.contact_info .list dt:after {width:50px;}
+.contact_info .list dd {margin-top:4px;font-size:16px;line-height:22px;}
+.contact_info:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.contact_info .list.s1 {margin-top:-80px;}
+.contact_info.c2 {margin-left:0;}
+.contact_info.c2 .list {float:none;width:100%;height:auto;margin-left:0;padding:50px 60px 70px 60px;}
+
+/* contact_btn */
+.contact_btn {margin:0;padding:55px 45px;}
+.contact_btn .inner {position:relative;width:260px;margin:0 auto;padding-right:130px;text-align:left;}
+.contact_btn .select_ty {height:40px;border-width:0 0 2px 0;font-size:16px;}
+.contact_btn .btn {display:block;position:absolute;right:0;top:0;min-width:60px;margin-top:0;text-align:center;}
+.contact_btn .btn:hover {background:#555;}
+.contact_btn .txt {margin-bottom:20px;}
+.contact_btn .inner02 .btn {display:inline-block;position:static;}
+.contact_btn .inner03:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.contact_btn .inner03 .btn {display:inline-block;position:static;vertical-align:middle;}
+.contact_btn .inner03 p {display:inline-block;margin-right:50px;vertical-align:middle;}
+
+
+
+
+
+/***** TERMS  *****/
+/** terms_ty **/
+.terms_ty {margin-bottom:-50px;font-size:16px;line-height:22px;}
+.terms_tit_b {margin:-5px 0 10px 0;font-size:25px;line-height:32px;}
+.terms_tit {margin-bottom:20px;font-size:20px;line-height:24px;}
+.terms_tit.b1 {padding-left:20px;}
+.terms_tit.b2 {padding-left:28px;}
+.terms_cont {margin-bottom:40px;}
+.terms_cont.s1 li {padding-left:20px;}
+.terms_cont.s1.n li {padding-left:32px;}
+.terms_cont.s1.n li.d  {padding-left:45px;}
+.terms_cont.s1 li em:after {left:-2px;height:1px;}
+.terms_cont .btn {font-size:20px;line-height:24px;}
+
+
+
+/*** Site Map ***/
+.sitemap{text-align:left;}
+.site_ty {margin:0;}
+.site_tit {padding-left:1px;}
+.site_cont02 .dep3 li:first-child{padding-top:5px;}
+.site_cont02 .dep3 li.b1{padding:0;}
+.site_cont02 .dep4 {margin:0 0 20px 0;}
+
+
+
+/**** CONTACT US ****/
+/* contact_info.c1 ***/
+.contact_info.c1 .list{width:calc(100% - 20px);padding:52px 45px 42px 45px;}
+.contact_info.c1 .list dd strong{padding-top:6px;}
+.contact_info.c1 .list dd strong.fir{padding-top:16px;}
+
+}
+
+
+
+
+
+
+
+
+@media all and (min-width:800px) {
+/* quality_img_box */
+.quality_img_box .list .txt dt {font-size:16px;line-height:16px;}
+.quality_img_box .list .txt dd {font-size:13px;line-height:16px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1000px) {
+/***** ABOUT *****/
+/**** WHY Q CELLS? ****/
+/* cont_list */
+.cont_list_box02 .cont_list .img {height:350px;}
+.cont_list_box02 .cont_list .txt .inner {padding:60px 50px;}
+.cont_list_box02 .cont_list .txt dt:after {width:60px;height:7px;background:#009ee3;display:block;content:"";margin-top:20px;}
+.cont_list_box02 .cont_list .txt dt {font-size:26px;line-height:32px;}
+.why_ico_list .list {float:left;width:calc(100%/4 - 18px);margin:0 18px 0px 0px;}
+.why_ico_list .list .box {background:#f8f8f8;position:relative;width:215px;height:205px;}
+.why_ico_list .ico {display:block;}
+.why_ico_list .ico img {width:auto;}
+
+.txt_w {display:block;}
+.txt_m {display:none;}
+
+/* solar_box */
+.cont_wide_box {width:100%;margin-bottom:100px;}
+.solar_box .cont_box li {height:550px;}
+.solar_box .cont_box li.txt {max-width:600px;}
+.solar_box .cont_box li.txt dl {padding-right:100px;}
+.solar_box .img {height:550px;}
+
+/* cont_wide_box */
+.cont_wide_box {position:relative;width:calc(100% + 100px);/*height:820px;*/margin:0 -50px 100px -50px;overflow:hidden;}
+.cont_wide_box .cont_box {height:675px;margin:0;}
+.cont_wide_box .cont_box .txt {position:absolute;left:0;top:0;width:50%;background:none;}
+.cont_wide_box .cont_box .txt dl {display:table-cell;height:675px;padding:10px 50px;text-align:left;vertical-align:middle;}
+.cont_wide_box .cont_box .txt dd {font-size:16px;line-height:24px;}
+.cont_wide_box .cont_box .txt .b_tit {text-align:left;width:calc(50vw - 100px);word-wrap:break-word;word-break:keep-all;}
+.cont_wide_box .cont_box .img.img_w {height:675px;text-align:center;}
+.cont_wide_box .cont_box .img.img_w img {width:auto;height:100%;}
+
+/* why_ico_list */
+.icon_why_list {margin:0 -50px;padding:20px 80px 20px 20px;}
+.icon_why_list li {position:relative;float:left;width:calc(100% / 4 - 130px);margin:0;padding-right:173px;}
+.icon_why_list .step1 {margin-top:120px !important;}
+.icon_why_list .step1:before {content:"";display:block;position:absolute;left:142px;top:16px;z-index:-1;width:250px;border:dashed 1px #009ee3;transform:rotate(-25deg);}
+.icon_why_list .step2:before {content:"";display:block;position:absolute;top:138px;left:142px;z-index:-1;width:250px;border:dashed 1px #009ee3;transform:rotate(25deg);}
+.icon_why_list .step3 {margin-top:120px;}
+.icon_why_list .step3:before {content:"";display:block;position:absolute;left:142px;top:16px;z-index:-1;width:250px;border:dashed 1px #009ee3;transform:rotate(-25deg);}
+.icon_why_list .step4 {padding-right:0;}
+.icon_why_list .list .box {border-radius:0;background:none;width:160px;box-sizing:border-box;padding:0;}
+.icon_why_list .list .ico {display:block;width:160px;height:160px;padding:30px 0;border-radius:100%;background-color:#f8f8f8;box-sizing:border-box;}
+.icon_why_list .list .ico img {width:100px;}
+.icon_why_list .list .txt {margin:20px -20px 0 -20px;font-size:18px;line-height:22px;}
+.icon_why_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* best_box */
+.best_box {width:100%;}
+.best_box .inner_box .b_tit {text-align:left;margin-top:0;}
+.best_box ul {position:relative;height:820px;margin:0 -50px;}
+.best_box ul:after {content:"";display:block;clear:both;}
+.best_box ul li {float:left;width:50%;}
+.best_box .img {width:calc(100% / 2 + 66px);height:820px;max-height:none;background:url(../images/contents/img_whyqcell_con02.jpg) no-repeat center top / cover;}
+.best_box .img img {height:100%;display:none;}
+.best_box .txt {position:absolute;left:50%;}
+.best_box .inner_box {position:absolute;top:0;left:-160px;max-width:760px;height:670px;margin:75px 0;padding:50px 70px;}
+.best_box .inner_box dl {padding-top:20px;}
+.best_box .inner_box dd {margin:8px 0 50px 0;font-size:16px;line-height:22px;}
+
+
+
+/*** Technology ***/
+.technology_info02 .t_tit02 {margin-bottom:30px;}
+.technology_cont .b_tit {margin-bottom:80px;}
+.technology_cont .visu_cont .txt {padding:77px 78px 0;height:523px;}
+.technology_cont .text_cont {margin-top:70px;}
+.technology_cont .text_cont .img {display:table-cell;width:275px;}
+.technology_banner {padding:120px 50px 65px 50px;}
+.technology_banner .txt {height:365px;}
+
+
+/* history_info */
+.history_info {position:relative;padding-top:100px;}
+.history_info {}
+.history_info:after {display:block;content:"";clear:both}
+.history_info .img {/* position:absolute;right:0;bottom:0; */width:50%;height:450px;}
+.history_info .inner {width:50%;float:left;}
+.history_info .b_tit {text-align:left;}
+.history_info .t_tit02 {text-align:left;}
+.history_info .txt {font-size:16px;line-height:26px;margin:45px 80px 25px 0;}
+.history_info .b_tit:after {left:0;top:56px;height:8px;width:50px;}
+.player_cont .btn {margin-top:50px;}
+
+/* text_info */
+.text_info {max-width:820px;margin:0 auto;padding:0 100px;font-size:16px;line-height:22px;}
+.text_info.mb{margin-bottom: 80px}
+.text_info_us {padding:0 0;font-size:16px;line-height:22px;}
+.accordian_ty02 a {cursor:default;}
+.accordian_ty02 .list .view {display:block;}
+
+/* tab_ty02 */
+.tab_ty02 {margin:0 0 40px 0;}
+.tab_ty02 div a {height:70px;font-size:20px;line-height:35px;}
+.tab_ty02 a:nth-child(1):before {top:50%;width:16px;height:16px;margin-top:-8px;}
+.tab_ty02 a:nth-child(3):before {top:50%;width:16px;height:16px;margin-top:-8px;}
+
+
+/*** Q ANTUM Technology ***/
+/* qantum_ty02 */
+.qantum_box {margin:60px 0 0;}
+.qantum_box .inner {display:flex;}
+.qantum_box .inner > li {float:left;padding:45px 20px 45px 45px;box-sizing:border-box;}
+.qantum_box .inner > li.step01 {width:calc(100% / 4 - 25px);background-color:#f0f3f8;}
+.qantum_box .inner > li.step01 li {margin-bottom:60px;}
+.qantum_box .inner > li.step01:after {display:block;position:absolute;top:60px;right:-25px;border-style:solid;width:1px;border-width:12px;border-color:transparent transparent transparent #f0f3f8;content:"";z-index:1;}
+.qantum_box .inner > li.step02 {width:calc(100% / 4 - 25px);background-color:#e6e9f0;}
+.qantum_box .inner > li.step02 li {margin-bottom:100px;}
+.qantum_box .inner > li.step02:after {display:block;position:absolute;top:60px;right:-25px;border-style:solid;width:1px;border-width:12px;border-color:transparent transparent transparent #e6e9f0;content:"";z-index:1;}
+.qantum_box .inner > li.step03 {width:calc(100% / 2 + 50px);padding-right:70px;background-color:#dadfe9;}
+.qantum_box .inner a {position:relative;display:block;height:85px;line-height:26px;padding:0 0;margin-bottom:55px;font-size:20px;font-weight:600;color:#000;}
+.qantum_box .inner a:after {left:0;top:95px;width:24px;height:4px;}
+.qantum_box .inner a .num {display:block;width:auto;margin-bottom:5px;font-size:16px;font-weight:normal;color:#666;}
+.qantum_box .inner div {margin:0;}
+.qantum_box .inner div ul li {margin-bottom:15px;font-size:16px;}
+.qantum_box .inner .step03 {width:calc(100% / 2 + 50px);padding-right:70px;}
+.qantum_box .inner .step03 .s_box  {margin-left:-40px;}
+.qantum_box .inner .step03 .s_box >li {float:left;width:calc(50% - 40px);margin-left:40px;}
+.qantum_box .inner .step03 .s_box p {margin-top:5px;font-size:16px;font-weight:normal;line-height:26px;}
+.qantum_box .inner .step03 .s_box ul {margin-top:5px;}
+.qantum_box .inner .step03 .s_box ul li {font-weight:normal;line-height:26px;}
+.qantum_box .inner .step03 .s_box:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.qantum_box .inner:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* qantum_banner */
+.qantum_banner {margin:0 -50px 100px;padding:120px 0;}
+.qantum_banner .info {max-width:850px;}
+.qantum_banner .info .q_logo {margin-bottom:25px;}
+.qantum_banner .info dl {padding:0;margin-top:50px;color:#fff;}
+.qantum_banner .info dt {padding:0;font-size:24px;font-weight:600;line-height:28px;}
+.qantum_banner .info dd {margin:30px 0 0;font-size:16px;line-height:26px;}
+.qantum_banner .br {display:inline-block;}
+
+/* qantum_box */
+.qantum_box02 .b_tit .br {display:inline-block;margin:0;font-size:0;line-height:0;}
+.qantum_box02 .text li {float:left;width:calc(100% / 2 - 40px);}
+.qantum_box02 .text li dt {font-size:26px;}
+.qantum_box02 .img_box {max-width:1200px;margin:0;}
+
+/* qantum_box03 */
+.qantum_box03 {margin:0 -50px;padding:60px 0 70px 0;}
+.qantum_box03 .img_box02 {max-width:1200px;margin:50px auto 0;padding:0;box-sizing:border-box;}
+
+/* history_box */
+.history_box .stairs li {font-size:32px;margin-bottom:0;line-height:50px;}
+.history_box .stairs li:after {content:"";bottom:5px;}
+.history_box .list {width:48%;max-width:480px;margin-top:35px;padding-top:0;box-sizing:border-box;}
+.history_box .list:after {content:"";left:85px;}
+.history_box .list dt {width:85px;font-size:26px;color:#000;font-weight:600;}
+.history_box .list dt:after {content:"";top:1px;height:18px;}
+.history_box .list dd {position:relative;width:calc(100% - 85px);margin-left:85px;padding:0 0 30px 10px;font-size:16px;line-height:20px;}
+.history_box .list dd:last-child {padding-bottom:10px;}
+.history_box .history_img {width:52%;max-width:600px;}
+
+/* player_box */
+.player_box {margin-bottom:30px;}
+.player_box .img {height:600px;}
+.player_box .ico {width:90px;height:90px;margin:-45px 0 0 -45px;}
+.player_cont .movie .btn_movie_play em {width:90px;height:90px;margin:-45px 0 0 -45px;}
+.player_box .btn {bottom:-30px;}
+.player_box .btn a {font-size:16px;}
+.player_box .txt {left:60px;top:60px;}
+.player_box .txt dt {width:143px;}
+.player_box .txt dd {margin-top:25px;font-size:32px;line-height:32px;}
+.player_box.ty02 {margin-bottom:-60px;}
+
+
+/*** Q ANTUM DUO TECHNOLOGY ***/
+/* qantum_box04 */
+.qantum_box04  {margin:0 0 100px 0;}
+.qantum_box04 .b_tit {margin:60px;}
+.qantum_box04 .img {margin:30px 0;}
+.qantum_box04 .text .dt_tit {margin-bottom:15px;font-size:24px;line-height:26px;}
+.qantum_box04 .text li {float:left;width:calc(33.3% - 10px);padding-bottom:0;margin-bottom:0;border-bottom:none;box-sizing:border-box;}
+.qantum_box04 .text li:nth-child(2) {margin:0 10px 0 15px;}
+.qantum_box04 .text li:nth-child(3) {float:right;}
+.qantum_box04 .text li > dl {padding:0;min-height:215px;}
+.qantum_box04 .text dd  {padding-right:30px;font-size:16px;line-height:26px;}
+.qantum_box04 .text div  {border-bottom:none;box-sizing:border-box;}
+.qantum_box04 .text div dt  {margin-bottom:15px;font-size:15px;}
+.qantum_box04 .text .c1 {min-height:250px;}
+.qantum_box04 .text .s1 {padding:0 30px;}
+.qantum_box04 .text .s2 {padding:0 15px;}
+.qantum_box04 .text .s2 dl {width:calc(100% / 2 - 5%);padding:0;}
+.qantum_box04 .text .s2 dd {padding-right:0;line-height:20px;}
+.qantum_box04 .text:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* qantum_box05 */
+.qantum_box05 {padding:90px 50px;margin-bottom:100px;}
+.qantum_box05 .text {max-width:520px;}
+.qantum_box05 .text li {position:relative;margin-bottom:8px;font-size:32px;line-height:40px;}
+.qantum_box05 .text li:nth-child(2) {margin-left:30px;}
+.qantum_box05 .text li:nth-child(3) {margin-left:60px;}
+.qantum_box05 .text li:after {width:30px;height:4px;}
+.qantum_box05 .text .txt {line-height:26px;}
+.qantum_box05 .img {width:50%;max-width:600px;}
+.qantum_box05 .img img {width:100%;}
+.qantum_box05 .btn {padding-top:70px;}
+
+/* qantum_box06 */
+.qantum_box06 {text-align:center;}
+.qantum_box06 i {width:72px;margin:0 auto 30px;}
+.qantum_box06 i img {width:100%;}
+.qantum_box06 ul {padding-top:10px;}
+.qantum_box06 li {float:left;width:calc(100% / 3 - 10px);height:540px;padding:50px 40px;border:solid 1px #ddd;box-sizing:border-box;}
+.qantum_box06 li:nth-child(2) {margin:0 15px;}
+.qantum_box06 li:nth-child(3) {float:right;}
+.qantum_box06 dt {margin:0 -40px;font-size:20px;font-weight:600;color:#333;text-align:center;}
+.qantum_box06 dt:after {width:30px;height:2px;margin:15px auto 0;}
+.qantum_box06 dd.img_w {max-width:320px;margin:25px auto 45px;}
+.qantum_box06 dd.txt {margin:0 -10px;font-size:16px;line-height:20px;}
+.qantum_box06 ul:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+/*** Q CELLS YIELD SECURITY ***/
+.qantum_banner.bg03 .info dd {margin:30px -30px 0 -30px;}
+.qantum_banner .icon_list {margin-top:50px;}
+.qantum_banner .icon_list li {float:left;width:calc(100% / 4);margin-bottom:0;}
+.qantum_banner .icon_list i {display:block;width:110px;margin:0 auto;transition:all 0.4s;}
+.qantum_banner .icon_list i img {width:100%;}
+.qantum_banner .icon_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+
+
+/*** Quality ***/
+.quality_banner .txt {font-size:20px;line-height:30px;}
+.technology_info02 .board_ty .list {float:left;width:calc(100% / 2 - 40px);height:530px;}
+.technology_info02 .board_ty .list dl {padding:50px 40px;width:100%;height:100%;box-sizing:border-box;position:absolute;top:0;left:0;}
+.technology_info02 .board_ty .list dt {padding-bottom:20px;}
+.technology_info02 .board_ty .list .img img {height:130px;}
+.technology_info02 .board_ty .list dd em {display:block;margin-bottom:10px;font-size:20px;line-height:24px;}
+.technology_info02 .board_ty .list dd {line-height:22px;}
+.technology_info02 .board_ty .list dd.btn {position:absolute;left:0;bottom:50px;width:100%;}
+.technology_cont02 .text_box .img {padding:60px 0 30px 0;}
+.technology_cont02 .text_box.s1 .img {max-width:820px;margin:0 auto;}
+.technology_cont02 .text_box.s2 {display:table;width:100%;;padding:90px 0;}
+.technology_cont02 .text_box.s2 .txt {display:table-cell;padding:0;text-align:left;}
+.technology_cont02 .text_box.s2 .txt em {display:block;padding:0 0 15px 0;font-size:24px;line-height:28px;}
+.technology_cont02 .text_box.s2 .img {display:table-cell;height:100%;width:380px;padding:0 0 0 50px;vertical-align:middle;}
+.technology_cont02 .text_box.s2 .img img {width:100%;}
+.technology_cont02 .text_box.s2 li:first-child.img  {padding:0 50px 0 0;}
+.technology_cont02 .text_box.dep {margin-top:-90px;}
+
+/* quality_img_box */
+.quality_img_box {margin-top:-20px;}
+.quality_img_box .list {float:left;width:33.3%;margin-top:30px;}
+.quality_img_box .list:first-child {margin-top:30px;}
+.quality_img_box .list i {float:left;width:210px;}
+.quality_img_box .list .txt {top:15px;width:calc(100% - 100px);padding:20px 30px 20px 20px;}
+.quality_img_box .list .txt dl {height:140px;}
+.quality_img_box .list .txt dt {font-size:17px;line-height:18px;}
+.quality_img_box .list .txt dd {font-size:13px;line-height:16px;}
+.quality_img_box .list:nth-child(1) i,
+.quality_img_box .list:nth-child(2) i,
+.quality_img_box .list:nth-child(3) i {float:left;}
+.quality_img_box .list:nth-child(1) .txt,
+.quality_img_box .list:nth-child(2) .txt,
+.quality_img_box .list:nth-child(3) .txt {left:100px;right:inherit;text-align:left;}
+.quality_img_box .list:nth-child(3) .txt {padding-right:0px;}
+.quality_img_box .list:nth-child(1) .txt dt:before,
+.quality_img_box .list:nth-child(2) .txt dt:before,
+.quality_img_box .list:nth-child(3) .txt dt:before {left:0;right:inherit;}
+.quality_img_box .list:nth-child(4) i,
+.quality_img_box .list:nth-child(5) i,
+.quality_img_box .list:nth-child(6) i {float:right;}
+.quality_img_box .list:nth-child(4) .txt,
+.quality_img_box .list:nth-child(5) .txt,
+.quality_img_box .list:nth-child(6) .txt {left:inherit;right:100px;padding:20px 20px 20px 30px;text-align:right;}
+.quality_img_box .list:nth-child(4) .txt dt:before,
+.quality_img_box .list:nth-child(5) .txt dt:before,
+.quality_img_box .list:nth-child(6) .txt dt:before {left:inherit;right:0;}
+
+/* RECRUITMENT JOB */
+.rec_job dd{padding:40px 0 40px 30px;}
+.rec_job dt{margin: 15px auto 90px; width:200px;height:200px;font-size:26px;}
+.rec_job dt:after{left:-25px;top:-25px;right:-25px;bottom:-25px;}
+.rec_job dt .mid:after{width:15px;height:15px;margin:-9px 0 0 -9px;border:3px solid #fff;}
+.rec_job dt .mid:before{height:90px;}
+.rec_job dd .tit {font-size:18px; }
+.rec_job dd ul li {font-size:18px;margin-bottom: 10px;line-height: 28px; }
+.rec_job_video .col {width: 50%;float: left;margin-bottom: 80px;}
+.rec_job_video .col .video_frame { margin-bottom: 30px;}
+.rec_job_video .col .name {font-size: 20px;}
+.rec_job_video .col:nth-child(5) {margin-bottom:0;}
+.rec_job_video .col:nth-child(odd) .video_frame, .rec_job_video .col:nth-child(odd) .name { padding-right: 30px;}
+.rec_job_video .col:nth-child(even) .video_frame, .rec_job_video .col:nth-child(even) .name { padding-left: 30px;}
+
+/* RECRUITMENT PROCESS */
+.rec_process li { padding-left:50px;}
+.rec_process li .rank { width:130px; height:130px; font-size:18px;}
+.rec_process li .ref { width:150px; font-size:14px;}
+.rec_process li.last:before { width:160px; height:160px; }
+.rec_process + .step_list_text dd {padding-bottom: 80px}
+.rec_process + .step_list_text dd:last-child {padding-bottom: 20px}
+
+
+/***** SOLAR PROJECT *****/
+/**** HOW IT WORKS ****/
+/* visu_cont */
+.visu_cont {position:relative;margin:0;}
+.visu_cont .txt {display:block;height:500px;padding:0 100px;}
+.visu_cont .txt dt {padding:140px 0px 0 0px;}
+.visu_cont .txt .c2 {position:absolute;left:0;top:330px;width:100%;margin:0;}
+
+/* how works */
+.solar_cont06 .txt {font-size:16px;line-height:26px;}
+.works_cont .txt {top:120px;}
+.works_cont .txt h4 {font-size:26px;line-height:30px;}
+.works_cont .txt p {font-size:13px;line-height:17px;margin:30px 10px 100px 30px;}
+.works_cont .visual_area {height:600px;}
+.works_cont .visual_area .img {height:600px;}
+
+/* ico_how */
+.ico_how_area {margin:60px 0 0 0;}
+.ico_how_area .btn {top:calc(100% / 2 - 25px);width:30px;height:50px;}
+.ico_how_area .how_i_prev {left:30px;background-size:19px 36px;}
+.ico_how_area .how_i_next {right:30px;background-size:19px 36px;}
+.ico_how .t_tit {font-size:32px;line-height:36px;}
+.ico_how .list {min-height:550px;padding:100px 160px 100px 160px;}
+.ico_how .list ul {margin-bottom:60px;}
+.ico_how .list ul i {display:block;margin-bottom:30px;}
+.ico_how .list ul i img {max-width:100%;}
+.ico_how .list ul li {font-size:20px;}
+.ico_how .list ul li p {margin:-5px 0 20px 0;}
+.ico_how .list ul.s3 {margin-bottom:10px;}
+.ico_how .list .txt {padding:0;font-size:16px;}
+.ico_how .list .img {margin-bottom:60px;}
+.ico_how .list .img img {max-width:100%;}
+
+/* how_tab */
+.how_tab .t_tit02 {line-height:32px;}
+.how_tab .t_tit {margin:15px 0 60px 0;font-size:26px;line-height:32px;}
+.ico_step04.arrow li:before {width:38px;height:20px;}
+.ico_step04 i {width:150px;}
+.ico_step04 .txt {margin-top:15px;font-size:20px;line-height:24px}
+.ico_step04 .txt dd {line-height:20px;}
+
+
+
+/**** Residential ****/
+/* solar_residential_visual */
+.solar_residential_visual p.b_tit {padding-top:65px;}
+.solar_residential_visual .img {padding-top:15px;}
+.solar_residential_visual .tab_ty {max-width:600px;margin:40px auto 30px auto;}
+.solar_residential_visual .tab_ty a {padding:120px 0 0 0;background-size:110px 110px !important;}
+.solar_residential_visual .tab_cont {max-width:860px;}
+.solar_residential_visual .img_over_b li {top:15px;}
+
+/* solar_con_ty */
+.solar_cont03 .solar_con_ty {margin-bottom:50px;}
+.solar_con_ty .txt {position:absolute;bottom:-20px;right:0;background-color:#002e54;width:35%;height:495px;padding:45px 30px 30px 30px;color:#fff;z-index:10;}
+.solar_con_ty .txt dt>em {font-size:26px;display:block;line-height:30px;}
+.solar_con_ty .txt dt>span {font-size:14px;display:block;color:#009ee3;line-height:30px;}
+.solar_con_ty .txt dd {color:#999;font-size:14px;}
+.solar_con_ty .txt dl:after {content:"";display:block;clear:both}
+.solar_con_ty .txt dl:nth-child(2) {padding-top:35px;}
+.solar_con_ty .txt dl:nth-child(2):before {content:"";display:block;border-top:1px solid #1f4166;}
+.solar_con_ty .txt dl:nth-child(2) dt {height:40px;line-height:40px;font-size:14px;float:left;border-bottom:1px solid #1f4166;}
+.solar_con_ty .txt dl:nth-child(2) dd {height:40px;line-height:40px;color:#cccccc;border-bottom:1px solid #1f4166;text-align:right;}
+
+/* step_list_text */
+.step_list_text {margin-top:35px;border-top:0;border-bottom:0}
+.step_list_text dt {border-top:1px solid #000;float:left;width:30%;font-size:20px;line-height:30px;}
+.step_list_text dd {border-top:1px solid #ddd;border-bottom:0;float:left;width:63%;padding:26px 30px 56px 30px;font-size:16px;line-height:26px;}
+/* step_list_text us */
+.step_list_text.us{border-bottom:solid 1px #ddd;}
+.step_list_text.us:after{content:""; display:block; width:30%; height:1px; border-bottom:solid 1px #000; margin-bottom:-1px;}
+.step_list_text.us dt{font-size:24px;padding:42px 0 30px 0;}
+.step_list_text.us dd{padding:40px 30px 45px 30px;}
+.step_list_text.us dl:after{content:""; display:block; clear:both;}
+/* step_list_text na */
+.step_list_text.na{border-bottom:solid 1px #ddd;}
+.step_list_text.na:after{content:""; display:block; width:30%; height:1px; border-bottom:solid 1px #000; margin-bottom:-1px;}
+.step_list_text.na dl{display:table;width:100%;height:130px;}
+.step_list_text.na dt{display:table-cell;font-size:26px;vertical-align:middle;float:none;padding:20px 0;}
+.step_list_text.na dd{display:table-cell;width:70%;vertical-align:middle;float:none;padding:20px 30px;}
+.step_list_text.na dl:nth-child(2){border-top:0}
+.step_list_text.na dl:nth-child(3){border-top:0}
+
+/* ico_list */
+.ico_step dt {margin-top:15px;font-size:20px;line-height:24px;}
+.ico_step .ico {width:150px;}
+.ico_step02 .ico {width:150px;}
+.ico_step02 dt {margin:20px 0 10px 0;}
+.ico_step02 li {padding:60px 30px;}
+.ico_step02 li.list {width:calc(100% /3 - 100px);margin-top:96px;padding:0 50px;}
+.ico_step02 li.list:nth-child(odd) {clear:none;}
+.ico_step02 li.list:nth-child(4n) {clear:left;}
+.ico_step02.ty02 li.list {width: calc(100% /4 - 50px);padding:0 25px;}
+.ico_step02.ty02 li.list:nth-child(4n) {clear:none;}
+.ico_step02.ty02 li.list:nth-child(5n) {clear:left;}
+.ico_step02 .txt dt {margin-top:16px;font-size:20px;line-height:22px;}
+.ico_step02 .txt dd {margin:16px 0 -5px 0;font-size:14px;line-height:22px;}
+.ico_step02.ty02 dd {margin-bottom:0;}
+
+/* ico_step02_us */
+.ico_step02_us{margin-top:80px;}
+.ico_step02_us li{width:calc(50% - 40px);}
+.ico_step02_us .ico {width:150px;}
+.ico_step02_us .txt{padding-left:20px;}
+.ico_step02_us .txt dt{margin-top:19px; padding-left:0;}
+.ico_step02_us .txt dd {margin:10px 0 -2px 0;font-size:14px;line-height:22px;}
+
+/**** POWER PLANT ****/
+.txt.cont_line {margin-top:87px;margin-bottom:90px;padding-top:67px;}
+.txt.cont_line:last-child {margin-bottom:0px;}
+
+/* plan_img_box */
+.plan_img_box {padding-bottom:100px;}
+.plan_img_box .visual {min-height:630px;margin:0 -50px 70px -50px;}
+
+/* plan_img_txt */
+.plan_img_txt dt{text-align:left;padding:0 0 28px 0;}
+.plan_img_txt .img img{height:54px;}
+.plan_img_txt dd{font-size:16px;line-height:26px;padding-bottom:60px;}
+
+/* ico_box_plan */
+.ico_box_plan {margin-top:55px;}
+.ico_box_plan .li {width:calc(33.3% - 60px);margin-top:0;padding:0 30px;font-size:16px;line-height:20px;}
+.ico_box_plan .li i {width:120px;}
+.ico_box_plan .li dt {margin-top:20px;}
+.ico_box_plan .li dd {margin-top:13px;}
+.ico_box_plan .s2 {margin-top:110px;}
+.ico_box_plan .s1 i {width:120px;}
+.ico_box_plan .s2:before {top:-54px;}
+.ico_box_plan .s2 .t {margin-bottom:55px;font-size:26px;line-height:26px;}
+.ico_box_plan .s2 .li dt {margin-top:20px;}
+.ico_box_plan .s2 .li:after {top:-165px;height:31px;}
+.ico_box_plan .s2 .li:first-child:before {top:-170px;}
+.ico_box_plan .s2 .li:last-child:before {top:-170px;}
+.ico_box_plan .s2 .li:nth-child(2):after {top:-165px;height:61px;}
+
+/* plan_img_box02 */
+.plan_img_box02 .txt {margin:0;padding:0 60px;}
+
+/* cont_tb */
+.cont_tb > li {float:left;padding:0;width:calc(45% - 95px);}
+.cont_tb li.arr{margin-top:0;float:right;width:calc(55% - 95px);}
+.cont_tb li.arr:before {display:block;position:absolute;top:50%;left:-95px;width:62px;height:52px;margin:-26px 0 0 0;background:url(../images/contents/ico_solar_projec_plant_step_arr02_kr.png) center /100% 100% no-repeat;content:"";}
+.cont_tb .table_ty td {padding:63px 15px;}
+
+/* cont_plant */
+.cont_plant {margin-bottom:100px;}
+.cont_plant .inner {padding-bottom:100px;}
+.cont_plant .plant_info li:nth-child(1) {top:110px;}
+.cont_plant .accordian_ty {margin-bottom:40px;}
+.cont_tb02 {margin-bottom:0;margin-left:60px;}
+.cont_tb02 > li {float:left;padding:0;width:calc(50% - 20px);}
+.cont_tb02 > li.s2 {float:right;}
+.cont_tb02 .text_list02 {width:calc(50% - 20px);background-position:50px center;}
+.cont_tb02 .text_list02.s2 {margin-top:0;height:306px;padding:60px 20px 47px 180px;}
+.cont_tb02 .text_list02.s2 dl{width:calc(90% - 5px)}
+
+
+
+/**** Produts ****/
+/*** SOLAR PANELS ***/
+.spc_box .txt {margin-top:0;}
+.spc01 {padding-top:30px;}
+.spc01 .t_tit02 {margin-top:0;}
+.spc01 .txt {margin-top:18px;padding:0 170px;}
+.spc02 {padding:150px 0;background:#a19899 url(../images/contents/spc02_bg.jpg) center bottom /cover no-repeat;}
+.spc02 .ico_box_c {margin:0;padding:0;font-size:0;text-align:center;}
+.spc02 .ico_box_c li {display:inline-block;float:none;width:135px;vertical-align:top;}
+.spc02 .ico_box_c li i {width:110px;}
+.spc03 {padding:100px 50px 430px 50px;background-size:1000px 471px;}
+.spc03 .half_list {padding-top:70px;}
+.spc03 .half_list .list {float:left;width:40%;text-align:left;}
+.spc03 .half_list .list.img {float:right;width:55%;}
+.spc03 .txt_per_s1 dt {position:static;left:0;top:0;font-size:16px;text-align:left;line-height:36px;}
+.spc03 .txt_per_s1 dt strong {margin-left:-4px;font-size:48px;letter-spacing:-2px;}
+.spc03 .txt_per_s1 .txt {margin-top:25px;text-align:left;}
+.spc04 {padding-top:100px;}
+.spc04 .ico_box_c {margin-top:50px;}
+.spc04 .ico_box_c li {width:210px;}
+.spc04 .ico_box_c li i {width:120px;}
+.spc04 .ico_box_c li .t {margin-top:20px;font-size:16px;line-height:20px;}
+.solar_panels_info .txt.center {margin:0 0 -25px 0;}
+
+/* cont_list */
+.cont_list .b_tit {margin-bottom:60px;padding-top:0;}
+.cont_list .img {height:570px;}
+.cont_list .txt {font-size:16px;line-height:24px;}
+.cont_list .txt dt {font-size:20px;line-height:32px;}
+.cont_list .txt dd {margin-top:15px;}
+.cont_list .txt .inner {padding:50px;}
+.cont_list.ty03 .img {height:490px;}
+.cont_list.ty03 .txt {font-size:16px;line-height:26px;}
+.cont_list.ty03 .txt dt {font-size:24px;line-height:32px;}
+.cont_list.ty03 .txt .inner {height:390px;}
+
+
+
+/* solar_cont02 */
+.solar_cont02 .img {padding-left:50px;}
+.solar_cont02 .txt {float:left;width:50%;}
+.solar_cont02 .txt .s1 {float:none;width:100%;margin:-5px 0 57px 0;font-size:16px;line-height:24px;}
+.solar_cont02 .txt .s1 li {margin-top:30px;}
+.solar_cont02 .txt .s2 {padding-top:10px;}
+.solar_cont02 .txt .s2 .t_tit02 {margin-bottom:14px;}
+
+/* step_list */
+.step_list {width:inherit !important;height:600px;background:#38393e;overflow:hidden;}
+.step_list .list {position:static;width:20%;margin-left:0;transition:width 0.4s;}
+/*
+.step_list .list a {width:100%;height:600px;background:none;}
+.step_list .list a:before {position:absolute;left:0;top:0;width:1px;height:100%;background:#fff;content:"";opacity:0.2;}
+.step_list .list:first-child a:before {display:none;}
+*/
+.step_list .list i {left:30px;top:214px;font-size:16px;line-height:24px;}
+.step_list .list dl {left:30px;top:254px;padding-right:30px;}
+.step_list .list dt {margin-bottom:24px;padding-bottom:24px;line-height:24px;}
+.step_list .list dt:after {width:0;height:2px;}
+.step_list .list dd {padding-right:40px;font-size:15px;line-height:22px;opacity:0;}
+.step_list .list .img {display:block;position:absolute;left:0;top:0;width:100%;height:600px;opacity:0;overflow:hidden;transition:opacity 0.4s;}
+.step_list .list .img_m {display:none;}
+.step_list .list.on {width:40%;}
+.step_list .list.on i {font-size:20px;line-height:30px;transform:translate(20px,-76px);}
+.step_list .list.on dl {transform:translate(20px,-38px);}
+.step_list .list.on dt {width:80%;font-size:20px;font-weight:600;line-height:30px;}
+.step_list .list.on dt:after {width:50px;transition:all 0.4s 0.4s;}
+.step_list .list.on dd {opacity:0.7;transition:opacity 0.4s 0.4s;}
+.step_list .list .box {position:relative;width:100%;height:600px;background:none;}
+.step_list .list .box:before {position:absolute;left:0;top:0;width:1px;height:100%;background:#fff;content:"";opacity:0.2;}
+.step_list .list:first-child .box:before {display:none;}
+.step_list .list .box_over {left:1px;width:calc(100% - 1px);}
+.step_list .list .box_over dl {left:30px;top:243px;width:370px;}
+.step_list .list .box_over dt {opacity:0.7;}
+.step_list .list .box_over .c2 {opacity:1 !important;}
+.step_list:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.step_list .list.on .img {opacity:1;}
+.step_list_area02_box {position:relative;margin-top:40px;padding:0 30px;}
+.step_list_area02_box .bg_img {display:block;position:absolute;left:0;top:0;width:100%;height:400px;overflow:hidden;}
+.step_list_area02 {position:relative;margin:0 -1px;overflow:hidden;}
+.step_list02 {height:390px;}
+.step_list02 {position:relative;height:400px;overflow:hidden;}
+.step_list02 .list:before {position:absolute;left:3px;top:0;width:1px;height:100%;background:#fff;content:"";opacity:0.2;}
+.step_list02 .list:first-child:before {display:none;}
+.step_list02 .list a {height:400px;}
+.step_list02 .list i {left:40px;top:77px;font-size:20px;line-height:20px;}
+.step_list02 .list dl {left:40px;top:127px;}
+.step_list02 .list dt {position:relative;margin-bottom:22px;padding-bottom:20px;font-size:20px;line-height:24px;}
+.step_list02 .list dt:after {width:15px;}
+.step_list02 .list dd {padding-right:10px;font-size:16px;line-height:20px;}
+.step_list02 .list dd em {font-size:14px;}
+.step_list02 .list .img_m {display:none;}
+.step_list_pagn {padding-top:40px;}
+.step_list_prev {position:absolute;left:0;top:50%;width:60px;height:70px;margin-top:-50px;background:url(../images/template/btn_step_list_prev.png) center no-repeat;text-indent:-9999px;overflow:hidden;}
+.step_list_next {position:absolute;right:0;top:50%;width:60px;height:70px;margin-top:-50px;background:url(../images/template/btn_step_list_next.png) center no-repeat;text-indent:-9999px;overflow:hidden;}
+
+
+
+
+/** solar_cont_area **/
+.solar_cont03 {position:relative;}
+.solar_cont03 .b_tit {position:absolute;left:0;top:0;margin:0;padding-top:37px;font-size:26px;line-height:26px;text-align:left;transition:none;}
+.solar_cont03 .b_tit:before {position:absolute;left:0;top:0;width:40px;height:2px;background:#009fe3;content:"";}
+.solar_cont_area {margin:0 -50px;padding-top:0;}
+
+/* solar_cont_ty */
+.solar_cont_ty {margin-bottom:35px;}
+.solar_cont_ty .list {position:relative;float:left;height:560px;}
+.solar_cont_ty .list .img {position:absolute;left:560px;top:0;width:100%;height:560px;margin-bottom:0;}
+.solar_cont_ty .list .img img {width:auto;height:100%;}
+.solar_cont_ty .txt {position:absolute;left:50px;top:112px;width:435px;padding:0;background:none;color:#000;}
+.solar_cont_ty .txt .s1 dt {position:static;width:100%;}
+.solar_cont_ty .txt .s1 dt > em {display:inline-block;margin-top:0;font-size:46px;line-height:48px;letter-spacing:-1px;;}
+.solar_cont_ty .txt .s1 dt > span {display:inline-block;margin-top:0;color:#000;font-size:36px;font-weight:600;line-height:48px;}
+.solar_cont_ty .txt .s1 dt > span:before {content:"("}
+.solar_cont_ty .txt .s1 dt > span:after {content:")"}
+.solar_cont_ty .txt .s1 dd {margin-top:12px;color:#666;font-size:16px;line-height:22px;}
+.solar_cont_ty .txt .s1 dd > div {max-height:180px;overflow:auto;}
+.solar_cont_ty .txt .s1 dd .scroll-scrolly_visible {max-height:180px !important;}
+.solar_cont_ty .txt .s2 {margin-top:26px;font-size:16px;line-height:20px;}
+.solar_cont_ty .txt .s2:before {content:"";display:block;border-top:0;}
+.solar_cont_ty .txt .s2 dl {position:relative;padding:3px 0;border-bottom:0;overflow:hidden;}
+.solar_cont_ty .txt .s2 dt {float:left;width:185px;}
+.solar_cont_ty .txt .s2 dd {float:left;width:calc(100% - 185px);padding:0;color:#666;text-align:left;}
+.solar_cont_ty:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* solar_cont_nav */
+.solar_cont_nav_area {display:block;position:static;width:auto;height:auto;margin:0 50px;padding:0 30px 0 40px;border-top:0;}
+.solar_cont_nav_area .caroufredsel_wrapper {margin:0 !important;overflow:hidden !important;}
+.solar_cont_nav {display:block}
+.solar_cont_nav li {display:block;float:left;margin-right:15px;}
+.solar_cont_nav li a {display:block;position:relative;width:100%;height:100px;border-bottom:solid #ddd;border-width:0 0 1px 0;}
+.solar_cont_nav li a:after {position:absolute;left:50%;bottom:-1px;width:0;height:1px;background:#000;content:"";transition:all 0.4s;}
+.solar_cont_nav li a:hover:after {left:0;width:100%;}
+.solar_cont_nav li dl {display:block;position:absolute;left:15px;bottom:12px;width:calc(100% - 30px);height:auto;text-align:left;}
+.solar_cont_nav li dt {display:block;width:auto;height:auto;color:#000;font-size:18px;line-height:20px;}
+.solar_cont_nav li dd {display:block;width:auto;margin-top:4px;}
+.solar_cont_nav li.selected dt {color:#009ee3;}
+.solar_cont_nav li.selected dd {color:#999;}
+.solar_cont_nav li.selected a:after {left:0;width:100%;background:#009ee3;}
+.solar_cont_nav:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.solar_cont_area .btn {display:block;position:absolute;top:inherit;bottom:0;width:35px;height:100px;text-indent:-9999px;overflow:hidden;transition:all 0.4s;}
+.solar_cont_area .solar_c_prev {left:50px;background:url(../images/template/btn_solar_c_prev.png) left 50px /11px 21px no-repeat;}
+.solar_cont_area .solar_c_prev:hover {background:url(../images/template/btn_solar_c_prev_on.png) left 50px /11px 21px no-repeat;}
+.solar_cont_area .solar_c_next {right:50px;background:url(../images/template/btn_solar_c_next.png) right 50px /11px 21px no-repeat;}
+.solar_cont_area .solar_c_next:hover {background:url(../images/template/btn_solar_c_next_on.png) right 50px /11px 21px no-repeat;}
+
+/*
+.solar_cont_ty {margin-bottom:35px;}
+.solar_cont_ty .list {float:left;height:calc(55vw - 35px);}
+.solar_cont_ty .list .img {margin-bottom:30px;}
+.solar_cont_ty .txt {position:absolute;right:0;bottom:0;width:485px;height:495px;padding:60px 40px;}
+.solar_cont_ty .txt .s1 dt {position:static;width:100%;}
+.solar_cont_ty .txt .s1 dt > em {margin-top:-4px;font-size:26px;line-height:28px;}
+.solar_cont_ty .txt .s1 dt > span {margin-top:2px;font-size:14px;line-height:16px;}
+.solar_cont_ty .txt .s1 dd {margin-top:12px;font-size:14px;line-height:20px;}
+.solar_cont_ty .txt .s1 dd > div {height:100px;overflow:auto;}
+.solar_cont_ty .txt .s2 {margin-top:26px;font-size:14px;line-height:20px;}
+.solar_cont_ty .txt .s2:before {content:"";display:block;border-top:1px solid #1f4166;}
+.solar_cont_ty .txt .s2 dl {min-height:21px;padding:12px 0;border-bottom:1px solid #1f4166;}
+.solar_cont_ty .txt .s2 dt {float:left;}
+.solar_cont_ty .txt .s2 dd {padding:0 10px;color:#ccc;text-align:right;}
+.solar_cont_ty:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+.solar_cont_nav_area {display:block;position:static;width:auto;height:auto;padding:0 40px;border-top:0;}
+.solar_cont_nav_area .caroufredsel_wrapper {margin:0 !important;overflow:hidden !important;}
+.solar_cont_nav {display:block}
+.solar_cont_nav li {display:block;float:left;margin-right:15px;}
+.solar_cont_nav li a {display:block;position:relative;width:100%;height:100px;border-bottom:solid #ddd;border-width:0 0 1px 0;}
+.solar_cont_nav li a:after {position:absolute;left:50%;bottom:-1px;width:0;height:1px;background:#000;content:"";transition:all 0.4s;}
+.solar_cont_nav li a:hover:after {left:0;width:100%;}
+.solar_cont_nav li dl {display:block;position:absolute;left:15px;bottom:12px;width:calc(100% - 30px);height:auto;text-align:left;}
+.solar_cont_nav li dt {display:block;width:auto;height:auto;color:#000;font-size:18px;line-height:20px;}
+.solar_cont_nav li dd {display:block;width:auto;margin-top:4px;}
+.solar_cont_nav li.selected dt {color:#009ee3;}
+.solar_cont_nav li.selected dd {color:#999;}
+.solar_cont_nav li.selected a:after {left:0;width:100%;background:#009ee3;}
+.solar_cont_nav:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+.solar_cont_area .btn {display:block;position:absolute;top:inherit;bottom:0;width:35px;height:100px;text-indent:-9999px;overflow:hidden;transition:all 0.4s;}
+.solar_cont_area .solar_c_prev {left:0;background:url(../images/template/btn_solar_c_prev.png) left center /11px 21px no-repeat;}
+.solar_cont_area .solar_c_prev:hover {background:url(../images/template/btn_solar_c_prev_on.png) left center /11px 21px no-repeat;}
+.solar_cont_area .solar_c_next {right:0;background:url(../images/template/btn_solar_c_next.png) right center /11px 21px no-repeat;}
+.solar_cont_area .solar_c_next:hover {background:url(../images/template/btn_solar_c_next_on.png) right center /11px 21px no-repeat;}
+*/
+
+/* solar_btn */
+.solar_btn.op {display:none;}
+.solar_btn.op.on {display:none;}
+.solar_btn.cl {display:none;}
+.solar_btn.cl.on {display:none;}
+
+
+
+
+/***** PRODUCTS *****/
+.prod_area {margin-bottom:100px;}
+
+/** prod_nav **/
+.prod_nav {position:absolute;width:100%;height:70px;padding:0;}
+.prod_nav_box {position:relative;padding:0 60px;}
+.prod_nav_cont li {margin:0 25px;}
+.prod_nav_cont li a {font-size:16px;line-height:70px;}
+.prod_nav_ctr a {width:70px;height:70px;}
+
+
+/** prod_info **/
+.prod_info {padding:145px 50px 0 50px;}
+.prod_info .p_tit {margin-top:-13px;font-size:66px;line-height:72px;}
+.prod_info .p_txt {margin-top:9px;font-size:20px;font-weight:600;opacity:0.8;}
+.prod_info .p_txt02 {margin-top:32px;font-size:20px;line-height:32px;}
+.prod_info .p_txt03 {top:-25px;font-size:27px;line-height:27px;}
+.prod_info .img {width:420px;margin:35px auto 0 auto;}
+
+
+/** prod_cont **/
+.prod_cont {padding:125px 50px 0 50px;}
+.prod_cont:after {display:block;clear:both;height:0;content:"";overflow:hidden;}
+
+/* info */
+.prod_cont .info {float:right;width:calc(60% - 50px);padding:60px 0 0 0;}
+.prod_cont .txt, .prod_cont .txt02 {margin-bottom:60px;font-size:16px;line-height:26px;}
+.prod_cont .txt dt, .prod_cont .txt02 dt {margin-bottom:45px;letter-spacing:-0.8px;}
+.prod_cont .txt dt em, .prod_cont .txt02 dt em {font-size:56px;line-height:64px;letter-spacing:-1.5px;}
+.prod_cont .txt dt span, .prod_cont .txt02 dt span {margin-top:18px;font-size:26px;line-height:32px;}
+.prod_cont .txt dd {margin-bottom:15px;}
+.prod_cont .app dt {margin-bottom:15px;font-size:20px;line-height:20px;}
+.prod_cont .app dd li {padding:10px 10px;font-size:16px;line-height:22px;}
+.prod_cont .app dd li em {height:48px;padding-left:50px;background:url(../images/products/ico_prod_app01.png) left center /40px 40px no-repeat;}
+.prod_cont .app dd li.s2 em {background:url(../images/products/ico_prod_app02.png) left center /40px 40px no-repeat;}
+.prod_cont .app dd li.s3 em {background:url(../images/products/ico_prod_app03.png) left center /40px 40px no-repeat;}
+.prod_cont .btn {margin-top:50px;text-align:left;}
+.prod_cont .txt02 dd ul li em {font-size:20px;line-height:40px;}
+.prod_cont .txt02 dd ul.info02 {border-top:0;}
+.prod_cont .txt02 dd ul.info02 li {padding-left:10px;font-size:14px;color:#999;line-height:22px;}
+
+/* gallery */
+.prod_cont .gallery {float:left;width:40%;padding:0;}
+.prod_cont .gallery:before {display:none;}
+.gallery_view {width:360px;margin:-20px auto 0 auto;}
+.gallery_btn {margin-top:-20px;}
+.gallery_btn a {width:98px;height:98px;margin:0 7px;}
+
+
+/** prod_cont02 **/
+.prod_cont02 {margin-top:130px;padding:190px 50px 105px 50px;}
+.prod_cont02 .p_tit {margin-top:-14px;font-size:56px;line-height:68px;}
+.prod_cont02 .info {margin:52px 0 -3px 0;padding:0;border-top:0;}
+.prod_cont02 .info li {padding-left:10px;color:#999;font-size:14px;line-height:22px;}
+
+/* ico_list */
+.ico_list {margin:0 -50px;}
+.ico_list .list {width:calc(100% /3 - 101px);margin-top:100px;padding:0 50px;}
+.ico_list .list:nth-child(odd) {clear:none;}
+.ico_list .list:nth-child(4n) {clear:left;}
+.ico_list .ico {width:150px;}
+.ico_list .txt dt {margin-top:31px;font-size:22px;line-height:32px;}
+.ico_list .txt dd {margin:16px 0 -5px 0;font-size:16px;line-height:26px;}
+.ico_list .cb:nth-child(odd){clear:both;}
+
+/* prod_cont : popup */
+.modal_body .prod_cont {padding:0;}
+
+
+
+
+/*** COMPARE PRODUCTS ***/
+/** prod_search **/
+.prod_search {position:relative;margin:0;border-top:1px solid #000;}
+.prod_search .inner {position:relative;padding:0;background:#f4f4f4;border:solid #ddd;border-width:0 1px 1px 1px;overflow:hidden;}
+.prod_search .inner:before {position:absolute;left:34%;top:0;width:1px;height:100%;background:#ddd;content:"";z-index:1;}
+.prod_search .inner:after {position:absolute;left:67%;top:0;width:1px;height:100%;background:#ddd;content:"";z-index:1;}
+.prod_search .list {float:left;width:33%;padding:0;border-top:0;}
+.prod_search .list:first-child {width:34%;}
+.prod_search .list dt {height:50px;padding:0;background:#fff;line-height:50px;text-align:center;}
+.prod_search .list dd {margin-top:0;border-top:1px solid #ddd;}
+.prod_search .list ul{margin:0;padding:25px 10px;}
+.prod_search .list li {float:none;width:120px;min-width:10px;margin:5px auto 0 auto;}
+.prod_search .list li:first-child {margin-top:0;}
+.prod_search .list li .ez-checkbox .chk_ty {width:18px;}
+.prod_search .list li .ez-checkbox {background:url(../images/template/bg_checkbox02.png) center /12px 9px no-repeat;}
+.prod_search .list li .ez-checkbox.ez-checked .chk_ty {width:18px;}
+.prod_search .list li .ez-checkbox.ez-checked {background:url(../images/template/bg_checkbox02_on.png) center /12px 9px no-repeat;}
+.prod_search .list.s1 li {width:180px;}
+.prod_search .list.s3 li {width:88px;}
+.prod_search .list.s4 li {width:222px;}
+.prod_search .btn_prod_search {height:25px;background:#f4f4f4;line-height:25px;transition:background 0.4s;}
+.prod_search .btn {padding-top:30px;}
+
+/* Active */
+.prod_search.on .list dt {text-align:center;}
+.prod_search.on .btn_prod_search {background:#fff;}
+
+
+/** prod_s_list **/
+.prod_s_list {margin:0 0 -30px -30px;}
+.prod_s_list .list {width:calc(100%/3 - 31px);margin:0 0 30px 30px;}
+.prod_s_list .emp {margin:0 0 30px 30px;}
+
+
+/** compare_table  **/
+.compare_table li {height:80px;font-size:16px;line-height:20px;}
+.compare_table li p {height:70px;padding:5px 20px;}
+
+/* compare_tit */
+.compare_tit {width:160px;padding-top:76px;}
+
+/* compare_cont */
+.compare_cont {display:table;table-layout:fixed;float:left;width:calc(100% - 160px);}
+.compare_cont .inner {width:100%;}
+.compare_cont .list dt {max-width:200px;height:76px;padding:0 20px;font-size:24px;line-height:24px;}
+
+
+
+
+
+/***** SERVICE & SUPPORT *****/
+/**** DOWNLOAD ****/
+/*** BROCHURE ***/
+/* brochure_list */
+.brochure_list .list {width:calc(100% / 4 - 20px);}
+
+
+
+/* contact_btn */
+.contact_btn .inner03 p {margin-right:120px;}
+
+
+
+/*** Site Map ***/
+.site_ty02 {padding:55px 0 35px 0;min-height:60px;}
+.site_tit {width:260px;font-size:24px;line-height:30px;}
+.site_tit:after {width:37px;height:7px;}
+.site_cont02 {float:left;width:290px;margin-bottom:20px;padding-top:0;}
+.site_cont02 .dep4 li:after {height:1px;}
+.site_cont02 .dep3 span:after {height:1px;}
+.site_ty02.s1 .site_cont02 {width:184px;}
+}
+
+
+@media (min-width:1100px) {
+/***** ABOUT *****/
+/**** WHY Q CELLS? ****/
+.why_ico_list .list {float:left;width:calc(100%/4 - 20px);margin:0 20px 0px 0px;}
+.why_ico_list .list .box {background:#f8f8f8;position:relative;width:250px;height:240px;}
+.why_ico_list .ico {display:block;width:150px}
+.why_ico_list .list dt {font-size:20px;line-height:24px;}
+.why_ico_list .list dd {font-size:18px;line-height:22px;}
+
+/*** Technology ***/
+.player_cont .btn {margin-top:70px;}
+.technology_cont02 .b_tit, .technology_cont .b_tit {margin:0 0 68px 0;}
+
+
+/*** Quality ***/
+/*.technology_info02 .cont.inner {margin:0 auto;}
+*/
+
+
+
+/*** Manufacturing Excellence ***/
+/* img_info_dep */
+.img_info_dep {margin-top:100px;}
+
+/* img_info_dep */
+.img_info_dep .img {margin-top:45px;}
+
+/* excellence */
+.excellence01 {margin:0 -50px;padding:90px 50px;}
+.excellence01 .ico_box_c li {width:210px;margin-top:45px;}
+.excellence01 .ico_box_c i {width:110px;}
+.excellence01 .ico_box_c li .t {margin-top:17px;font-size:16px;line-height:20px;}
+.excellence01 .txt {margin-top:40px;padding:10px 20px;font-size:26px;line-height:30px;}
+.excellence02 {padding:90px 0;}
+.excellence02 .img {margin-top:45px;}
+.excellence03 {margin:0 -50px;padding:90px 50px;}
+.excellence03 .marker {margin:30px auto 60px auto;}
+.excellence03 .marker li {padding:0 60px;font-size:16px;line-height:20px;}
+.excellence03 .marker li:before {left:45px;top:7px;width:8px;height:8px;}
+.excellence03 .txt dl {padding:0 55px;}
+.excellence03 .txt dt {padding-right:45px;font-size:56px;line-height:56px;}
+.excellence03 .txt dt:before {right:0;top:24px;width:31px;height:3px;}
+.excellence03 .txt dt:after {right:14px;top:11px;width:3px;height:31px;}
+.excellence03 .txt dd {padding-top:50px;font-size:16px;line-height:22px;}
+.excellence03 .txt dd:before {top:20px;height:4px;}
+
+.excellence03 .txt dt.t {height:70px;margin-bottom:10px;padding:0 10px;font-size:18px;line-height:24px;}
+.excellence03 .txt dd.tit {max-width:300px;min-height:76px;font-size:32px;line-height:38px;}
+.excellence03 .txt li:first-child dd.tit {padding-top:20px;}
+html[lang="ko"] .excellence03 .txt dt.t {padding:0 70px;}
+html[lang="ko"] .excellence03 .txt dd.tit {max-width:270px;}
+
+html[lang="zh"] .excellence03 .txt dt.t {padding-right:45px;font-size:56px;line-height:56px;}
+html[lang="zh"] .excellence03 .txt dd.tit {padding-top:50px;font-size:16px;line-height:22px;}
+html[lang="zh"] .excellence03 .txt dd.tit:before {top:20px;height:4px;}
+
+html[lang="tr"] .excellence03 .txt dt.t {padding-right:45px;font-size:56px;line-height:56px;}
+html[lang="tr"] .excellence03 .txt dd.tit {padding-top:50px;font-size:16px;line-height:22px;}
+html[lang="tr"] .excellence03 .txt dd.tit:before {top:20px;height:4px;}
+
+
+
+/***** SOLAR PROJECT *****/
+.player_cont .img .btn {display:block;position:absolute;top:43%;left:46%;width:90px;height:90px;background:url(../images/contents/ico_btn.png) center /100% no-repeat;text-indent:-999em;}
+.solar_cont05 .t_tit02 {font-size:20px;line-height:28px;}
+.solar_cont05 .btn {margin-top:70px;}
+.ico_step dd {line-height:22px;}
+.ico_step {padding-top:50px;}
+.ico_step .ico02 {width:230px;}
+.ico_step li:before {width:44px;height:23px;position:absolute;top:43%;left:0;transform:rotate(-90deg)}
+.ico_step.ty02 .ico02 {width:110px;}
+.plant_txt {float:left;width:calc(50% - 100px);margin-top:0;}
+
+/* step_list_text us */
+.step_list_text.us dt:nth-child(5){padding:48px 0 30px 0;}
+
+/* qcp_box:na */
+.qcells_plus .img {width:20%;}
+.qcells_plus .img img{height:182px;}
+.qcells_plus .txt{width:80%;font-size:18px;line-height:28px;}
+.qcells_plus .txt p{padding-right:60px;}
+
+
+}
+
+
+
+
+
+
+
+/********** PC Max **********/
+@media (min-width:1200px)  {
+/*** Q ANTUM DUO TECHNOLOGY ***/
+.qantum_box04 .text .dt_tit {margin-bottom:30px;font-size:22px;line-height:26px;}
+.qantum_box04 .text .c1 {min-height:216px;}
+.qantum_box04 .text .t li:last-child{margin:0 0 0 31px;}
+.qantum_box06 ul {padding-top:20px;}
+.qantum_box06 dd.img img {width:auto;}
+
+/* RECRUITMENT PROCESS */
+.rec_process li { padding-left:80px;}
+.rec_process li .rank { width:150px; height:150px; font-size:20px;}
+.rec_process li .ref { width:180px; font-size:16px;}
+.rec_process li.last:before { width:180px; height:180px; }
+
+/* RECRUITMENT BANNER */
+.rec_banner {height: 314px;}
+
+}
+
+
+
+
+
+@media all and (min-width:1200px) {
+/***** SOLAR PROJECT *****/
+/* step_list_text us */
+.step_list_text.us dd:first-of-type{padding-bottom:70px;}
+
+
+}
+
+
+
+
+
+
+
+@media all and (min-width:1311px) {
+/***** ABOUT *****/
+/**** WHY Q CELLS? ****/
+.cont_list_box02 {margin:0;}
+.cont_list_box02 .cont_list .txt .inner{height:auto;}
+.cont_list_box02 .cont_list .list:nth-child(even) .txt {left:0;}
+
+/* cont_wide_box */
+.cont_wide_box .cont_box .txt {left:calc(50% - 600px);width:600px;}
+.cont_wide_box .cont_box .txt dl {padding:10px 100px 10px 0;}
+.cont_wide_box .cont_box .txt .b_tit {width:500px;}
+
+
+
+/*** Technology ***/
+.technology_banner .info {float:none;position:relative;left:50%;width:500px;margin-left:70px;}
+.technology_info02 .box .img {display:table-cell;vertical-align:middle;width:604px;padding-right:80px;}
+.tab_ty02 {width:1200px;margin:0 auto 40px auto;}
+
+/*** Quality ***/
+.technology_info02 .cont.inner {margin:0 auto;}
+.technology_info02 .board_ty .list {float:left;width:calc(100% / 3 - 40px);height:570px;}
+.technology_info02 .board_ty .list.ed {height:570px;}
+
+/* quality_img_box */
+.quality_img_box .list .txt {width:calc(100% - 150px);padding:20px 60px 20px 20px;}
+.quality_img_box .list .txt dt {margin-bottom:22px;font-size:20px;line-height:22px;}
+.quality_img_box .list .txt dt:before {bottom:-12px;width:20px}
+.quality_img_box .list .txt dd {font-size:14px;line-height:18px;}
+.quality_img_box .list:nth-child(1) .txt,
+.quality_img_box .list:nth-child(2) .txt,
+.quality_img_box .list:nth-child(3) .txt {left:150px;}
+.quality_img_box .list:nth-child(3) .txt {padding-right:0px;}
+.quality_img_box .list:nth-child(4) .txt,
+.quality_img_box .list:nth-child(5) .txt,
+.quality_img_box .list:nth-child(6) .txt {right:150px;padding:20px 20px 20px 60px;}
+
+
+
+/*** Q ANTUM Technology ***/
+/* qantum_box03 */
+.qantum_box03 {margin:0;padding:90px 0 100px 0;}
+
+
+
+/*** Q ANTUM DUO TECHNOLOGY ***/
+/* qantum_box05 */
+.qantum_box05 .info_box {width:1200px;margin:0 auto;}
+
+/* qantum_box06 */
+.qantum_box06 li {height:560px;}
+
+
+
+
+
+
+/*** Manufacturing Excellence ***/
+/* excellence */
+.excellence01 {margin:0;padding:90px 0;}
+.excellence02 {padding:90px 0;}
+.excellence03 {margin:0;padding:90px 0;}
+
+
+
+
+/***** SOLAR PROJECT *****/
+.works_cont .txt p {width:1200px;margin:30px auto 150px;}
+.step_list_text dd {width:65%;}
+.solar_cont05 .ico_list {margin:0 -80px;}
+.solar_cont05 .ico_list .list {width:calc(100% /3 - 161px);padding:0 80px;}
+.solar_banner {margin:0 0 100px 0;}
+
+/* qcp_box:na */
+.qcells_plus{margin:0 auto;max-width:900px;}
+.qcells_plus .img {width:20%;}
+.qcells_plus .img img{height:182px;}
+.qcells_plus .txt{width:80%;font-size:18px;line-height:28px;}
+.qcells_plus .txt p{padding-right:80px;padding-left:0;}
+
+
+
+/**** POWER PLANT ****/
+/* plan_img_box */
+.plan_img_box .visual {margin:0 0 70px 0;}
+
+/* cont_tb */
+.cont_tb .table_ty td {padding:47px 15px;}
+
+/* cont_tb02 */
+.cont_tb02 .text_list02 {width:calc(50% - 20px);background-position:60px center;background-size:180px 225px;}
+.cont_tb02 .text_list02.s2 {margin-top:0;height:306px;padding:60px 20px 47px 250px;}
+
+
+
+/**** Produts ****/
+/*** SOLAR PANELS ***/
+.spc02 {margin:0;padding:280px 0 260px 0;}
+.spc02 .ico_box_c {width:1400px;margin:0 -100px;;padding:0;}
+.spc02 .ico_box_c li {display:inline-block;float:none;width:180px;vertical-align:top;}
+.spc02 .ico_box_c li i {display:block;width:140px;margin:0 auto;}
+.spc02 .ico_box_c li .t {margin:20px -5px 0 -5px;font-size:16px;line-height:20px;}
+.spc03 {margin:0;padding:120px 0 430px 0;background-size:1200px 565px;}
+.spc03 .half_list .list {width:calc(100% - 680px);}
+.spc03 .half_list .list.img {;width:630px;}
+.spc04 {padding-top:120px;}
+.spc05 .img_w {max-width:900px;}
+
+/* cont_list */
+.cont_list .b_tit {margin-bottom:60px;}
+.cont_list .txt .inner {max-width:530px;height:410px;padding:80px;}
+.cont_list .list:nth-child(even) .txt {left:calc(50% - 690px);}
+
+.cont_list.ty03 {width:1200px;margin:0 auto;}
+.cont_list.ty03 .img {height:550px;}
+.cont_list.ty03 .txt .inner {height:390px;}
+.cont_list.ty03 .list:nth-child(even) .txt {left:calc(50% - 600px);}
+
+
+
+/* step_list */
+.step_list .list dd {padding-right:50px;font-size:16px;line-height:24px;}
+.step_list .list.on i {transform:translate(30px,-76px);}
+.step_list .list.on dl {transform:translate(30px,-38px);}
+.step_list .list.on dt {width:50%;}
+
+
+
+
+/** solar_cont_area **/
+.cont_area .solar_cont03.cont {width:100%}
+.solar_cont03 .b_tit {left:calc(50% - 600px);}
+.solar_cont_area {margin:0;}
+
+/* solar_cont_ty */
+.solar_cont_ty .list {height:690px;}
+.solar_cont_ty .list .img {left:calc(50% - 120px);height:690px;}
+.solar_cont_ty .txt {left:calc(50% - 600px);}
+.solar_cont_ty .txt .s1 dd > div {max-height:300px}
+.solar_cont_ty .txt .s1 dd .scroll-scrolly_visible {max-height:300px !important;}
+
+
+/* solar_cont_nav */
+.solar_cont_nav_area {display:block;position:static;width:1200px;height:auto;margin:0 auto;padding:0 15px 0 50px;border-top:0;box-sizing:border-box;}
+.solar_cont_nav li {margin-right:35px;}
+.solar_cont_nav li dl {left:30px;width:calc(100% - 60px);}
+.solar_cont_nav li dt {font-size:19px;line-height:22px;}
+.solar_cont_area .btn {width:45px;}
+.solar_cont_area .solar_c_prev {left:calc(50% - 600px);}
+.solar_cont_area .solar_c_next {right:calc(50% - 600px);}
+
+/*
+.solar_cont_nav li {margin-right:35px;}
+.solar_cont_nav li dl {left:30px;width:calc(100% - 60px);}
+.solar_cont_nav li dt {font-size:20px;line-height:22px;}
+.solar_cont_area .btn {width:45px;}
+.solar_cont_ty .list {height:690px;}
+*/
+
+
+
+
+
+/*** PRODUCTS ***/
+.prod_area .cont {width:1200px;margin:0 auto;}
+.prod_nav_box {width:1200px;margin:0 auto;}
+.prod_info .img {width:520px;}
+.prod_cont02 {padding:190px 0 105px 0;}
+
+/** compare_table  **/
+.compare_table li p {padding:5px 30px;}
+
+/* compare_tit */
+.compare_tit {width:250px;padding-top:96px;}
+
+/* compare_cont */
+.compare_cont {width:calc(100% - 250px);}
+.compare_cont .list dt {max-width:250px;height:96px;padding:0 30px;font-size:30px;line-height:32px;}
+
+/* ico_list */
+.ico_list {margin:0 -80px;}
+.ico_list .list {width:calc(100% /3 - 160px);padding:0 80px;}
+}
+
+
+/*아시아 map*/
+/** prod_info **/
+.asia_info {position:relative;padding:0 0;background:#38393e;color:#fff;text-align:center;}
+
+.tit2 {color: #000; font-size: 23px;  font-weight: 600;  line-height: 23px;  letter-spacing: -1px; text-align: center;transition: all 0.4s;text-transform: uppercase;}
+.asia_area .tit2 span {font-weight:600; display:block;}
+
+/** asia_nav **/
+.asia_nav {position:relative; top:0; left:0; width:calc(100% - 80px);height:44px;padding:0 40px;background:rgba(255,255,255,0.95);text-align:center;overflow:hidden;z-index:10;}
+.top .asia_nav {/*position:fixed; top:51px;*/}
+
+.asia_nav_cont {display:block;font-size:0;}
+.asia_nav_cont li {position:relative;display:inline-block;margin:0 10px;text-align:center;vertical-align:top;}
+.asia_nav_cont li a {display:block;padding:0 5px;color:#000;font-size:14px;font-weight:600;line-height:44px;transition:all 0.4s;}
+.asia_nav_cont li a:after {position:absolute;left:50%;bottom:0;width:0;height:1px;background:#fff;content:"";transition:all 0.4s;}
+.asia_nav_cont li a:hover:after {left:0;width:100%;}
+.asia_nav_cont li.on a {color:#00adef;}
+.asia_nav_cont li.on a:after {left:0;width:100%;height:2px;background:#00adef;}
+.asia_nav_cont:after {display:block;clear:both;content:"";height:0;}
+.asia_nav_ctr a {display:block;position:absolute;top:0;width:44px;height:44px;text-indent:-9999px;overflow:hidden;}
+.asia_nav_ctr_next {right:0;background:url(../images/asia/btn_asia_next.png) center /8px 13px no-repeat;}
+.asia_nav_ctr_prev {left:0;background:url(../images/asia/btn_asia_prev.png) center /8px 13px no-repeat;}
+.asia_nav .caroufredsel_wrapper {margin:0 auto !important;}
+.asia_nav:before {position:absolute;left:0;top:0;width:100%;height:1px;background:rgba(255,255,255,0.1);content:"";}
+.asia_nav:after {position:absolute;left:0;bottom:0;width:100%;height:1px;background:rgba(255,255,255,0.1);content:"";}
+.top .prod_nav {top:51px;}
+.asia_nav_box.d2 .caroufredsel_wrapper {width:290px !important;}
+.asia_nav_box.d2 .prod_nav_cont {width:100% !important;text-align:center !important;}
+
+
+.asia_area {margin-bottom:0;background:#fff; padding:60px 0 0 0;}
+.asia_area:before {background:none; width:0; height:0;}
+.asia_nav:before {position: absolute;  left: 0;  top: 0;  width: 100%; height: 1px;  background: #ddd;content: "";}
+.asia_nav:after {position: absolute;  left: 0;  bottom: 0;  width: 100%; height: 1px;  background: #ddd;content: "";}
+.asia_area .tit2 {margin-bottom:35px;}
+.AsiaNav {background: rgba(255,255,255,1);}
+.AsiaNav .prod_nav_cont li a {color:#000;}
+.AsiaNav .prod_nav_cont li.on a {color: #00adef;}
+.AsiaMap {position:relative;background:#f4f4f4; }
+.top .AsiaMap .prod_nav {position:absolute; top:0;background: rgba(244,244,244,1);}
+.top .AsiaMap .prod_nav .prod_nav_cont li a {color:#000; box-sizing:border-box;}
+.top .AsiaMap .prod_nav .prod_nav_cont li.on a {color: #00adef;}
+.asia_nav_box {}
+
+.asia_map_box {animation: fade both 0.6s; background:#fff;}
+.text_in {padding:0 25px 60px 25px;}
+.asia_map_box .img_box {display: inline-block; position: relative; width: 100%; max-width: 1200px; margin-bottom:60px; transition:all 0.7s; box-sizing:border-box;}
+.asia_map_box .img_box .pin {position: absolute; left: 0;top: 0; width: 100%; height: 100%;}
+.asia_map_box .img_box .pin a {display:block; position:absolute; width:82px; height:76px;transition: transform .3s;}
+.asia_map_box .img_box .pin a span {width:0; height:0; overflow:hidden; font-size:0; text-indent:-9999px;}
+.asia_map_box .img_box .pin .map1 { background:url('../images/asia/ico_pin1.png')no-repeat 0 0; top:188px; left:620px;}
+.asia_map_box .img_box .pin .map2 {background:url('../images/asia/ico_pin2.png')no-repeat 0 0; top:380px; left:713px;}
+.asia_map_box .img_box .pin .map3 { background:url('../images/asia/ico_pin3.png')no-repeat 0 0; top:236px; left:572px;}
+.asia_map_box .img_box .pin .map4 { background:url('../images/asia/ico_pin4.png')no-repeat 0 0; top:227px; left:766px;}
+.asia_map_box .img_box .pin .map5 { background:url('../images/asia/ico_pin5.png')no-repeat 0 0; top:165px; left:409px;}
+
+.asia_map_box .img_box .pin .map1:hover { background:url('../images/asia/ico_pin1on.png')no-repeat 0 0;top:188px; left:620px;}
+/*transform: scale(1.2);*/
+.asia_map_box .img_box .pin .map1.act { background:url('../images/asia/ico_pin1on.png')no-repeat 0 0; }
+.asia_map_box .img_box .pin .map2:hover { background:url('../images/asia/ico_pin2on.png')no-repeat 0 0;top:380px; left:713px; }
+.asia_map_box .img_box .pin .map2.act { background:url('../images/asia/ico_pin2on.png')no-repeat 0 0;}
+.asia_map_box .img_box .pin .map3:hover { background:url('../images/asia/ico_pin3on.png')no-repeat 0 0;top:236px; left:572px;}
+.asia_map_box .img_box .pin .map3.act { background:url('../images/asia/ico_pin3on.png')no-repeat 0 0; }
+.asia_map_box .img_box .pin .map4:hover { background:url('../images/asia/ico_pin4on.png')no-repeat 0 0; top:227px; left:766px; }
+.asia_map_box .img_box .pin .map4.act { background:url('../images/asia/ico_pin4on.png')no-repeat 0 0; }
+.asia_map_box .img_box .pin .map5:hover { background:url('../images/asia/ico_pin5on.png')no-repeat 0 0;top:165px; left:409px; }
+.asia_map_box .img_box .pin .map5.act { background:url('../images/asia/ico_pin5on.png')no-repeat 0 0; }
+
+.asia_map_box .img_box .mapBg {transition: all 0.4s; display:none;height:600px;}
+.asia_map_box .img_box .mapBg.mob {display:block;  height:auto;}
+.asia_map_box .img_box .mapBg.mob img {max-width: 100%;animation: scale ease-in-out 1.5s;border:1px solid #eee; box-sizing:border-box;}
+.asia_map_box .img_box .mapBg img {vertical-align:top;border:1px solid #eee; box-sizing:border-box;}
+.asia_map_box .img_box .pin {display: none;}
+
+.text_map_area {background:#f8f8f8; width:100%; height:100%; }/*url('../images/asia/map_con_bg.jpg')no-repeat center background-size:cover;*/
+.text_in {text-align:center;}
+.tabs_asia {width:100%; margin:0px 0 33px 0; padding-top:65px;}
+.tabs_asia:after{content:''; clear:both; display:block;}
+.tabs_asia li { display:inline-block; font-size:14px; font-weight:600;position:relative; padding:0 15px;}
+.tabs_asia li a {color:#000;}
+
+.tabs_asia li.on a {color:#00adef;}
+.tabs_asia li:after{content:''; clear:both; display:block;}
+.tabs_asia li:first-child:after {position:absolute; top:0px; right:-2px; width:1px; height:100%; background:#afafaf;}
+
+.con_box {display:none;}
+.con_box.on {display:block;}
+.map_list_info {border:0px solid #eeeeee; border-right:0; border-bottom:0;/*margin-bottom:140px;*/}
+.map_list_info:after {content:''; clear:both; display:block;}
+.map_list_info .list {text-align:left; width:100%; box-sizing:border-box; border:1px solid #eeeeee; position:relative; background:#fff; margin-bottom:15px; box-sizing:border-box;  }/*min-height:281px;*/
+.map_list_info .list:after {content:''; clear:both; display:block; width:1px;height:100%; /*background:#eeeeee;*/ position:absolute; top:0;right:0;}
+/*
+.map_list_info .list:nth-child(odd) {margin-right:10px;}
+.map_list_info .list:nth-child(even) {margin-left:10px;}
+.map_list_info .list:nth-child(odd) .box dl dt{color:red;}
+.map_list_info .list:nth-child(even) .box dl dt{color:green;}
+*/
+.map_list_info .list .box {padding:50px 30px 45px 30px;}
+.map_list_info .list .box dl {}
+.map_list_info .list .box dl dt {position: relative; padding:0 0 13px 0; margin-bottom:19px; display:block; color:#000;}
+.map_list_info .list .box dl dt:after {position: absolute;  left: 0;  bottom: 0;  width: 20px; height: 2px;background: #009ee3; content:'';}
+
+.map_list_info .list .txt {}
+.map_list_info .list .txt li {position: relative; margin-bottom: 5px; padding-left: 18px;font-size: 14px; line-height: 18px; transition: all 0.4s; display:block; color:#666;}
+.map_list_info .list .txt li:last-child {margin-bottom:0;}
+.map_list_info .list .txt li:before {    position: absolute; left: 0;top: 3px;  width: 13px;height: 13px;content: "";}
+.map_list_info .list .txt .s1:before {
+    background: url(../images/contents/ico_location01.png) center /100% no-repeat;}
+.map_list_info .list .txt .s2:before {
+    background: url(../images/contents/ico_location02.png) center /100% no-repeat;}
+.map_list_info .list .txt .s3:before {
+    background: url(../images/contents/ico_e.png) center /100% no-repeat;}/*ico_location03.png*/
+.map_list_info .list .box .txt li.bgNone {background:none;}
+
+/*더보기*/
+.btn_view a {color:#009ee3; font-size:16px; font-weight:700; border-bottom:2px solid #009ee3; padding-bottom:2px;}
+/* btn_paginate */
+.btn_paginate {font-size:0;text-align:center;overflow:hidden;margin-top:142px;}
+.btn_paginate a {display:inline-block;width:30px;height:30px;margin:0 3px;border:0px solid #ddd;box-sizing:border-box;font-size:15px;line-height:28px;text-align:center;transition:all 0.4s; color:#fff;}
+.btn_paginate a {display:none;}
+.btn_paginate a.prev {background:url(../images/asia/btn_prev.png) center no-repeat;text-indent:-9999px;overflow:hidden;display:inline-block;}
+.btn_paginate a.next {background:url(../images/asia/btn_next.png) center no-repeat;text-indent:-9999px;overflow:hidden;display:inline-block;}
+.btn_paginate a:hover, .paginate a:focus {color:#009ee9;}
+.btn_paginate a.on {color:#009ee9;}
+.btn_paginate a.on:hover, .paginate a.on:focus {}
+
+/*데이타 없을때*/
+.nodata_wrap {padding:100px 0; text-align:center; color:#00adef; font-weight:200; font-size:18px; background:#fff; line-height:1.2; display:none;}
+.nodata_wrap.on {display:block;}
+
+
+@media (min-width: 320px){
+	.tabs_asia li a{}	
+	.tabs_asia li:first-child {padding:0 7px 0 0 ;}	
+	.tabs_asia li:last-child {padding:0 0 0 7px ;}	 	
+}
+
+@media (min-width: 375px){
+	.tabs_asia li a{}	
+	.tabs_asia li:first-child {padding:0 15px 0 0 ;}	
+	.tabs_asia li:last-child {padding:0 0 0 15px ;}	 	
+}
+
+@media (min-width: 740px){
+	/*tit2*/
+	.tit2 {font-size: 36px;line-height: 46px;}
+	
+	/** prod_nav **/
+	.asia_nav {height:56px;}
+	.asia_nav:before {/*display:none;*/}
+
+	/** prod_nav **/
+	.asia_nav {/*position:absolute;*/top:0;width:calc(100% - 100px);height:55px;padding:0 50px;}
+	.asia_nav_cont li {margin:0 20px;}
+	.asia_nav_cont li a {font-size:15px;line-height:55px;}
+	.asia_nav_ctr a {width:55px;height:55px;}
+	.asia_nav:before {/*display:none;*/}
+	/*.top .asia_nav {position:fixed;top:78px;}*/
+	.asia_nav_box.d2 .caroufredsel_wrapper {width:700px !important;}
+	
+	.text_map_area {}
+	
+}
+
+@media (min-width: 1000px){
+	/*tit2*/
+	.tit2 {font-size: 44px;line-height: 48px;}
+	
+	/** asia_nav **/
+	.asia_nav {/*position:absolute;*/width:100%;height:70px;padding:0;}
+	.asia_nav_box {position:relative;padding:0 60px;}
+	.asia_nav_cont li {margin:0 25px;}
+	.asia_nav_cont li a {font-size:16px;line-height:70px;}
+	.asia_nav_ctr a {width:70px;height:70px;}
+	
+	.tabs_asia {width:60%;/*width:560px;*/ margin:0 auto 33px auto;}
+	.tabs_asia li {font-size:24px;}
+	.map_list_info .list .box dl dt {font-size: 22px;line-height: 26px;}
+	.map_list_info .list .box dl dt:after {width:16px;}
+	.map_list_info .list .box dl dd {}
+	.map_list_info .list .box .txt {}
+	.map_list_info .list .box .txt li{margin-bottom: 8px; padding-left: 20px;font-size: 16px;line-height: 20px;}
+	
+	.map_list_info .list .box .txt li:before {    position: absolute; left: 0;top: 3px;  width: 13px;height: 13px;content: "";}
+	.text_in {padding-bottom:100px;}
+	.btn_paginate a {display:inline-block;}
+	
+	/*.map_list_info .list {min-height:281px;}*/
+	.map_list_info .list {float:left; margin-bottom:20px;width:calc(50% - 10px);}
+	.map_list_info .list:nth-child(odd) {margin-right:10px;}
+	.map_list_info .list:nth-child(even) {margin-left:10px;}
+	/*
+	.map_list_info .list:nth-child(odd) .box dl dt{color:red;}
+	.map_list_info .list:nth-child(even) .box dl dt{color:green;}
+	**/
+	.tabs_asia li {float:left; width:50%; margin:0 0;}
+	.tabs_asia li:first-child {padding:0 0;}
+	.tabs_asia li:last-child {padding:0 0;}
+	
+	.btn_view {display:none;}
+}
+
+@media (min-width: 1200px){
+	.nodata_wrap {padding:135px 0; font-size:26px;}
+	.map_list_info .list {min-height:281px;}
+	.asia_map_box .img_box .pin {display: block;}
+	.asia_map_box .img_box .mapBg {display:block;}
+	.asia_map_box .img_box .mapBg.mob {display:none;}
+	.btn_paginate {margin-top:150px;}
+	.con_box {padding-bottom:117px;}
+	.tabs_asia {}
+	.tabs_asia li {float:none; width:auto; margin:0 0;} 
+	.tabs_asia li:first-child {padding:0 22px 0 0 ; margin-left:65px;}	
+	.tabs_asia li:last-child {padding:0 0 0 22px ;}
+	
+}
+@media (min-width: 1311px){
+	
+	.asia_area {padding-top:100px;}
+	.asia_area .tit2 {margin-bottom:60px; font-weight:100;}
+	.asia_area .tit2 span {font-weight:100; display:inline-block;}
+	
+	.asia_nav_box {width: 1200px;margin: 0 auto;}
+	
+	
+	.asia_map_box .img_box {margin-bottom:100px;}
+	.asia_map_box .img_box .pin {display: block;}
+	
+	.text_in {overflow:hidden;width:1200px; margin:0 auto;}
+	
+	.map_list_info {}
+	.map_list_info .list .box dl dt {padding:0 0 19px 0; margin-bottom:35px; }
+	.text_in {padding:0 0;}
+	.tabs_asia {width:100%; margin:100px 0 40px 0; padding-top:0;}
+}

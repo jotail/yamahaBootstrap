@@ -1,0 +1,154 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.xodlf img {position: relative;display: block; margin: 50px auto 0 auto ; max-width: 1350px; width:auto !important; height: auto !important}
+.xodlf span {position: absolute;top: 85%;right:5%;font-size:40px;color:#ddd;background-color:rgba(0,0,0,.43);border:6px #999 solid;
+padding: 5px 20px}
+li {list-style: none;}
+
+.prev  {position: absolute; top: 50%;padding-left:30px}
+.prev i {font-size:50px;color: #aaa}
+.next  {position: absolute;right:40px; top: 50%;padding-right: 0px}
+.next i {font-size:50px;color: #aaa}
+
+.prev2 {position: absolute; top: 40%;left:-50px}
+.prev2 i {font-size:50px;color: #333}
+.next2 {position: absolute;right: 0px; top: 40%;right: -50px}
+.next2 i {font-size:50px;color: #333}
+
+@media screen and (max-width: 1400px){
+  .xodlf img {  height: auto;}
+  .xodlf span {font-size: 35px;right: 0}
+}
+
+@media screen and (max-width: 1200px){
+  .xodlf img {width: 800px;height: auto;}
+  .xodlf span {font-size: 30px;right: 0}
+}
+
+@media screen and (max-width: 680px) {
+  .xodlf img {width: 600px;height: auto;}
+  .xodlf span {font-size: 25px;right: 0}
+}
+
+@media screen and (max-width: 480px) {
+  .xodlf img {width: 400px;height: auto;}
+  .xodlf span {font-size: 20px;right: 0}
+}

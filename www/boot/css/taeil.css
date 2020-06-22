@@ -1,0 +1,153 @@
+.navbar-light .navbar-brand{
+overflow: hidden; height:40px
+
+}
+.navbar-light.navbar-expand-lg .navbar-brand img{
+  transform: translateY(-56%);
+}
+.col-md-5.liston{padding-right: 25px}
+
+.noneck img{width:500px }
+
+
+
+
+
+
+
+
+
+
+
+background: linear-gradient(137deg, #fff6b7, #f77c99, #6578f2, #c2ffd8);
+background-size: 800% 800%; -webkit-animation: AnimationName 16s ease infinite; -moz-animation: AnimationName 16s ease infinite; -o-animation: AnimationName 16s ease infinite; animation: AnimationName 16s ease infinite;
+@-webkit-keyframes AnimationName { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+@-moz-keyframes AnimationName { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} } @-o-keyframes AnimationName { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+@keyframes AnimationName { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+
+#sbg { color: #fff; background: linear-gradient(-45deg, #bb438b,#482775, #294091,#783ec8); background-size: 400% 400%;
+  animation: AnimationName 6s ease infinite; width: 100%; height:auto; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; top: 35%; text-align: center; }
+
+button {color: #fff; background: linear-gradient(-45deg, #454545,#482775, #a6a6a6,#482775); background-size: 400% 400%;
+  animation: AnimationName 5s ease infinite; width: auto%; height:auto; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; top: 35%; text-align: center;
+
+
+}
+.listul {margin:0 0 50% 50%}
+div.wrapmap {margin:-6% 0 0 0}
+button::after { }
+button::before { }
+.slidetext a {position: absolute; top: 25%;left:10%; width:500; pxfont-size:40px; color:#ddd; background-color:rgba(0,0,0,.43);border:5px #3b3b3b solid;
+padding: 5px 20px}
+
+.slideitem{ height:calc(100vh - 100px);}
+#sbg.slick-slide.slideitem {height:calc(100vh - 100px);}
+.navbar {margin-bottom: 5%}
+#map {width:600px;height:350px;margin-top:11%}
+
+@media screen and (max-width: 1024px){
+  #sbg  .slick-slide.slideitem { background-size:auto 100% !important}
+  #sbg .slideitem:nth-child(1) {background: rgba(0, 0, 0, 0) url("/boot/img/slideimg/1s1024.jpg") no-repeat scroll center top / 100% !important; }
+  #sbg .slideitem:nth-child(2) {background: rgba(0, 0, 0, 0) url("/boot/img/slideimg/2s1024.jpg") no-repeat scroll center top / 100% !important; }
+  #sbg .slideitem:nth-child(3) {background: rgba(0, 0, 0, 0) url("/boot/img/slideimg/3s1024.jpg") no-repeat scroll center top / 100% !important; }
+  #sbg .slideitem:nth-child(4) {background: rgba(0, 0, 0, 0) url("/boot/img/slideimg/4s1024.jpg") no-repeat scroll center top / 100% !important; }
+
+}
+
+@media screen and (max-width: 999px){
+  #map {width:500px }
+}
+@media screen and (max-width: 850px){
+  #map {width:400px }
+#sbg  .slick-slide.slideitem { background-size:auto 80% !important}
+
+
+
+}
+@media screen and (max-width: 451px){
+  #map {width:300px }
+}
+
+
+
+
+@media screen and (max-width: 390px){
+  .navbar-light.navbar-expand-lg .navbar-brand img {transform: translateY(-56%);}
+  #map {width: 252px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#terms {
+  display: none;
+  width: 600px;
+  height: 200px
+}
+
+#etcEmail {
+  display: none;
+}
+
+#etcEmail.disB {
+  display: block;
+}
+
+#agree {
+  display: none;
+}
+
+#agree+label i.xi-check-square-o,
+#agree:checked+label i.xi-checkbox-blank {
+  display: none
+}
+
+#agree:checked+label i.xi-check-square-o,
+#agree+label i.xi-checkbox-blank {
+  display: inline-block
+}
+
+#agree2 {
+  font-size: 20px
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.span7{color:#222;display: block;text-align:center;}
+.copyright {margin:0 0 5% 0}
